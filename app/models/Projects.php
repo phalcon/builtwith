@@ -33,7 +33,8 @@ class Projects
      */
     public function __construct()
     {
-        $projects = file_get_contents(__DIR__ . '/../../public/projects/projects.json');
+        $config = \Phalcon\DI::getDefault()->getConfig();
+        $projects = file_get_contents($config->application->varDir . '/projects.json');
         $projects = json_decode($projects, true);
 
         $this->projects = $projects['projects'];

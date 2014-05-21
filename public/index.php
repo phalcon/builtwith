@@ -5,25 +5,30 @@ error_reporting(E_ALL);
 try {
 
     /**
+     * Define root path
+     */
+    define('ROOT_PATH', dirname(dirname(__FILE__)));
+
+    /**
      * Read the configuration
      */
-    $config = include __DIR__ . "/../app/config/config.php";
+    $config = include ROOT_PATH . "/app/var/config/config.php";
 
     /**
      * Read auto-loader
      */
-    include __DIR__ . "/../app/config/loader.php";
+    include ROOT_PATH . "/app/var/config/loader.php";
 
 
     /**
      * Read services
      */
-    include __DIR__ . "/../app/config/services.php";
+    include ROOT_PATH . "/app/var/config/services.php";
 
     /**
      * Read routes
      */
-    include __DIR__ . "/../app/config/routes.php";
+    include ROOT_PATH . "/app/var/config/routes.php";
     
     /**
      * Handle the request

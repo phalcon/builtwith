@@ -51,18 +51,6 @@ $di->set('view', function () use ($config) {
 }, true);
 
 /**
- * Database connection is created based in the parameters defined in the configuration file
- */
-$di->set('db', function () use ($config) {
-    return new DbAdapter(array(
-        'host' => $config->database->host,
-        'username' => $config->database->username,
-        'password' => $config->database->password,
-        'dbname' => $config->database->dbname
-    ));
-});
-
-/**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise
  */
 $di->set('modelsMetadata', function () {
@@ -77,4 +65,11 @@ $di->set('session', function () {
     $session->start();
 
     return $session;
+});
+
+/**
+ * Register configurations
+ */
+$di->set('config', function() use ($config) {
+    return $config;
 });

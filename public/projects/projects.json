@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "name": "Test App",
+            "thumb": "test-app/thumb.png",
+            "desc": "Test application description",
+            "url": "http://testapp.com",
+            "info": "http://testapp.com/blog",
+            "src": "https://github.com/me/testapp",
+            "submitter": "Ole Aass",
+            "submissionDate": "2014-01-05",
+            "tags": [
+                "Production",
+                "Newspaper"
+            ]
+        },{
+            "name": "My Test App",
+            "thumb": "my-test-app/thumb.png",
+            "desc": "Test application description",
+            "url": "http://testapp.com",
+            "info": "http://testapp.com/blog",
+            "src": "https://github.com/me/testapp",
+            "submitter": "Ole Aass",
+            "submissionDate": "2014-01-03",
+            "tags": [
+                "Development",
+                "API"
+            ]
+        }
+    ]
+}

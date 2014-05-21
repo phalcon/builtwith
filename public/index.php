@@ -14,11 +14,17 @@ try {
      */
     include __DIR__ . "/../app/config/loader.php";
 
+
     /**
      * Read services
      */
     include __DIR__ . "/../app/config/services.php";
 
+    /**
+     * Read routes
+     */
+    include __DIR__ . "/../app/config/routes.php";
+    
     /**
      * Handle the request
      */

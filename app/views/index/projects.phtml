@@ -1,0 +1,20 @@
+        <?php foreach ($projects as $project): ?>
+            <div class="col-sm-6">
+                <div class="well well-sm">
+                    <div style="text-align: center;">
+                        <a href="<?=$project['url']?>">
+                            <img src="/projects/<?=$project['thumb']?>">
+                        </a>
+                    </div>
+                    <h3><a href="<?=$project['url']?>"><?=$project['name']?></a>
+                    <small><?=$project['submissionDate']?></small></h3>
+                    <p><?=$project['desc']?></p>
+                    <hr>
+                    <?php 
+                    sort($project['tags']);
+                    foreach ($project['tags'] as $tag): ?>
+                        <span class="label label-primary"><?=$tag?></span>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        <?php endforeach; ?>

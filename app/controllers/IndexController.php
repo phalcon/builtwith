@@ -1,11 +1,16 @@
 <?php
 
 /**
+ * @uses Phalcon\Mvc\Controller
+ */
+use Phalcon\Mvc\Controller;
+
+/**
  * Index controller
  *
  * @author Ole Aass <ole@oleaass.com>
  */
-class IndexController extends ControllerBase
+class IndexController extends Controller
 {
     /**
      * Index action

@@ -129,4 +129,28 @@ class Projects
 
         return $projects;
     }
+
+    /**
+     * Find a project by permalink
+     *
+     * @param string $permalink Project permalink
+     *
+     * @access public
+     * @return array|boolean
+     *
+     * @author Ole Aass <ole@oleaass.com>
+     */
+    public function findByPermalink($permalink)
+    {
+        foreach ($this->projects as $key => $project) {
+            if ($this->projects[$key]['permalink'] == $permalink) {
+                $project = $this->projects[$key];
+                sort($project['tags']);
+                return $project;
+            }
+        }
+
+
+        return false;
+    }
 }

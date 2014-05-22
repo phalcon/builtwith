@@ -101,6 +101,11 @@ $di->set('router', function() {
         'action'        => 'pageNotFound'
     ]);*/
 
+    $router->addGet('/{profile:([a-zA-Z0-9-]+)}', [
+        'action' => 'profile',
+        'project' => 1
+    ]);
+
     $router->addPost('/filter', [
         'action' => 'filter'
     ])->beforeMatch(function($uri, $route) {

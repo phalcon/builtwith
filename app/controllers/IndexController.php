@@ -69,4 +69,26 @@ class IndexController extends Controller
             $this->view->partial('index/projects');
         }
     }
+
+    /**
+     * Project profile
+     *
+     * Display all information about a project
+     *
+     * @access public
+     * @return void
+     * 
+     * @author Ole Aass <ole@oleaass.com>
+     */
+    public function profileAction($permalink)
+    {
+        $projects = new Projects();
+        $project = $projects->findByPermalink($permalink);
+
+        if (!$project) {
+            return $this->view->pick('errors/404');
+        } else {
+            $this->view->setVar('project', $project);
+        }
+    }
 }

@@ -21,12 +21,15 @@
                 <div class="well well-sm">
                     <div style="text-align: center;">
                         <a href="<?=$project['url']?>">
-                            <img src="<?=$cdn?>/projects/<?=$project['thumb']?>">
+                            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
                         </a>
                     </div>
                     <h3><a href="<?=$project['url']?>"><?=$project['name']?></a>
                     <small><?=$project['submissionDate']?></small></h3>
-                    <p><?=$project['desc']?></p>
+                    <p><?=$project['summary']?></p>
+                    <div class="pull-right">
+                        <a href="/<?=$project['permalink']?>">More details</a>
+                    </div>
                     <hr>
                     <?php 
                     sort($project['tags']);

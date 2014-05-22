@@ -9,6 +9,18 @@ use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 
 /**
+ * We're a registering a set of directories taken from the configuration file
+ */
+$loader = new \Phalcon\Loader();
+$loader->registerDirs(
+    array(
+        $config->application->controllersDir,
+        $config->application->modelsDir
+    )
+)->register();
+
+
+/**
  * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework
  */
 $di = new FactoryDefault();
@@ -72,4 +84,27 @@ $di->set('session', function () {
  */
 $di->set('config', function() use ($config) {
     return $config;
+});
+
+/**
+ * Register router
+ */
+$di->set('router', function() {
+    $router = new \Phalcon\Mvc\Router();
+    $router->removeExtraSlashes(true);
+    $router->setDefaults([
+        'controller' => 'index',
+        'action' => 'index'
+    ]);
+    /*$router->notFound([
+        'controller'    => 'errors',
+        'action'        => 'pageNotFound'
+    ]);*/
+
+    $router->addPost('/filter', [
+        'action' => 'filter'
+    ])->beforeMatch(function($uri, $route) {
+        return ((isset($_SERVER['HTTP_X_REQUESTED_WITH'])) && ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest'));
+    });
+    return $router;
 });

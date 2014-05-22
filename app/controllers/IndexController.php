@@ -13,6 +13,21 @@ use Phalcon\Mvc\Controller;
 class IndexController extends Controller
 {
     /**
+     * Initialize controller
+     *
+     * Handles required tasks and sets view variables used several places
+     *
+     * @access public
+     * @return void
+     * 
+     * @author Ole Aass <ole@oleaass.com> 
+     */
+    public function initialize()
+    {
+        $this->view->setVar('cdn', $this->config->application->cdnUrl);
+    }
+
+    /**
      * Index action
      *
      * @access public

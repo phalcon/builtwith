@@ -2,6 +2,7 @@
 
 return new \Phalcon\Config(array(
     'application' => array(
+        'cdnUrl'         => '',
         'controllersDir' => ROOT_PATH . '/app/controllers/',
         'modelsDir'      => ROOT_PATH . '/app/models/',
         'viewsDir'       => ROOT_PATH . '/app/views/',

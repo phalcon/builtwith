@@ -1,0 +1,69 @@
+<div class="row">
+    <h1><?=$project['name']?></h1>
+    <p>Submitted by <?=$project['submitter']?> on <?=$project['submissionDate']?></p>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png" width="470">
+    </div>
+    <div class="col-sm-7">
+        <table class="table table-condensed table-striped table-bordered">
+            <tbody>
+                <tr>
+                    <th class="col-sm-3">Name</th>
+                    <td><?=$project['name']?></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-3">Url</th>
+                    <td>
+                        <a href="<?=$project['url']?>" target="_blank">
+                            <?=$project['url']?>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-3">Info</th>
+                    <td>
+                        <a href="<?=$project['info']?>" target="_blank">
+                            <?=$project['info']?>
+                        </a>
+                    </td>
+                </tr>
+                <?php if (isset($project['src'])): ?>
+                <tr>
+                    <th class="col-sm-3">Source</th>
+                    <td>
+                        <a href="<?=$project['src']?>" target="_blank">
+                            <?=$project['src']?>
+                        </a>
+                    </td>
+                </tr>
+                <?php endif; ?>
+                <tr>
+                    <th class="col-sm-3">Tags</th>
+                    <td class="col-sm-9">
+                        <?php foreach ($project['tags'] as $tag): ?>
+                            <span class="label label-primary"><?=$tag?></span>
+                        <?php endforeach; ?>
+                    </td>
+            </tbody>
+        </table>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm-12">
+        <p><strong><?=$project['summary']?></strong></p>
+        <p><?=nl2br($project['description'])?></p>
+    </div>
+</div>
+<hr>
+<?php if (isset($project['images']) && !empty($project['images'])): ?>
+<div class="row">
+    <div class="col-sm-12" style="text-align:center;">
+        <?php foreach ($project['images'] as $image): ?>
+            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>">
+        <?php endforeach; ?>
+    </div>
+</div>
+<?php endif; ?>

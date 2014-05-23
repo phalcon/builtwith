@@ -1,12 +1,32 @@
 <?php
 
 /**
+ * @uses Phalcon\Mvc\Controller
+ */
+use Phalcon\Mvc\Controller;
+
+/**
  * Index controller
  *
  * @author Ole Aass <ole@oleaass.com>
  */
-class IndexController extends ControllerBase
+class IndexController extends Controller
 {
+    /**
+     * Initialize controller
+     *
+     * Handles required tasks and sets view variables used several places
+     *
+     * @access public
+     * @return void
+     * 
+     * @author Ole Aass <ole@oleaass.com> 
+     */
+    public function initialize()
+    {
+        $this->view->setVar('cdn', $this->config->application->cdnUrl);
+    }
+
     /**
      * Index action
      *
@@ -47,6 +67,28 @@ class IndexController extends ControllerBase
 
             $this->view->setVar('projects', $list);
             $this->view->partial('index/projects');
+        }
+    }
+
+    /**
+     * Project profile
+     *
+     * Display all information about a project
+     *
+     * @access public
+     * @return void
+     * 
+     * @author Ole Aass <ole@oleaass.com>
+     */
+    public function profileAction($permalink)
+    {
+        $projects = new Projects();
+        $project = $projects->findByPermalink($permalink);
+
+        if (!$project) {
+            return $this->view->pick('errors/404');
+        } else {
+            $this->view->setVar('project', $project);
         }
     }
 }

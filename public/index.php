@@ -15,20 +15,9 @@ try {
     $config = include ROOT_PATH . "/app/var/config/config.php";
 
     /**
-     * Read auto-loader
+     * Read bootstrap
      */
-    include ROOT_PATH . "/app/var/config/loader.php";
-
-
-    /**
-     * Read services
-     */
-    include ROOT_PATH . "/app/var/config/services.php";
-
-    /**
-     * Read routes
-     */
-    include ROOT_PATH . "/app/var/config/routes.php";
+    include ROOT_PATH . "/app/var/config/bootstrap.php";
     
     /**
      * Handle the request

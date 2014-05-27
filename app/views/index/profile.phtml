@@ -58,12 +58,29 @@
     </div>
 </div>
 <hr>
-<?php if (isset($project['images']) && !empty($project['images'])): ?>
+<?php
+    if (isset($project['images']) && !empty($project['images'])) {
+        $counter = 1;
+        foreach ($project['images'] as $image) {
+            if (1 == $counter) {
+?>
 <div class="row">
-    <div class="col-sm-12" style="text-align:center;">
-        <?php foreach ($project['images'] as $image): ?>
-            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>">
-        <?php endforeach; ?>
+    <div class="col-sm-12 lightbox-image">
+<?php
+            }
+?>
+        <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4">
+            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>" class="img-responsive">
+        </a>
+<?php
+            $counter++;
+            if (4 == $counter) {
+                $counter = 1;
+?>
     </div>
 </div>
-<?php endif; ?>
+<?php
+            }
+        }
+    }
+?>

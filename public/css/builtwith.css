@@ -1,8 +1,5 @@
 .bw-img { width: 420px; height: 420px; }
 .img { max-width: 100%; vertical-align: middle; border: none; }
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-.carousel-caption {
-    background:rgba(0,0,0,.5);
-}
+.carousel-inner > .item > img { margin: 0 auto; }
+.carousel-caption { background:rgba(0,0,0,.5); }
+.lightbox-image { text-align:center; padding: 10px; }

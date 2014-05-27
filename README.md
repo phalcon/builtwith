@@ -31,14 +31,13 @@ only alphanumeric characters and dashes.
             "submissionDate": "2014-01-05",     // Current date in ISO format
             "images": [],                       // Names of images placed in public/prohects/[yourprojectname]
             "tags": [
-                "Demo", "Production", "Toy"                 // choose your app seriousness level
-                "CRUD", "Entertainment", "Productivity",    // choose your app type
-                "MySQL", "Mongo", "Postgres",               // database access
-                "Simple", "Multi Module", "Micro"           // type of project
-                "Open Source",                              // tag open source projects
-                "Github", "Bitbucket",                      // use if open source
-                "Tests Included"                            // use if open source and tests are included
-                "website",
+                "demo", "production", "toy"                 // choose your app seriousness level
+                "CRUD", "entertainment", "productivity",    // choose your app type
+                "mysql", "mongo", "postgres",               // database access
+                "single", "multi module", "micro"           // type of project
+                "open source",                              // tag open source projects
+                "github", "bitbucket",                      // use if open source
+                "tests included"                            // use if open source and tests are included
             ]
             ... // others?
           ]

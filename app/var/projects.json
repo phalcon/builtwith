@@ -12,10 +12,16 @@
             "submissionDate": "2014-01-05",
             "images": [],
             "tags": [
+                "production",
+                "productivity",
                 "website",
-                "github"
+                "open source",
+                "github",
+                "single module",
+                "multilingual"
             ]
-        },{
+        },
+        {
             "permalink": "phalconphp-forum",
             "name": "PhalconPHP Community Discussion Forum",
             "summary": "The PhalconPHP Community Discussion Forum where Phalconians can ask questions, find answers, offer advice etc.",
@@ -27,8 +33,14 @@
             "submissionDate": "2014-01-03",
             "images": [],
             "tags": [
+                "production",
+                "productivity",
                 "forum",
-                "github"
+                "mysql",
+                "github",
+                "open source",
+                "single module",
+                "tests included"
             ]
         }
     ]

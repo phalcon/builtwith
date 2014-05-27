@@ -1,8 +1,5 @@
 {
-    "featured": [
-        "phalconphp-website",
-        "phalconphp-forum"
-    ],
+    "featured": [],
     "projects": [
         {
             "permalink": "phalconphp-website",

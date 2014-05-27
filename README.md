@@ -1,4 +1,46 @@
-builtwith
-=========
+<a name="submit"></a>
+# builtwith.phalconphp.com
 
-Websites built with Phalcon
+Gallery of applications, demos and projects built with PhalconPHP
+
+Disclaimer
+----------
+This site has been inspired by https://builtwith.angularjs.org/. The github
+code has been forked and adapted to PhalconPHP. Credits to the contributors of
+that project for their hard work.
+
+Adding your project
+----------------------
+1.  Decide on a project permalink. This will be the URL part and it has to be
+unique. If someone else has reserved that name, you will need to choose another
+one. Example names are: phalconphp-website, phalconphp-forum etc. Please use
+only alphanumeric characters and dashes.
+2.  Fork this repository.
+3.  Add a 500 by 500px thumbnail image to `public/projects/[yourprojectnamehere]/thumb.png`
+4.  Add an entry to `app/var/projects.json` with these properties:
+
+        {
+            "permalink": "phalconphp-website",  // This is your project link (appears on the URL)
+            "name": "PhalconPHP Website",       // will be displayed above the screenshot
+            "summary": "The website of PhalconPHP, written with Phalcon!", // A short summary of the project
+            "description": "Phalcon is a web framework...", // A lengthy description of the project
+            "url": "http://www.phalconphp.com", // The project URL
+            "info": "",                         // Additional information for the project (blog etc.)
+            "src": "https://github.com/phalcon/website",    // Url to source repository (optional)
+            "submitter": "niden",               // Github username
+            "submissionDate": "2014-01-05",     // Current date in ISO format
+            "images": [],                       // Names of images placed in public/prohects/[yourprojectname]
+            "tags": [
+                "Demo", "Production", "Toy"                 // choose your app seriousness level
+                "CRUD", "Entertainment", "Productivity",    // choose your app type
+                "MySQL", "Mongo", "Postgres",               // database access
+                "Simple", "Multi Module", "Micro"           // type of project
+                "Open Source",                              // tag open source projects
+                "Github", "Bitbucket",                      // use if open source
+                "Tests Included"                            // use if open source and tests are included
+                "website",
+            ]
+            ... // others?
+          ]
+        }
+5.  Send a pull request

@@ -69,8 +69,8 @@
 <?php
             }
 ?>
-        <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4">
-            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image?>" class="img-responsive">
+        <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" data-toggle="lightbox" data-gallery="multiimages" data-title="<?=$image["description"]?>" class="col-sm-4">
+            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" class="img-responsive">
         </a>
 <?php
             $counter++;

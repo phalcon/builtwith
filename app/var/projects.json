@@ -12,11 +12,11 @@
             "submitter": "niden",
             "submissionDate": "2014-01-05",
             "images": [
-                "website01.png",
-                "website02.png",
-                "website03.png",
-                "website04.png",
-                "website05.png"
+                {"name": "website01.png", "description":"Main Page"},
+                {"name": "website02.png", "description":"Download: Linux"},
+                {"name": "website03.png", "description":"Download: Windows"},
+                {"name": "website04.png", "description":"Testimonials"},
+                {"name": "website05.png", "description":"About"}
             ],
             "tags": [
                 "production",
@@ -39,10 +39,10 @@
             "submitter": "niden",
             "submissionDate": "2014-01-03",
             "images": [
-                "forum01.png",
-                "forum02.png",
-                "forum03.png",
-                "forum04.png"
+                {"name": "forum01.png", "description":"Main Page"},
+                {"name": "forum02.png", "description":"Topic view with formatting"},
+                {"name": "forum03.png", "description":"Reply with formatting"},
+                {"name": "forum04.png", "description":"Reply screen"}
             ],
             "tags": [
                 "production",

@@ -1,46 +1,34 @@
 {
     "projects": [
         {
-            "permalink": "test-app",
-            "name": "Test App",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis luctus neque non feugiat. Mauris viverra, libero id pharetra sagittis, tellus elit vulputate sapien, sed convallis mauris nibh vel neque. Maecenas posuere risus accumsan, aliquet dolor a, faucibus nibh. Sed semper et metus nec ornare.",
-            "description": "Vivamus vitae nibh metus. Praesent vel dolor convallis, scelerisque diam nec, gravida tellus. Pellentesque id erat non ipsum porttitor ultricies non id neque. Mauris sodales felis ut dictum lacinia. Integer vestibulum vulputate ante eu venenatis. Vestibulum non libero ipsum. Etiam quis blandit nisl. In pretium pharetra gravida. Vivamus sagittis volutpat enim porta egestas. Mauris vitae mattis felis. Etiam dictum tellus eu accumsan pellentesque.",
-            "url": "http://testapp.com",
-            "info": "http://testapp.com/blog",
-            "src": "https://github.com/me/testapp",
-            "submitter": "Ole Aass",
+            "permalink": "phalconphp-website",
+            "name": "PhalconPHP Website",
+            "summary": "The website of PhalconPHP, written with Phalcon!",
+            "description": "Phalcon is a web framework implemented as a C extension offering <a href='http://docs.phalconphp.com/en/latest/reference/benchmark.html'>high performance</a> and lower resource consumption.",
+            "url": "http://www.phalconphp.com",
+            "info": "",
+            "src": "https://github.com/phalcon/website",
+            "submitter": "niden",
             "submissionDate": "2014-01-05",
-            "images": [
-                "000-Abstract-Division-Relevance-EP-LABD147.jpg",
-                "Lightroom-Presets-Fine-Art-fog-atmosphere.jpg",
-                "cd5713de8f4ca1f516c7726011939ae9.jpg",
-                "daft-punk-2013.jpg",
-                "timthumb.jpg"
-            ],
+            "images": [],
             "tags": [
-                "Production",
-                "Newspaper"
+                "website",
+                "github"
             ]
         },{
-            "permalink": "my-test-app",
-            "name": "My Test App",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis luctus neque non feugiat. Mauris viverra, libero id pharetra sagittis, tellus elit vulputate sapien, sed convallis mauris nibh vel neque. Maecenas posuere risus accumsan, aliquet dolor a, faucibus nibh. Sed semper et metus nec ornare.",
-            "description": "Vivamus vitae nibh metus. Praesent vel dolor convallis, scelerisque diam nec, gravida tellus. Pellentesque id erat non ipsum porttitor ultricies non id neque. Mauris sodales felis ut dictum lacinia. Integer vestibulum vulputate ante eu venenatis. Vestibulum non libero ipsum. Etiam quis blandit nisl. In pretium pharetra gravida. Vivamus sagittis volutpat enim porta egestas. Mauris vitae mattis felis. Etiam dictum tellus eu accumsan pellentesque.",
-            "url": "http://testapp.com",
-            "info": "http://testapp.com/blog",
-            "src": "https://github.com/me/testapp",
-            "submitter": "Ole Aass",
+            "permalink": "phalconphp-forum",
+            "name": "PhalconPHP Community Discussion Forum",
+            "summary": "The PhalconPHP Community Discussion Forum where Phalconians can ask questions, find answers, offer advice etc.",
+            "description": "The PhalconPHP Community Discussion Forum is powered by PhalconPHP. The application offers discussions, my discussions, categories, +1/-1 functionality, karma measurements, and login with Github.",
+            "url": "http://forum.phalconphp.com",
+            "info": "",
+            "src": "https://github.com/phalcon/cphalcon",
+            "submitter": "niden",
             "submissionDate": "2014-01-03",
-            "images": [
-                "000-Abstract-Division-Relevance-EP-LABD147.jpg",
-                "Lightroom-Presets-Fine-Art-fog-atmosphere.jpg",
-                "cd5713de8f4ca1f516c7726011939ae9.jpg",
-                "daft-punk-2013.jpg",
-                "timthumb.jpg"
-            ],
+            "images": [],
             "tags": [
-                "Development",
-                "API"
+                "forum",
+                "github"
             ]
         }
     ]

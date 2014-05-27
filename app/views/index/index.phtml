@@ -19,18 +19,23 @@
         <?php foreach ($projects as $project): ?>
             <div class="col-sm-6">
                 <div class="well well-sm">
+                    <h3><a href="<?=$project['url']?>"><?=$project['name']?></a></h3>
                     <div style="text-align: center;">
                         <a href="<?=$project['url']?>">
-                            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
+                            <img class="bw-img" src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
                         </a>
                     </div>
-                    <h3><a href="<?=$project['url']?>"><?=$project['name']?></a>
-                    <small><?=$project['submissionDate']?></small></h3>
+                    <p><a href="<?=$project['url']?>"><?=$project['url']?></a></p>
                     <p><?=$project['summary']?></p>
-                    <div class="pull-right">
-                        <a href="/<?=$project['permalink']?>">More details</a>
+                    <div>
+                        <span class="pull-left">
+                            <small><?=$project['submissionDate']?></small>
+                        </span>
+                        <span class="pull-right">
+                            <a href="/<?=$project['permalink']?>">More details</a>
+                        </span>
                     </div>
-                    <hr>
+                    <hr />
                     <?php 
                     sort($project['tags']);
                     foreach ($project['tags'] as $tag): ?>

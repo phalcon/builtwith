@@ -150,7 +150,6 @@ class Projects
             }
         }
 
-
         return false;
     }
 }

@@ -57,30 +57,16 @@
         <p><?=nl2br($project['description'])?></p>
     </div>
 </div>
-<hr>
-<?php
-    if (isset($project['images']) && !empty($project['images'])) {
-        $counter = 1;
-        foreach ($project['images'] as $image) {
-            if (1 == $counter) {
-?>
+<hr />
+
+<?php if (isset($project['images']) && !empty($project['images'])): ?>
 <div class="row">
     <div class="col-sm-12 lightbox-image">
-<?php
-            }
-?>
+        <?php foreach ($project['images'] as $image): ?>
         <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" data-toggle="lightbox" data-gallery="multiimages" data-title="<?=$image["description"]?>" class="col-sm-4">
             <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" class="img-responsive">
         </a>
-<?php
-            $counter++;
-            if (4 == $counter) {
-                $counter = 1;
-?>
+        <?php endforeach; ?>
     </div>
 </div>
-<?php
-            }
-        }
-    }
-?>
+<?php endif; ?>

@@ -14,6 +14,7 @@
     </div>
 </div>
 <hr>
+<?php if (!empty($featured)): ?>
 <div class="row">
     <h2>Featured Projects</h2>
     <div id="featured-carousel" class="carousel slide" data-ride="carousel">
@@ -56,6 +57,7 @@
     </div>
 </div>
 <hr>
+<?php endif; ?>
 <div class="row">
     <div id="product-list">
         <?php foreach ($projects as $project): ?>

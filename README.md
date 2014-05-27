@@ -29,7 +29,7 @@ only alphanumeric characters and dashes.
             "src": "https://github.com/phalcon/website",    // Url to source repository (optional)
             "submitter": "niden",               // Github username
             "submissionDate": "2014-01-05",     // Current date in ISO format
-            "images": [],                       // Names of images placed in public/prohects/[yourprojectname]
+            "images": [],                       // Names of images placed in public/projects/[yourprojectname]
             "tags": [
                 "demo", "production", "toy"                 // choose your app seriousness level
                 "CRUD", "entertainment", "productivity",    // choose your app type

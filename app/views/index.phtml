@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Built with PhalconPHP</title>
 
-        <link href="/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.css" rel="stylesheet">
         <link href="/css/builtwith.css" rel="stylesheet" />
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -38,8 +39,35 @@
             <?=$this->getContent()?>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function ($) {
+
+                // delegate calls to data-toggle="lightbox"
+                $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        }
+                    });
+                });
+
+                //Programatically call
+                $('#open-image').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+                $('#open-youtube').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+            });
+        </script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
             $(document).ready(function() {
                 $('input[type=checkbox]').on('click', function() {

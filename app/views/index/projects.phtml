@@ -7,10 +7,17 @@
                             <img class="bw-img" src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
                         </a>
                     </div>
-                    <h3><a href="<?=$project['url']?>"><?=$project['name']?></a>
-                    <small><?=$project['submissionDate']?></small></h3>
-                    <p><?=$project['description']?></p>
-                    <hr>
+                    <p><a href="<?=$project['url']?>"><?=$project['url']?></a></p>
+                    <p><?=$project['summary']?></p>
+                    <div>
+                        <span class="pull-left">
+                            <small><?=$project['submissionDate']?></small>
+                        </span>
+                        <span class="pull-right">
+                            <a href="/<?=$project['permalink']?>">More details</a>
+                        </span>
+                    </div>
+                    <hr />
                     <?php 
                     sort($project['tags']);
                     foreach ($project['tags'] as $tag): ?>

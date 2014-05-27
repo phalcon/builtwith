@@ -1,4 +1,8 @@
 {
+    "featured": [
+        "phalconphp-website",
+        "phalconphp-forum"
+    ],
     "projects": [
         {
             "permalink": "phalconphp-website",

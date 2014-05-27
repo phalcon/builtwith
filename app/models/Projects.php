@@ -36,7 +36,7 @@ class Projects
         $config = \Phalcon\DI::getDefault()->getConfig();
         $projects = file_get_contents($config->application->varDir . '/projects.json');
         $projects = json_decode($projects, true);
-
+        $this->featured = $projects['featured'];
         $this->projects = $projects['projects'];
     }
 
@@ -143,7 +143,7 @@ class Projects
     public function findByPermalink($permalink)
     {
         foreach ($this->projects as $key => $project) {
-            if ($this->projects[$key]['permalink'] == $permalink) {
+            if ($project['permalink'] == $permalink) {
                 $project = $this->projects[$key];
                 sort($project['tags']);
                 return $project;
@@ -151,5 +151,24 @@ class Projects
         }
 
         return false;
+    }
+
+    /**
+     * Find featured projects
+     *
+     * @access public
+     * @return array
+     *
+     * @author Ole Aass <ole@oleaass.com>
+     */
+    public function findFeatured()
+    {
+        $featured = [];
+        foreach ($this->projects as $key => $project) {
+            if (in_array($project['permalink'], $this->featured)) {
+                $featured[] = $project;
+            }
+        }
+        return $featured;
     }
 }

@@ -15,6 +15,48 @@
 </div>
 <hr>
 <div class="row">
+    <h2>Featured Projects</h2>
+    <div id="featured-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#featured-carousel" data-slide-to="0" class="active"></li>
+            <?php for ($i = 1; $i < sizeof($featured); $i++): ?>
+            <li data-target="#featured-carousel" data-slide-to="<?=$i?>"></li>
+            <?php endfor; ?>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="bw-img" src="<?=$cdn?>/projects/<?=$featured[0]['permalink']?>/thumb.png">
+                <div class="carousel-caption">
+                    <h3>
+                        <a href="/<?=$featured[0]['permalink']?>"><?=$featured[0]['name']?></a>
+                    </h3>
+                    <?=$featured[0]['description']?>
+                </div>
+            </div>
+            <?php for ($i = 1; $i < sizeof($featured); $i++): ?>
+            <div class="item">
+                <img class="bw-img" src="<?=$cdn?>/projects/<?=$featured[$i]['permalink']?>/thumb.png">
+                <div class="carousel-caption">
+                    <h3>
+                        <a href="/<?=$featured[$i]['permalink']?>"><?=$featured[$i]['name']?></a>
+                    </h3>
+                    <?=$featured[$i]['description']?>
+                </div>
+            </div>
+            <?php endfor; ?>
+        </div>
+
+        <a class="left carousel-control" href="#featured-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#featured-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<hr>
+<div class="row">
     <div id="product-list">
         <?php foreach ($projects as $project): ?>
             <div class="col-sm-6">

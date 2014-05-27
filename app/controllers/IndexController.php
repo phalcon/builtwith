@@ -39,6 +39,7 @@ class IndexController extends Controller
     {
         $projects = new Projects();
         $this->view->setVar('projects', $projects->findAll());
+        $this->view->setVar('featured', $projects->findFeatured());
         $this->view->setVar('tags', $projects->getTags());
     }
 

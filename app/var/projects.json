@@ -54,6 +54,33 @@
                 "single module",
                 "tests included"
             ]
+        },
+        {
+            "permalink": "hypermailer",
+            "name": "Phalcon Powered Email Campaign Platform",
+            "summary": "Hypermailer is an email platform utilizing Mailgun APIs built with Phalcon.",
+            "description": "Hypermailer is an open source project aimed at leveraging Mailgun APIs to provide a free platform that operates on the usage only billing of Mailgun. This project will continuously evolve and is currently the only open source email platform leveraging Mailgun's APIs. All project files and source code are available on GitHub.",
+            "url": "https://github.com/ebrian/hypermailer",
+            "info": "",
+            "src": "https://github.com/ebrian/hypermailer",
+            "submitter": "ebrian",
+            "submissionDate": "2014-06-02",
+            "images": [
+                {"name": "hmscreen1.png", "description":"Event Log/Dashboard"},
+                {"name": "hmscreen2.png", "description":"Campaign Pre-Send Screen"},
+                {"name": "hmscreen3.png", "description":"Campaign Post-Send Screen"},
+                {"name": "hmscreen4.png", "description":"Dataset/View Creator"},
+                {"name": "hmscreen5.png", "description":"Campaign List"}
+            ],
+            "tags": [
+                "production",
+                "productivity",
+                "mysql",
+                "github",
+                "open source",
+                "single module",
+                "micro"
+            ]
         }
     ]
 }

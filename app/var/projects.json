@@ -65,7 +65,13 @@
             "src": "https://github.com/ebrian/hypermailer",
             "submitter": "ebrian",
             "submissionDate": "2014-06-02",
-            "images": [ ],
+            "images": [
+                {"name": "hmscreen1.png", "description":"Event Log/Dashboard"},
+                {"name": "hmscreen2.png", "description":"Campaign Pre-Send Screen"},
+                {"name": "hmscreen3.png", "description":"Campaign Post-Send Screen"},
+                {"name": "hmscreen4.png", "description":"Dataset/View Creator"},
+                {"name": "hmscreen5.png", "description":"Campaign List"}
+            ],
             "tags": [
                 "production",
                 "productivity",

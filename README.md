@@ -1,13 +1,11 @@
 <a name="submit"></a>
 # builtwith.phalconphp.com
 
-Gallery of applications, demos and projects built with PhalconPHP
+Gallery of applications, demos and projects built with Phalcon
 
 Disclaimer
 ----------
-This site has been inspired by https://builtwith.angularjs.org/. The github
-code has been forked and adapted to PhalconPHP. Credits to the contributors of
-that project for their hard work.
+This site has been inspired by https://builtwith.angularjs.org/. The github code has been forked and adapted to Phalcon. Credits to the contributors of that project for their hard work.
 
 Adding your project
 ----------------------
@@ -21,8 +19,8 @@ only alphanumeric characters and dashes.
 
         {
             "permalink": "phalconphp-website",  // This is your project link (appears on the URL)
-            "name": "PhalconPHP Website",       // will be displayed above the screenshot
-            "summary": "The website of PhalconPHP, written with Phalcon!", // A short summary of the project
+            "name": "Phalcon Website",       // will be displayed above the screenshot
+            "summary": "The website of Phalcon, written with Phalcon!", // A short summary of the project
             "description": "Phalcon is a web framework...", // A lengthy description of the project
             "url": "http://www.phalconphp.com", // The project URL
             "info": "",                         // Additional information for the project (blog etc.)

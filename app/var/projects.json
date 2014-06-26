@@ -3,8 +3,8 @@
     "projects": [
         {
             "permalink": "phalconphp-website",
-            "name": "PhalconPHP Website",
-            "summary": "The website of PhalconPHP, written with Phalcon!",
+            "name": "Phalcon Website",
+            "summary": "The official website of Phalcon, written with Phalcon!",
             "description": "Phalcon is a web framework implemented as a C extension offering <a href='http://docs.phalconphp.com/en/latest/reference/benchmark.html'>high performance</a> and lower resource consumption.",
             "url": "http://www.phalconphp.com",
             "info": "",
@@ -30,9 +30,9 @@
         },
         {
             "permalink": "phalconphp-forum",
-            "name": "PhalconPHP Community Discussion Forum",
-            "summary": "The PhalconPHP Community Discussion Forum where Phalconians can ask questions, find answers, offer advice etc.",
-            "description": "The PhalconPHP Community Discussion Forum is powered by PhalconPHP. The application offers discussions, my discussions, categories, +1/-1 functionality, karma measurements, and login with Github.",
+            "name": "Phalcon Community Discussion Forum",
+            "summary": "The Phalcon Community Discussion Forum where Phalconians can ask questions, find answers, offer advice etc.",
+            "description": "The Phalcon Community Discussion Forum is powered by PhalconPHP. The application offers discussions, my discussions, categories, +1/-1 functionality, karma measurements, and login with Github.",
             "url": "http://forum.phalconphp.com",
             "info": "",
             "src": "https://github.com/phalcon/cphalcon",

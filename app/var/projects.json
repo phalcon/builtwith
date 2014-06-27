@@ -103,6 +103,23 @@
                 "mysql",
                 "multi module"
             ]
+        },
+        {
+            "permalink": "hurma-tv",
+            "name": "Imageboard for intelligent individuals",
+            "summary": "Hurma.tv is a popular image blog with a lot of interesting brain-improving facts about everything",
+            "description": "Hurma.tv project is a great collection of interesting facts which are added regularly. All the stuff is filtered accurately and provides a lot of fun for the viewers. The web-site is fully adaptive and works on all platforms from iMac to ancient Nokia 3110",
+            "url": "http://hurma.tv/",
+            "info": "vk.com group can be found at vk.com/hurmmma, twitter is https://twitter.com/hurma_tv",
+            "src": "",
+            "submitter": "vastly",
+            "submissionDate": "2014-06-27",
+            "images": [],
+            "tags": [
+                "production", "image-board",
+                "entertainment", "fun",
+                "mysql"
+            ]
         }
     ]
 }

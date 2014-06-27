@@ -81,6 +81,28 @@
                 "single module",
                 "micro"
             ]
+        },
+        {
+            "permalink": "herlock",
+            "name": "Hybrid mobile development cloud for cross-platform app",
+            "summary": "Herlock is a cloud based mobile app development environment. Supports iOS/Android hybrid apps in one source.",
+            "description": "Introducing cross-platform mobile development tool that allows you to easily create fast Android and iOS apps as quick as possible using Javascript. By using Open GL, you can build an app that requires high performance graphics without sacrificing performance.",
+            "url": "http://herlock.do/",
+            "info": "",
+            "src": "",
+            "submitter": "iwai",
+            "submissionDate": "2014-06-27",
+            "images": [
+                {"name": "screen01.png", "description":"Web IDE Login"},
+                {"name": "screen02.png", "description":"Web IDE Dashboard"},
+                {"name": "screen03.png", "description":"Web IDE Editor"}
+            ],
+            "tags": [
+                "production",
+                "productivity",
+                "mysql",
+                "multi module"
+            ]
         }
     ]
 }

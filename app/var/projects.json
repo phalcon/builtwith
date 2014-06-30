@@ -120,6 +120,29 @@
                 "entertainment", "fun",
                 "mysql"
             ]
+        },
+        {
+            "permalink": "deleteim",
+            "name": "The forgetful messaging service",
+            "summary": "Delete.im is a non-permanent sharing service. It allows users to send messages that’ll delete once they’ve been viewed. We’ve created a service where the sender has control of their information, not the receiver.",
+            "description": "Our API allows services to generate their own delete.im links. Whether they want to send out new passwords or allow their users to create deleteable messages. Our current integrations such as our Wordpress plug-in allows users to upload pictures to forums knowing that it will only be viewed a number of times before deleting itself. We see delete.im being a neutral service that people can trust with their information. We won’t collect, scan or keep people’s messages unlike the services they normally use.",
+            "url": "https://delete.im/",
+            "info": "",
+            "src": "",
+            "submitter": "nazwa",
+            "submissionDate": "2014-06-30",
+            "images": [
+                {"name": "Sending.png", "description":"So secret"},
+                {"name": "Viewing.png", "description":"Read me!"},
+                {"name": "Angled.jpg", "description":"Artz"}
+            ],
+            "tags": [
+                "messages",
+                "images",
+                "secret",
+                "wow",
+                "nice"
+            ]
         }
     ]
 }

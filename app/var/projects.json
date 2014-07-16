@@ -166,6 +166,33 @@
                 "linux",
                 "windows",
                 "os x"
+            ],
+        },
+        {
+            "permalink": "robinson",
+            "name": "Robinson Travel Agency Website",
+            "summary": "robinson.rs is website created for one of most popular Serbian travel agencies.",
+            "description": "Website consists of two modules: frontend and backend. Both modules are custom made using PhalconPHP framework from scratch. Includes functional (controller) tests.",
+            "url": "http://www.robinson.rs",
+            "info": "",
+            "src": "https://github.com/digitronac/robinson",
+            "submitter": "digitronac",
+            "submissionDate": "2014-07-16",
+            "images": [
+                {"name": "backend.jpg", "description":"Backend module"},
+                {"name": "frontend.jpg", "description":"Frontend module"}
+            ],
+            "tags": [
+                "production",
+                "incubator",
+                "composer",
+                "phpunit",
+                "phinx",
+                "php-5.5",
+                "open source",
+                "travel",
+                "multi module",
+                "tests included"
             ]
         }
     ]

@@ -162,14 +162,13 @@
                 "sequencer",
                 "drum machine",
                 "music",
-                "open source",
                 "linux",
                 "windows",
                 "os x"
             ]
         },
         {
-            "permalink": "robinson",
+            "permalink": "robinson-travel-agency",
             "name": "Robinson Travel Agency Website",
             "summary": "robinson.rs is website created for one of most popular Serbian travel agencies.",
             "description": "Website consists of two modules: frontend and backend. Both modules are custom made using PhalconPHP framework from scratch. Includes functional (controller) tests.",

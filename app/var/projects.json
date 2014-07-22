@@ -193,6 +193,24 @@
                 "multi module",
                 "tests included"
             ]
-        }
+        },
+		{
+			"permalink": "danzerlogs",
+			"name": "DanzerLogs.com",
+			"summary": "Your source for buying logs online.",
+			"description": "DanzerLogs.com is the first website to offer hardwood logs for sale with actual photos and internal scanned images of individual logs.",
+			"url": "http://www.danzerlogs.com",
+			"info": "",                        
+			"submitter": "lotcz",
+			"submissionDate": "2014-07-21",
+			"images": [],
+			"tags": [
+				"production",
+				"productivity",
+				"mysql",
+				"single"
+			]
+		  ]
+		}
     ]
 }

@@ -210,6 +210,24 @@
                 "mysql",
                 "single"
             ]
+        },
+        {
+            "permalink": "kiwisoft",
+            "name": "Kiwisoft",
+            "summary": "kiwisoft.co.uk is the website of a web design agency in the UK",
+            "description": "The website consists of just a frontend with a database powered porfolio and a wordpress.com REST API integration",
+            "url": "http://www.kiwisoft.co.uk",
+            "info": "",
+            "submitter": "andrefigueira",
+            "submissionDate": "2014-07-30",
+            "images": [],
+            "tags": [
+                "production",
+                "composer",
+                "phpunit",
+                "php-5.5",
+                "web design"
+            ]
         }
     ]
 }

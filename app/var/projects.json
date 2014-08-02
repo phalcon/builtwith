@@ -239,16 +239,16 @@
             "submitter": "SquareOfPi",
             "submissionDate": "2014-08-02",
             "images": [
-				{"name": "backend.jpg", "description":"Permissions system (ACL)"},
-				{"name": "backend2.jpg", "description":"User management"},
+                {"name": "backend.jpg", "description":"Permissions system (ACL)"},
+                {"name": "backend2.jpg", "description":"User management"},
                 {"name": "frontend.jpg", "description":"Find a team (all automatically generated)"},
                 {"name": "frontend2.jpg", "description":"Registering an event (Tournament)"}
-			],
+            ],
             "tags": [
                 "production",
                 "CRUD",
-				"CMS",
-				"Management",
+                "CMS",
+                "Management",
                 "php5",
                 "multi-module"
             ]

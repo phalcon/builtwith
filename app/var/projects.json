@@ -256,8 +256,8 @@
         {
             "permalink": "karakuri-hiden",
             "name": "Karakuri Hiden Website",
-            "summary": "The website of the Samurai Factory Inc"
-            "description": "The website has posted the technical information of Phalcon, PHP etc."
+            "summary": "The website of the Samurai Factory Inc",
+            "description": "The website has posted the technical information of Phalcon, PHP etc.",
             "url": "http://hiden.samurai-factory.jp",
             "info": "",
             "submitter": "kjdev",

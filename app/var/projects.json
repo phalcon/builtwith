@@ -252,6 +252,23 @@
                 "php5",
                 "multi-module"
             ]
+        },
+        {
+            "permalink": "karakuri-hiden",
+            "name": "Karakuri Hiden Website",
+            "summary": "The website of the Samurai Factory Inc"
+            "description": "The website has posted the technical information of Phalcon, PHP etc."
+            "url": "http://hiden.samurai-factory.jp",
+            "info": "",
+            "submitter": "kjdev",
+            "submissionDate": "2014-08-06",
+            "images": [],
+            "tags": [
+                "website",
+                "php-5.5",
+                "mysql",
+                "multi module"
+            ]
         }
     ]
 }

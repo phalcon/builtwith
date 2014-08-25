@@ -101,7 +101,7 @@ $di->set('router', function() {
         'action'        => 'pageNotFound'
     ]);*/
 
-    $router->addGet('/{profile:([a-zA-Z0-9-(.)]+)}', [
+    $router->addGet('/project/{profile:([a-zA-Z0-9-(.)]+)}', [
         'action' => 'profile',
         'project' => 1
     ]);

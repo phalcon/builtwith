@@ -3,3 +3,7 @@
 .carousel-inner > .item > img { margin: 0 auto; }
 .carousel-caption { background:rgba(0,0,0,.5); }
 .lightbox-image { text-align:center; padding: 10px; }
+.bw-summary { height: 38px; overflow: hidden; }
+.bw-project-well { height: 645px; }
+h3 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #428bca; }
+h3:hover { color: #2a6496; }

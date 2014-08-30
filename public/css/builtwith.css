@@ -7,3 +7,4 @@
 .bw-project-well { height: 645px; }
 h3 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #428bca; }
 h3:hover { color: #2a6496; }
+.logo { height: 40px; margin-top: -10px; }

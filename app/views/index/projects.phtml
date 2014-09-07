@@ -14,6 +14,13 @@
             <label for="last" class="label label-danger paginate last" style="cursor:pointer;">
                 <input type="radio" id="last" name="page" class="label" value="<?=$page->last?>"> Last
             </label>
+            <select class="paginate-count">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+            </select>
         </div>
         <?php foreach ($page->items as $project): ?>
             <div class="col-sm-6">
@@ -43,3 +50,6 @@
                 </div>
             </div>
         <?php endforeach; ?>
+        <script>
+            $('.paginate-count').val(<?=$page->counter?>);
+        </script>

@@ -186,9 +186,9 @@ class Projects
         //Passing an array as data
         $paginator = new \Phalcon\Paginator\Adapter\NativeArray(
             array(
-                "data" => $list,
-                "limit"=> $limit,
-                "page" => $currentPage,      
+                "data"  => $list,
+                "limit" => $limit,
+                "page"  => $currentPage,
             )
         ); 
 

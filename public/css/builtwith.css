@@ -9,7 +9,9 @@ h3 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #428
 h3:hover { color: #2a6496; }
 .logo { height: 40px; margin-top: -10px; }
 .paginator { margin-bottom: 20px; }
+.paginate { padding: 0.5em .6em .4em; }
 .paginate:hover { background-color: #5cb85c; }
+.paginate-count { margin-left: 5px; }
 .previous, .next { border-radius: 0 }
 .first { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 .last { border-top-left-radius: 0; border-bottom-left-radius: 0; }

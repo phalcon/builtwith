@@ -66,6 +66,7 @@ class IndexController extends Controller
         if ($this->request->isPost() && $this->request->isAjax()) {
             $tags        = $this->request->getPost('tags');
             $currentPage = $this->request->getPost('page', 'int');
+            $counter     = $this->request->getPost('counter', 'int');
             
             $projects = new Projects();
 
@@ -76,7 +77,8 @@ class IndexController extends Controller
                 $list = $projects->findByTags($tags);
             }
 
-            $page = $projects->paginate($list, $currentPage);
+            $page          = $projects->paginate($list, $currentPage, $counter);
+            $page->counter = $counter;
 
             $this->view->setVar('page', $page);
             $this->view->partial('index/projects'); 

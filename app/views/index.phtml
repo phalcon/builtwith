@@ -72,12 +72,9 @@
         </script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
-
             $(document).ready(function() {
-                $('input[type=checkbox], input[type=radio]').on('click', function() {
+                $('input[type=checkbox], input[type=radio], select').on('click', function() {
                     var parent = this.parentNode;
-
-                    // $('.paginate').removeClass('label-success').addClass('label-danger');
 
                     if (!($(this).is(':checked'))) {
                         $(parent).removeClass('label-success').addClass('label-danger');
@@ -85,13 +82,14 @@
                         $(parent).removeClass('label-danger').addClass('label-success');
                     }
 
-                    tags = $('input[type=checkbox]:checked').serialize();
-                    page = $('input[name=page]:checked').val();
+                    tags    = $('input[type=checkbox]:checked').serialize();
+                    page    = $('input[name=page]:checked').val();
+                    counter = $('select option:selected').text();
 
                     if ( tags ) {
-                        url = tags + '&page=' + page;
+                        url = tags + '&page=' + page + '&counter=' + counter;
                     } else {   
-                        url = 'page=' + page;
+                        url = 'page=' + page + '&counter=' + counter;
                     }
 
                     $.post('/filter', url, function(data) {

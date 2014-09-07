@@ -38,7 +38,15 @@ class IndexController extends Controller
     public function indexAction()
     {
         $projects = new Projects();
-        $this->view->setVar('projects', $projects->findAll());
+
+        $currentPage = $this->request->getQuery('page', 'int');
+        
+        // The data set to paginate
+        $list = $projects->findAll();
+            
+        $page = $projects->paginate($list, $currentPage);
+
+        $this->view->setVar('page', $page);
         $this->view->setVar('featured', $projects->findFeatured());
         $this->view->setVar('tags', $projects->getTags());
     }
@@ -56,7 +64,10 @@ class IndexController extends Controller
     public function filterAction()
     {
         if ($this->request->isPost() && $this->request->isAjax()) {
-            $tags = $this->request->getPost('tags');
+            $tags        = $this->request->getPost('tags');
+            $currentPage = $this->request->getPost('page', 'int');
+            $counter     = $this->request->getPost('counter', 'int');
+            
             $projects = new Projects();
 
             if (empty($tags)) {
@@ -66,8 +77,11 @@ class IndexController extends Controller
                 $list = $projects->findByTags($tags);
             }
 
-            $this->view->setVar('projects', $list);
-            $this->view->partial('index/projects');
+            $page          = $projects->paginate($list, $currentPage, $counter);
+            $page->counter = $counter;
+
+            $this->view->setVar('page', $page);
+            $this->view->partial('index/projects'); 
         }
     }
 

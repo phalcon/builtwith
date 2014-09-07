@@ -4,7 +4,7 @@
 
 <div class="row">
     <div style="text-align: center;">
-        <form>
+        <form id="filter">
             <?php foreach ($tags as $key => $tag): ?>
                 <label for="tag-<?=$key?>" class="label label-danger" style="cursor:pointer;">
                     <input type="checkbox" id="tag-<?=$key?>" name="tags[<?=$tag?>]'" class="label"> <?=$tag?>
@@ -60,7 +60,31 @@
 <?php endif; ?>
 <div class="row">
     <div id="product-list">
-        <?php foreach ($projects as $project): ?>
+        <div class="col-md-6 text-left">
+            <span class="counter"><?php echo "Page ", $page->current, " of ", $page->total_pages; ?></span>
+        </div>
+        <div class="col-md-6 text-right paginator">
+            <label for="first" class="label label-danger paginate first" style="cursor:pointer;">
+                <input type="radio" id="first" name="page" class="label" value="1"> First
+            </label>
+            <label for="previous" class="label label-danger paginate previous" style="cursor:pointer;">
+                <input type="radio" id="previous" name="page" class="label" value="<?=$page->before?>"> Previous
+            </label>
+            <label for="next" class="label label-danger paginate next" style="cursor:pointer;">
+                <input type="radio" id="next" name="page" class="label" value="<?=$page->next?>"> Next
+            </label>
+            <label for="last" class="label label-danger paginate last" style="cursor:pointer;">
+                <input type="radio" id="last" name="page" class="label" value="<?=$page->last?>"> Last
+            </label>
+            <select class="paginate-count">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <?php foreach ($page->items as $project): ?>
             <div class="col-sm-6">
                 <div class="well well-sm bw-project-well">
                     <h3><a href="<?=$project['url']?>"><?=$project['name']?></a></h3>

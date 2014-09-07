@@ -9,6 +9,7 @@
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.css" rel="stylesheet">
         <link href="/css/builtwith.css" rel="stylesheet" />
+        <link href="http://static.phalconphp.com/favicon.ico" rel="icon" type="image/ico" />
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -22,7 +23,9 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="/" class="navbar-brand">Phalcon</a>
+                    <a href="/" class="navbar-brand">
+                    <img src="http://static.phalconphp.com/images/logo.png" alt="logo" class="logo">
+                    Phalcon</a>
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="/">
@@ -70,14 +73,26 @@
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
             $(document).ready(function() {
-                $('input[type=checkbox]').on('click', function() {
+                $('input[type=checkbox], input[type=radio], select').on('click', function() {
                     var parent = this.parentNode;
+
                     if (!($(this).is(':checked'))) {
                         $(parent).removeClass('label-success').addClass('label-danger');
                     } else {
                         $(parent).removeClass('label-danger').addClass('label-success');
                     }
-                    $.post('/filter', $(parent.parentNode).serialize(), function(data) {
+
+                    tags    = $('input[type=checkbox]:checked').serialize();
+                    page    = $('input[name=page]:checked').val();
+                    counter = $('select option:selected').text();
+
+                    if ( tags ) {
+                        url = tags + '&page=' + page + '&counter=' + counter;
+                    } else {   
+                        url = 'page=' + page + '&counter=' + counter;
+                    }
+
+                    $.post('/filter', url, function(data) {
                         $('#product-list').html(data);
                     });
                 });

@@ -171,4 +171,28 @@ class Projects
         }
         return $featured;
     }
+
+
+    /**
+     * Paginate results
+     *
+     * @access public
+     * @return array
+     *
+     * @author Christian Esperar <christianesperar@gmail.com>
+     */
+    public function paginate($list, $currentPage, $limit = 10)
+    {
+        //Passing an array as data
+        $paginator = new \Phalcon\Paginator\Adapter\NativeArray(
+            array(
+                "data"  => $list,
+                "limit" => $limit,
+                "page"  => $currentPage,
+            )
+        ); 
+
+        // Return the paginated results
+       return $paginator->getPaginate();
+    }
 }

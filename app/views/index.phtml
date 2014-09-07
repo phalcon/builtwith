@@ -72,15 +72,29 @@
         </script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
+
             $(document).ready(function() {
-                $('input[type=checkbox]').on('click', function() {
+                $('input[type=checkbox], input[type=radio]').on('click', function() {
                     var parent = this.parentNode;
+
+                    // $('.paginate').removeClass('label-success').addClass('label-danger');
+
                     if (!($(this).is(':checked'))) {
                         $(parent).removeClass('label-success').addClass('label-danger');
                     } else {
                         $(parent).removeClass('label-danger').addClass('label-success');
                     }
-                    $.post('/filter', $(parent.parentNode).serialize(), function(data) {
+
+                    tags = $('input[type=checkbox]:checked').serialize();
+                    page = $('input[name=page]:checked').val();
+
+                    if ( tags ) {
+                        url = tags + '&page=' + page;
+                    } else {   
+                        url = 'page=' + page;
+                    }
+
+                    $.post('/filter', url, function(data) {
                         $('#product-list').html(data);
                     });
                 });

@@ -1,4 +1,21 @@
-        <?php foreach ($projects as $project): ?>
+        <div class="col-md-6 text-left">
+            <span class="counter"><?php echo "Page ", $page->current, " of ", $page->total_pages; ?></span>
+        </div>
+        <div class="col-md-6 text-right paginator">
+            <label for="first" class="label label-danger paginate first" style="cursor:pointer;">
+                <input type="radio" id="first" name="page" class="label" value="1"> First
+            </label>
+            <label for="previous" class="label label-danger paginate previous" style="cursor:pointer;">
+                <input type="radio" id="previous" name="page" class="label" value="<?=$page->before?>"> Previous
+            </label>
+            <label for="next" class="label label-danger paginate next" style="cursor:pointer;">
+                <input type="radio" id="next" name="page" class="label" value="<?=$page->next?>"> Next
+            </label>
+            <label for="last" class="label label-danger paginate last" style="cursor:pointer;">
+                <input type="radio" id="last" name="page" class="label" value="<?=$page->last?>"> Last
+            </label>
+        </div>
+        <?php foreach ($page->items as $project): ?>
             <div class="col-sm-6">
                 <div class="well well-sm">
                     <h3><a href="<?=$project['url']?>"><?=$project['name']?></a></h3>

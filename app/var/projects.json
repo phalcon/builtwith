@@ -288,5 +288,22 @@
                 "web application"
             ]
         }
+        {
+            "permalink": "robertbojorcv",
+            "name": "Robert Bojor CV",
+            "summary": "An online CV powered by Phalcon and mongoDB",
+            "description": "Online CV and blog of Robert Bojor, web and mobile developer, crafted with <3, powered by Phalcon and mongoDB",
+            "url": "http://www.robertbojor.com",
+            "info": "The website also features a blog and a small theme shop",
+            "submitter": "robertBojor",
+            "submissionDate": "2014-09-08",
+            "images": [],
+            "tags": [
+                "production",
+                "CMS", "blog", "productivity",
+                "mongo",
+                "multi module"
+            ]
+        }
     ]
 }

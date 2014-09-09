@@ -8,6 +8,7 @@
 h3 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #428bca; }
 h3:hover { color: #2a6496; }
 .logo { height: 40px; margin-top: -10px; }
+.logo-text { height: 22px; margin-top: -3px; }
 .paginator { margin-bottom: 20px; }
 .paginate { padding: 0.5em .6em .4em; }
 .paginate:hover { background-color: #5cb85c; }

@@ -304,6 +304,22 @@
                 "mongo",
                 "multi module"
             ]
+        },
+        {
+            "permalink": "stolarstwogiemza",
+            "name": "Stolarstwo Giemza",
+            "summary": "Carpentry Giemza page for the needs of the family business",
+            "description": "Company page carpentry, acting on ph 2.0.0 and mysql (Polish site)",
+            "url": "http://www.stolarstwo-giemza.pl",
+            "info": "",
+            "submitter": "Jarek",
+            "submissionDate": "2014-09-10",
+            "images": [],
+            "tags": [
+                "CMS", "module", "php5-4",
+                "mysql",
+                "custom module"
+            ]
         }
     ]
 }

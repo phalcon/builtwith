@@ -320,6 +320,35 @@
                 "mysql",
                 "custom module"
             ]
+        },
+        {
+            "permalink": "jream",
+            "name": "JREAM",
+            "summary": "Online Programming Courses",
+            "description": "Learn to Program by Following Along!",
+            "url": "http://jream.com",
+            "info": "Streaming Video Service",
+            "submitter": "jream",
+            "submissionDate": "2014-09-10",
+            "images": [
+                {"name": "frontend.jpg", "description":""},
+                {"name": "frontend2.jpg", "description":""}
+                {"name": "backend.jpg", "description":""},
+                {"name": "backend2.jpg", "description":""}
+            ],
+            "tags": [
+                "PHP 5.5",
+                "Composer",
+                "AWS",
+                "CloudFront",
+                "S3",
+                "Route 53",
+                "Gulp",
+                "Bower",
+                "Phalcon Dev Tools",
+                "Codeception",
+                "Phalcon Vagrant"
+            ]
         }
     ]
 }

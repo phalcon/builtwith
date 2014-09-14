@@ -253,8 +253,8 @@
                 "multi-module"
             ]
         },
-        {
-            "permalink": "karakurihiden",
+
+{            "permalink": "karakurihiden",
             "name": "Karakuri Hiden Website",
             "summary": "The website of the Samurai Factory Inc",
             "description": "The website has posted the technical information of Phalcon, PHP etc.",
@@ -329,24 +329,18 @@
             "url": "http://jream.com",
             "info": "Streaming Video Service",
             "submitter": "jream",
-            "submissionDate": "2014-09-10",
+            "submissionDate": "2014-09-14",
             "images": [
-                {"name": "frontend.jpg", "description":""},
-                {"name": "frontend2.jpg", "description":""}
-                {"name": "backend.jpg", "description":""},
-                {"name": "backend2.jpg", "description":""}
+                {"name": "thumb.jpg", "description":""}
             ],
             "tags": [
                 "PHP 5.5",
                 "Composer",
+                "Codeception",
                 "AWS",
-                "CloudFront",
-                "S3",
-                "Route 53",
                 "Gulp",
                 "Bower",
                 "Phalcon Dev Tools",
-                "Codeception",
                 "Phalcon Vagrant"
             ]
         }

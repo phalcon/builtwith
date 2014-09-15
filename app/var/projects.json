@@ -253,8 +253,8 @@
                 "multi-module"
             ]
         },
-        {
-            "permalink": "karakurihiden",
+
+{            "permalink": "karakurihiden",
             "name": "Karakuri Hiden Website",
             "summary": "The website of the Samurai Factory Inc",
             "description": "The website has posted the technical information of Phalcon, PHP etc.",
@@ -319,6 +319,29 @@
                 "CMS", "module", "php5-4",
                 "mysql",
                 "custom module"
+            ]
+        },
+        {
+            "permalink": "jream",
+            "name": "JREAM",
+            "summary": "Online Programming Courses",
+            "description": "Learn to Program by Following Along!",
+            "url": "http://jream.com",
+            "info": "Streaming Video Service",
+            "submitter": "jream",
+            "submissionDate": "2014-09-14",
+            "images": [
+                {"name": "thumb.jpg", "description":""}
+            ],
+            "tags": [
+                "PHP 5.5",
+                "Composer",
+                "Codeception",
+                "AWS",
+                "Gulp",
+                "Bower",
+                "Phalcon Dev Tools",
+                "Phalcon Vagrant"
             ]
         }
     ]

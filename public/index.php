@@ -1,5 +1,7 @@
 <?php
 
+use Phalcon\Mvc\Application;
+
 error_reporting(E_ALL);
 
 try {
@@ -18,11 +20,11 @@ try {
      * Read bootstrap
      */
     include ROOT_PATH . "/app/var/config/bootstrap.php";
-    
+
     /**
      * Handle the request
      */
-    $application = new \Phalcon\Mvc\Application($di);
+    $application = new Application($di);
 
     echo $application->handle()->getContent();
 

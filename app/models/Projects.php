@@ -1,5 +1,7 @@
 <?php
 
+use Phalcon\Paginator\Adapter\NativeArray;
+
 /**
  * Project model
  *
@@ -184,13 +186,13 @@ class Projects
     public function paginate($list, $currentPage, $limit = 10)
     {
         //Passing an array as data
-        $paginator = new \Phalcon\Paginator\Adapter\NativeArray(
+        $paginator = new NativeArray(
             array(
                 "data"  => $list,
                 "limit" => $limit,
                 "page"  => $currentPage,
             )
-        ); 
+        );
 
         // Return the paginated results
        return $paginator->getPaginate();

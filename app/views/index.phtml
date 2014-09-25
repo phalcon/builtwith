@@ -7,8 +7,8 @@
         <title>Built with Phalcon</title>
 
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.css" rel="stylesheet">
-        <link href="/css/builtwith.css" rel="stylesheet" />
+        <?php echo $this->tag->stylesheetLink("css/ekko-lightbox.css") ?>
+        <?php echo $this->tag->stylesheetLink("css/builtwith.css") ?>
         <link href="http://static.phalconphp.com/favicon.ico" rel="icon" type="image/ico" />
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -25,7 +25,7 @@
                 <div class="navbar-header">
                     <a href="http://phalconphp.com/en/" class="navbar-brand">
                         <img src="http://static.phalconphp.com/images/logo.png" alt="logo" class="logo">
-                        <img src="/img/logo-text.png" alt="logo" class="logo-text">
+                        <?php echo $this->tag->image(array("img/logo-text.png", "alt" => "logo", "class" => "logo-text")) ?>
                     </a>
                 </div>
                 <ul class="nav navbar-nav">
@@ -89,7 +89,7 @@
 
                     if ( tags ) {
                         url = tags + '&page=' + page + '&counter=' + counter;
-                    } else {   
+                    } else {
                         url = 'page=' + page + '&counter=' + counter;
                     }
 

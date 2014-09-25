@@ -1,7 +1,9 @@
 <?php
 
+use Phalcon\Loader;
 use Phalcon\DI\FactoryDefault;
 use Phalcon\Mvc\View;
+use Phalcon\Mvc\Router;
 use Phalcon\Mvc\Url as UrlResolver;
 use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
@@ -11,7 +13,7 @@ use Phalcon\Session\Adapter\Files as SessionAdapter;
 /**
  * We're a registering a set of directories taken from the configuration file
  */
-$loader = new \Phalcon\Loader();
+$loader = new Loader();
 $loader->registerDirs(
     array(
         $config->application->controllersDir,
@@ -44,21 +46,6 @@ $di->set('view', function () use ($config) {
 
     $view->setViewsDir($config->application->viewsDir);
 
-    $view->registerEngines(array(
-        '.volt' => function ($view, $di) use ($config) {
-
-            $volt = new VoltEngine($view, $di);
-
-            $volt->setOptions(array(
-                'compiledPath' => $config->application->cacheDir,
-                'compiledSeparator' => '_'
-            ));
-
-            return $volt;
-        },
-        '.phtml' => 'Phalcon\Mvc\View\Engine\Php'
-    ));
-
     return $view;
 }, true);
 
@@ -90,12 +77,15 @@ $di->set('config', function() use ($config) {
  * Register router
  */
 $di->set('router', function() {
-    $router = new \Phalcon\Mvc\Router();
+
+    $router = new Router();
     $router->removeExtraSlashes(true);
+
     $router->setDefaults([
         'controller' => 'index',
         'action' => 'index'
     ]);
+
     /*$router->notFound([
         'controller'    => 'errors',
         'action'        => 'pageNotFound'
@@ -111,5 +101,6 @@ $di->set('router', function() {
     ])->beforeMatch(function($uri, $route) {
         return ((isset($_SERVER['HTTP_X_REQUESTED_WITH'])) && ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest'));
     });
+
     return $router;
 });

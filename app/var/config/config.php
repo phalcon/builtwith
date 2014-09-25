@@ -2,7 +2,7 @@
 
 return new \Phalcon\Config(array(
     'application' => array(
-        'cdnUrl'         => 'http://d2g4z63w75tffk.cloudfront.net',
+        'cdnUrl'         => 'https://raw.githubusercontent.com/phalcon/builtwith/master/public',
         'controllersDir' => ROOT_PATH . '/app/controllers/',
         'modelsDir'      => ROOT_PATH . '/app/models/',
         'viewsDir'       => ROOT_PATH . '/app/views/',

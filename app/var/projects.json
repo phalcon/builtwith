@@ -343,6 +343,29 @@
                 "Phalcon Dev Tools",
                 "Phalcon Vagrant"
             ]
-        }
+        },
+        {
+            "permalink": "nhieuviec",
+            "name": "NHIEUVIEC.COM",
+            "summary": "Job Search, career and employment in Vietnam",
+            "description": "Online job search for employer and job seeker resources. Still in beta testing",
+            "url": "http://www.nhieuviec.com",
+            "info": "Job Site Service",
+            "submitter": "kienhung",
+            "submissionDate": "2014-09-21",
+            "images": [
+                {"name": "thumb.png", "description":""}
+            ],
+            "tags": [
+                "PHP 5.4",
+                "Zend Server",
+                "Mysql",
+                "Nginx",
+                "Phalcon",
+                "production",
+                "CRUD",
+                "Bootstrap"
+            ]
+        }		
     ]
 }

@@ -27,7 +27,7 @@
 
         <div class="carousel-inner">
             <div class="item active">
-                <img class="bw-img" src="<?=$cdn?>/projects/<?=$featured[0]['permalink']?>/thumb.png">
+                <img class="bw-img img-responsive" src="<?=$cdn?>/projects/<?=$featured[0]['permalink']?>/thumb.png">
                 <div class="carousel-caption">
                     <h3>
                         <a href="/<?=$featured[0]['permalink']?>"><?=$featured[0]['name']?></a>
@@ -37,7 +37,7 @@
             </div>
             <?php for ($i = 1; $i < sizeof($featured); $i++): ?>
             <div class="item">
-                <img class="bw-img" src="<?=$cdn?>/projects/<?=$featured[$i]['permalink']?>/thumb.png">
+                <img class="bw-img img-responsive" src="<?=$cdn?>/projects/<?=$featured[$i]['permalink']?>/thumb.png">
                 <div class="carousel-caption">
                     <h3>
                         <a href="/<?=$featured[$i]['permalink']?>"><?=$featured[$i]['name']?></a>
@@ -90,7 +90,7 @@
                     <h3><a href="<?=$project['url']?>"><?=$project['name']?></a></h3>
                     <div style="text-align: center;">
                         <a href="<?=$project['url']?>">
-                            <img class="bw-img" src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
+                            <img class="bw-img img-responsive" src="<?=$cdn?>/projects/<?=$project['permalink']?>/thumb.png">
                         </a>
                     </div>
                     <p><a href="<?=$project['url']?>"><?=$project['url']?></a></p>

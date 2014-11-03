@@ -366,6 +366,27 @@
                 "CRUD",
                 "Bootstrap"
             ]
+        }
+        {
+            "permalink": "yuyangongfu",
+            "name": "yuyangongfu.com",
+            "summary": "Mandarin Chinese learning tool",
+            "description": "Yuyangongfu.com is a web application for English speakers learning Mandarin Chinese. It currently includes a Mandarin <--> English dictionary, user-created vocabulary lists as well as a flashcard style vocabulary memorization tool.",
+            "url": "https://www.yuyangongfu.com",
+            "info": "",
+            "submitter": "the-notable",
+            "submissionDate": "2014-10-02",
+            "images": [
+                {"name": "thumb.png", "description":"Yuyangongfu Logo"}
+            ],
+            "tags": [
+                "production",
+                "education",
+                "mysql",
+                "neo4j",
+                "multi module",
+                "web application"
+            ]
         }		
     ]
 }

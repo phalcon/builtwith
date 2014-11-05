@@ -18,3 +18,49 @@ h3:hover { color: #2a6496; }
 .last { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .counter { font-size: 12px; color: #bbb; }
 .navbar-inverse .navbar-nav>li>a { padding-top: 18px; }
+.loading-container { display: none; background: white; z-index: 9999; }
+.loading-text { color: #428bca; font-size: 1.5em; font-weight: 600; }
+.bubblingG { text-align: center; width: 80px; height: 50px; margin: auto; }
+.bubblingG > span {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  margin: 25px auto;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.3s infinite ease-in-out;
+  animation: bouncedelay 1.3s infinite ease-in-out;
+  /* PREVENT FIRST FRAME FROM FLICKERING WHEN ANIMATION STARTS */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+#bubblingG_1 {
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+}
+#bubblingG_2 {
+  -webkit-animation-delay: 0.16s;
+  animation-delay: 0.16s;
+}
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% {
+      -webkit-transform: scale(1.0) translateY(0);
+      opacity: 1;
+  }
+  40% {
+      -webkit-transform: scale(2.5) translateY(-10px);
+      opacity: 0;
+  }
+}
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(1.0) translateY(0);
+    -webkit-transform: scale(1.0) translateY(0);
+    opacity: 1;
+  } 40% { 
+    transform: scale(2.5) translateY(-10px);
+    -webkit-transform: scale(2.5) translateY(-10px);
+    opacity: 0;
+  }
+}

@@ -82,6 +82,9 @@
                 $('input[type=checkbox], input[type=radio], select').on('click', function() {
                     var parent = this.parentNode;
 
+                    $('.loading-container').show();
+                    $('.project-container').hide();
+
                     if (!($(this).is(':checked'))) {
                         $(parent).removeClass('label-success').addClass('label-danger');
                     } else {
@@ -104,8 +107,10 @@
                         var content = $('.content');
                         
                         $(content[1]).css('padding', 0);
-                    });
 
+                        $('.loading-container').hide();
+                        $('.project-container').show();
+                    });
                 });
             });
         </script>

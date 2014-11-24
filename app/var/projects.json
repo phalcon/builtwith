@@ -406,6 +406,28 @@
                 "mysql",
                 "multi module"
             ]
+        },
+        {
+            "permalink": "rightcasino",
+            "name": "RightCasino",
+            "summary": "Online Casino Comparison Portal",
+            "description": "RightCasino.com is an online casino comparison portal that helps users find their right casino according to their preferences. It also features game strategies and gambling industry news.",
+            "url": "http://www.rightcasino.com/",
+            "info": "",
+            "submitter": "armonb",
+            "submissionDate": "2014-11-24",
+            "images": [
+                {"name": "thumb.png", "description":"RightCasino Logo"}
+            ],
+            "tags": [
+				"production",
+                "CMS",
+                "CRUD",
+                "mysql",
+                "multi module",
+				"education",
+				"web application"
+            ]
         }
     ]
 }

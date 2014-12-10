@@ -8,7 +8,7 @@ use Phalcon\Mvc\Controller;
 /**
  * Index controller
  *
- * @author Ole Aass <ole@oleaass.com>
+ * @author Ole Aass <ole.aass@gmx.com>
  */
 class IndexController extends Controller
 {
@@ -19,8 +19,8 @@ class IndexController extends Controller
      *
      * @access public
      * @return void
-     * 
-     * @author Ole Aass <ole@oleaass.com> 
+     *
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function initialize()
     {
@@ -33,18 +33,19 @@ class IndexController extends Controller
      * @access public
      * @return void
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function indexAction()
     {
         $projects = new Projects();
 
         $currentPage = $this->request->getQuery('page', 'int');
-        
+
         // The data set to paginate
         $list = $projects->findAll();
-            
-        $page = $projects->paginate($list, $currentPage);
+
+        $page = $projects->paginate($list, $currentPage, 10);
+        $page->counter = 10;
 
         $this->view->setVar('page', $page);
         $this->view->setVar('featured', $projects->findFeatured());
@@ -59,7 +60,7 @@ class IndexController extends Controller
      * @access public
      * @return void
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function filterAction()
     {
@@ -67,7 +68,7 @@ class IndexController extends Controller
             $tags        = $this->request->getPost('tags');
             $currentPage = $this->request->getPost('page', 'int');
             $counter     = $this->request->getPost('counter', 'int');
-            
+
             $projects = new Projects();
 
             if (empty($tags)) {
@@ -81,7 +82,7 @@ class IndexController extends Controller
             $page->counter = $counter;
 
             $this->view->setVar('page', $page);
-            $this->view->partial('index/projects'); 
+            $this->view->partial('index/projects');
         }
     }
 
@@ -92,8 +93,8 @@ class IndexController extends Controller
      *
      * @access public
      * @return void
-     * 
-     * @author Ole Aass <ole@oleaass.com>
+     *
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function profileAction($permalink)
     {

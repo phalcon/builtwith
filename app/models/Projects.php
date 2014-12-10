@@ -5,7 +5,7 @@ use Phalcon\Paginator\Adapter\NativeArray;
 /**
  * Project model
  *
- * @author Ole Aass <ole@oleaass.com>
+ * @author Ole Aass <ole.aass@gmx.com>
  */
 class Projects
 {
@@ -31,7 +31,7 @@ class Projects
      * @access public
      * @return void
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function __construct()
     {
@@ -50,7 +50,7 @@ class Projects
      * @access public
      * @return array
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function findAll($sort = 'submissionDate')
     {
@@ -64,7 +64,7 @@ class Projects
      * @access public
      * @return array
      *
-     * @author Ole Aaas <ole@oleaass.com>
+     * @author Ole Aaas <ole.aass@gmx.com>
      */
     public function getTags()
     {
@@ -86,7 +86,7 @@ class Projects
      * @access public
      * @return array
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function findByTags($tags, $sort = 'submissionDate')
     {
@@ -117,7 +117,7 @@ class Projects
      * @access public
      * @return array
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function sortBy($projects, $sort)
     {
@@ -140,7 +140,7 @@ class Projects
      * @access public
      * @return array|boolean
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function findByPermalink($permalink)
     {
@@ -161,7 +161,7 @@ class Projects
      * @access public
      * @return array
      *
-     * @author Ole Aass <ole@oleaass.com>
+     * @author Ole Aass <ole.aass@gmx.com>
      */
     public function findFeatured()
     {

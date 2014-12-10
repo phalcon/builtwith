@@ -16,11 +16,11 @@
                     <input type="radio" id="last" name="page" class="label" value="<?=$page->last?>"> Last
                 </label>
                 <select class="paginate-count">
-                    <option value="10">10</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                    <option value="40">40</option>
-                    <option value="50">50</option>
+                    <option value="10"<?=($page->counter==10)?' selected':''?>>10</option>
+                    <option value="20"<?=($page->counter==20)?' selected':''?>>20</option>
+                    <option value="30"<?=($page->counter==30)?' selected':''?>>30</option>
+                    <option value="40"<?=($page->counter==40)?' selected':''?>>40</option>
+                    <option value="50"<?=($page->counter==50)?' selected':''?>>50</option>
                 </select>
             </div>
             <?php foreach ($page->items as $project): ?>

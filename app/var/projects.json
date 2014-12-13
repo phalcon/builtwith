@@ -428,6 +428,52 @@
 				"education",
 				"web application"
             ]
+        },
+        {
+            "permalink": "phalcon-tip",
+            "name": "Phalcon Community Share Tip and Trick",
+            "summary": "Phalcon Tips was created to help Phalcon community find and share interesting ways of using Phalcon framework.",
+            "description":"The idea is simple: When you work with Phalcon long enough you find some cool ways of using it, and to other people they might seem as Tips so we thought to create a centralized place for all Phalcon users to share those findings.",
+            "url": "http://phalcontip.com",
+            "info": "",
+            "src": "https://github.com/zphalcon/phalcon-tip",
+            "submitter": "duythien",
+            "submissionDate": "2014-12-13",
+            "images": [
+                {"name": "thumb.png", "description":"Main Page"},
+  
+            ],
+            "tags": [
+                "production",
+                "productivity",
+                "forum",
+                "mysql",
+                "github",
+                "open source",
+                "single module",
+                "tests included"
+            ]
+        },
+        {
+            "permalink": "phalcon-jobs",
+            "name": "Phalcon Jobs",
+            "summary": "The best place to find Phalcon (and other) programming jobs. ",
+            "description": "Online job search for employer and job seeker resources.",
+            "url": "http://phalconjobs.com",
+            "info": "Job Site Service",
+            "submitter": "duythien",
+            "submissionDate": "2014-09-21",
+            "images": [
+                {"name": "thumb.png", "description":"Main page"}
+            ],
+            "tags": [
+                "Mysql",
+                "Nginx",
+                "Phalcon",
+                "production",
+                "CRUD",
+                "Bootstrap"
+            ]
         }
     ]
 }

@@ -253,8 +253,8 @@
                 "multi-module"
             ]
         },
-
-{            "permalink": "karakurihiden",
+        {
+            "permalink": "karakurihiden",
             "name": "Karakuri Hiden Website",
             "summary": "The website of the Samurai Factory Inc",
             "description": "The website has posted the technical information of Phalcon, PHP etc.",
@@ -440,8 +440,7 @@
             "submitter": "duythien",
             "submissionDate": "2014-12-13",
             "images": [
-                {"name": "thumb.png", "description":"Main Page"},
-  
+                {"name": "thumb.png", "description":"Main Page"}
             ],
             "tags": [
                 "production",

@@ -484,7 +484,10 @@
             "submitter": "cuongnq",
             "submissionDate": "2014-12-16",
             "images": [
-                {"name": "thumb.png", "description":"IMEI Database Lookup"}
+                {"name": "thumb.png", "description":"IMEI Database Lookup"},
+                {"name": "imei_check.png", "description":"Check phone model, manufacturer, brand, band by imei"},
+                {"name": "iphone_check.png", "description":"Check iPhone Carrier, simlock"},
+                {"name": "blacklist_check.png", "description":"Check Blacklist, Lost, Stolen Phone"}
             ],
             "tags": [
                 "PHP 5.4",

@@ -506,5 +506,32 @@
                 "carrier"
             ]
         },
+        {
+            "permalink": "king-of-episodes",
+            "name": "King of Episodes",
+            "summary": "A website to help you with keeping track of your TV Shows!",
+            "description": "Fueled with data from thetvdb.com this website keeps track of which episodes of your tv shows you have already seen.",
+            "url": "https://kingofeps.tv",
+            "info": "TV show tracker",
+            "src": "https://bitbucket.org/natronite/king-of-episodes",
+            "submitter": "natronite",
+            "submissionDate": "2014-12-16",
+            "images": [
+                {"name": "koe.png", "description":"Welcome Page"},
+                {"name": "show.png", "description":"Show detail: The Big Bang Theory"},
+                {"name": "watch.png", "description":"What to watch next"}
+            ],
+            "tags": [
+                "tv",
+                "tv show",
+                "track",
+                "website",
+                "episode",
+                "bitbucket",
+                "foundation",
+                "Mysql",
+                "web application"
+            ]
+        }
     ]
 }

@@ -474,7 +474,7 @@
                 "Bootstrap"
             ]
         },
-           {
+        {
             "permalink": "imeidata",
             "name": "IMEI Database Lookup",
             "summary": "IMEI Check and Analytics",
@@ -505,6 +505,26 @@
                 "warranty",
                 "carrier"
             ]
+        },
+        {
+            "permalink": "24sata",
+            "name": "24sata.rs",
+            "summary": "24sata.rs - online newspaper",
+            "description": "24sata.rs is among top 10 most visited websites in Serbia with almost 6 million visits per month and reach of almost 23% according to http://www.audience.rs/. Both frontend API and underlying CMS are written from scratch using PhalconPHP version 1.3.2.",
+            "url": "http://www.24sata.rs",
+            "submitter": "digitronac",
+            "submissionDate": "2014-12-31",
+            "images": [
+                {"name": "24sata-2.png", "description":"frontend 1"},
+                {"name": "24sata-3.png", "description":"frontend 2"}
+            ],
+            "tags": [
+                "production",
+                "media", "entertainment", "high-load", "high-volume",
+                "mysql", "redis", "memcache",
+                "multi module"
+            ]
         }
     ]
 }
+

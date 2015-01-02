@@ -9,10 +9,13 @@
     <div class="col-sm-7">
         <table class="table table-condensed table-striped table-bordered">
             <tbody>
+                <?php if (isset($project['name'])): ?>
                 <tr>
                     <th class="col-sm-3">Name</th>
                     <td><?=$project['name']?></td>
                 </tr>
+                <?php endif; ?>
+                <?php if (isset($project['url'])): ?>
                 <tr>
                     <th class="col-sm-3">Url</th>
                     <td>
@@ -21,6 +24,8 @@
                         </a>
                     </td>
                 </tr>
+                <?php endif; ?>
+                <?php if (isset($project['info'])): ?>
                 <tr>
                     <th class="col-sm-3">Info</th>
                     <td>
@@ -29,6 +34,7 @@
                         </a>
                     </td>
                 </tr>
+                <?php endif; ?>
                 <?php if (isset($project['src'])): ?>
                 <tr>
                     <th class="col-sm-3">Source</th>
@@ -39,6 +45,7 @@
                     </td>
                 </tr>
                 <?php endif; ?>
+                <?php if (isset($project['tags'])): ?>
                 <tr>
                     <th class="col-sm-3">Tags</th>
                     <td class="col-sm-9">
@@ -46,6 +53,8 @@
                             <span class="label label-primary"><?=$tag?></span>
                         <?php endforeach; ?>
                     </td>
+                </tr>
+                <?php endif; ?>
             </tbody>
         </table>
     </div>

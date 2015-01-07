@@ -548,6 +548,25 @@
                 "Mysql",
                 "web application"
             ]
+        },
+        {
+            "permalink": "wallstreetcn",
+            "name": "WallstreetCN",
+            "summary": "One of the most famous Chinese finance websites. Maybe the biggest phalcon based project in China",
+            "description": "WallstreetCN.com is top 5 finance websites in China which completely build by Phalcon, thanks to the high performance of Phalcon, WallstreetCN handle over 40 million page visits and 4 billion API calls per month by very few cost (less than 10 VPS).",
+            "url": "http://wallstreetcn.com/",
+            "info": "WallstreetCN",
+            "src": "https://github.com/EvaEngine/EvaEngine",
+            "submitter": "AlloVince",
+            "submissionDate": "2015-01-07",
+            "images": [
+            ],
+            "tags": [
+                "finance",
+                "realtime",
+                "evaengine",
+                "Chinese"
+            ]
         }
     ]
 }

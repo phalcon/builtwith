@@ -567,6 +567,29 @@
                 "evaengine",
                 "Chinese"
             ]
+        },
+        {
+            "permalink": "bootlegger-trail-race",
+            "name": "Boolegger50K",
+            "summary": "Website for Bootlegger 25k/50k",
+            "description": "Bootlegger is a trail running race in Boulder City, NV with a 25k and 50k ultramarathon option. ",
+            "url": "http://bootlegger50k.com/",
+            "info": "",
+            "submitter": "ShadMickelberry",
+            "submissionDate": "2015-02-10",
+            "images": [
+                {"name": "thumb.png", "description":"Front Page"},
+                {"name": "records.png", "description":"Race Records Page"},
+                {"name": "results.png", "description":"Race Results Page"},
+                {"name": "runner-search.png", "description":"Runner Search Page"}
+            ],
+            "tags": [
+                "bootstrap",
+                "angularjs",
+                "mysql",
+                "apache",
+                "website"
+            ]
         }
     ]
 }

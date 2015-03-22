@@ -590,6 +590,30 @@
                 "apache",
                 "website"
             ]
+        },
+        {
+            "permalink": "sauny-24",
+            "name": "Sauny-24",
+            "summary": "Sauny-24.pl - is a place where you can find Saunas, SPAs, Thermals, Waterparks around you.",
+            "description": "We promote a healthy lifestyle and keeping body in fit. Currently service is available only in Poland.",
+            "url": "http://sauny-24.pl/",
+            "info": "http://sauny-24.pl/blog - link to our blog",
+            "submitter": "pedchenkop",
+            "submissionDate": "2015-03-22",
+            "images": [
+                {"name": "thumb.png", "description":"Sauny-24 Homepage"},
+                {"name": "blog.png", "description":"Blog and News Page"},
+                {"name": "search.png", "description":"Search Page"}
+            ],
+            "tags": [
+                "health",
+                "beauty",
+                "apache",
+                "website",
+                "yona-cms",
+                "CMS",
+                "startup"
+            ]
         }
     ]
 }

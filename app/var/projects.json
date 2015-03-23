@@ -569,6 +569,29 @@
             ]
         },
         {
+            "permalink": "unturnedserv",
+            "name": "Unturned servers",
+            "summary": "Monitoring of Unturned servers",
+            "description": "Unturned server list with frequent checking of availability and players.",
+            "url": "http://unturnedserv.ru/",
+            "info": "",
+            "src": "",
+            "submitter": "quantum13",
+            "submissionDate": "2015-01-26",
+            "images": [
+              {"name": "thumb.png", "description":"Main Page"},
+            ],
+            "tags": [
+                "production",
+                "game", 
+                "unturned",
+                "mysql", 
+                "multi module",
+                "nginx",
+                "russian"
+            ]
+        },
+        {
             "permalink": "bootlegger-trail-race",
             "name": "Boolegger50K",
             "summary": "Website for Bootlegger 25k/50k",

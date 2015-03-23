@@ -579,7 +579,7 @@
             "submitter": "quantum13",
             "submissionDate": "2015-01-26",
             "images": [
-              {"name": "thumb.png", "description":"Main Page"},
+              {"name": "thumb.png", "description":"Main Page"}
             ],
             "tags": [
                 "production",

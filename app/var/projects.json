@@ -637,6 +637,29 @@
                 "CMS",
                 "startup"
             ]
+        },
+        {
+            "permalink": "tasker",
+            "name": "Task manager",
+            "summary": "A task manager based on Phalcon using Launchkey login",
+            "description": "Manage tasks and projects with this simple task manager that uses OAuth logins.",
+            "url": "https://github.com/ShadMickelberry/phalcon-tasker",
+            "info": "Task manager",
+            "submitter": "ShadMickelberry",
+            "submissionDate": "2015-04-01",
+            "images": [
+                {"name": "thumb.png", "description":"Dashboard"},
+                {"name": "task-list.png", "description":"Task List"}
+            ],
+            "tags": [
+                "demo",
+                "productivity",
+                "mysql",
+                "multi-module",
+                "Open Source",
+                "Git Hub",
+                "Apache"
+            ]
         }
     ]
 }

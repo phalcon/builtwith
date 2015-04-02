@@ -105,6 +105,26 @@
             ]
         },
         {
+            "permalink": "sahityo",
+            "name": "সাহিত্য ডট কম",
+            "summary": "Community Driven forum for sharing own poems, stories, articles etc.",
+            "description": "Heavy trafic community blog for sharing own creations built with PhalconPHP and social login enabled with ACL system.",
+            "url": "https://sahityo.com/",
+            "info": "",
+            "src": "",
+            "submitter": "sktanmoy",
+            "submissionDate": "2015-04-02",
+            "images": [
+            ],
+            "tags": [
+            	"production",
+                "blog","forum",
+                "mysql",
+                "single",
+                "social-login"
+            ]
+        },
+        {
             "permalink": "hurma-tv",
             "name": "Imageboard for intelligent individuals",
             "summary": "Hurma.tv is a popular image blog with a lot of interesting brain-improving facts about everything",

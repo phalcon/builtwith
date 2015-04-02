@@ -117,9 +117,10 @@
             "images": [
             ],
             "tags": [
-                "blog",
-                "forum",
+            	"production",
+                "blog","forum",
                 "mysql",
+                "single",
                 "social-login"
             ]
         },

@@ -110,8 +110,8 @@
             "summary": "Community Driven forum for sharing own poems, stories, articles etc.",
             "description": "Heavy trafic community blog for sharing own creations built with PhalconPHP and social login enabled with ACL system.",
             "url": "https://sahityo.com/",
-            "info": "",
-            "src": "",
+            "info": "We migrated from WordPress to PhalconPHP to get speed and flexibility. This project has powerful routing, great localization, excellent ACL, Fantastic social login system and lots of love for phalcon",
+            "src": "https://sahityo.com/",
             "submitter": "sktanmoy",
             "submissionDate": "2015-04-02",
             "images": [

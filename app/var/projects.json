@@ -28,6 +28,27 @@
                 "multilingual"
             ]
         },
+      {
+            "permalink": "oisie-com",
+            "name": "Oisie.com",
+            "summary": "Offline Tests building tool for Teachers written with Phalcon",
+            "description": "Working together prepare tests more effectively to achieve better results in your work!",
+            "url": "http://www.oisie.com",
+            "info": "",
+            "src": "",
+            "submitter": "Lukas Liesis",
+            "submissionDate": "2015-04-21",
+            "images": [
+                {"name": "ss1.png", "description":"Homepage"},
+                {"name": "ss2.png", "description":"Find colleagues"}
+            ],
+            "tags": [
+                "production",
+                "tool",
+                "making offline tests"
+                "multilingual"
+            ]
+        },
         {
             "permalink": "phalconphp-forum",
             "name": "Phalcon Community Discussion Forum",

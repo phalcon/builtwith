@@ -724,6 +724,30 @@
             ]
         },
         {
+            "permalink": "meteoblue",
+            "name": "meteoblue.com",
+            "summary": "meteoblue provides high-quality weather forests world-wide",
+            "description": "We operate our own high-resolution weather models and provide free weather forecasts for every place on earth. meteoblue models were initially developed at the University of Basel, Switzerland in 2006. Weather forecasts became quickly popular with scientists and the public having a specific interest in meteorology, including mountaineers, (hobby) pilots, and astronomers. The web-site started with Typo3 and Zend Framework and migrated early 2015 to Phalcon 2.",
+            "url": "https://www.meteoblue.com/",
+            "info": "",
+            "submitter": "patrick-zippenfenig",
+            "submissionDate": "2015-05-07",
+            "images": [
+                {"name": "overview.jpg", "description": "Overview"},
+                {"name": "search.jpg", "description": "Location search"},
+                {"name": "satellite.jpg", "description": "Satellite"},
+                {"name": "radar.jpg", "description": "Radar"},
+                {"name": "meteogram.jpg", "description": "Meteogram"}
+            ],
+            "tags": [
+                "production",
+                "weather-forecasting", "real-time", "travel",
+                "productivity",
+                "mysql", "memcache", "nginx", "PHP 5.6",
+                "multi-module", "multilingual"
+            ]
+        },
+        {
             "permalink": "vietnamvisa-agency",
             "name": "vietnamvisa-agency",
             "summary": "Our website is Vietnamese E-commercial website, we do business in Vietnam about Visa on Arrival services.",

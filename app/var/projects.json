@@ -722,6 +722,23 @@
                 "Git Hub",
                 "Apache"
             ]
+        },
+        {
+            "permalink": "vietnamvisa-agency",
+            "name": "vietnamvisa-agency",
+            "summary": "Our website is Vietnamese E-commercial website, we do business in Vietnam about Visa on Arrival services.",
+            "description": "Vietnam Visa upon arrival will make things easier. We now offer that way to reach our customer satisfaction on getting visa to Vietnam.",
+            "url": "http://www.vietnamvisa-agency.com/",
+            "info": "http://www.vietnamvisa-agency.com/blog - link to our blog",
+            "submitter": "vietnamvisa agency",
+            "submissionDate": "2015-04-19",
+            "images": [],
+            "tags": [
+                "vietnam visa agency",
+                "Apply for a Vietnam visa on arrival",
+                "vietnam agency",
+                "phalcon"
+            ]
         }
     ]
 }

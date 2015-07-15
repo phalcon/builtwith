@@ -745,6 +745,25 @@
                 "vietnam agency",
                 "phalcon"
             ]
+        },
+        {
+            "permalink": "thedealsco",
+            "name": "The Deals Co.",
+            "summary": "The Deals Co. (http://thedeals.co) is a price tracking and comparison website.",
+            "description": "The Deals Co. tracks and categorizes millions of products some of the most popular stores.  We enables users to sort through products from multiple stores in one place.  A unique feature on our site is the ability to sort by \"Biggest Price Drop.\"  Users can also sign up for price drop alerts.",
+            "url": "http://thedeals.co/",
+            "info": "The website is mobile friendly (responsive via Bootstrap).  In addition to using Phalcon's volt templating we are also using doT.js for final frontend layout.",
+            "submitter": "dasong",
+            "submissionDate": "2015-07-15",
+            "images": [
+                {"name": "thedealsco-large.png", "description": "Store menu"},
+                {"name": "thedealsco-large2.png", "description": "Categories menu"}
+            ],
+            "tags": [
+                "production",
+                "shopping", "price tracking", "responsive", "price comparison",
+                "postgres", "nginx", "doT.js", "PHP 5.5", "phalcon 2.0"
+            ]
         }
     ]
 }

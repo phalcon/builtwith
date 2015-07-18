@@ -28,6 +28,28 @@
                 "multilingual"
             ]
         },
+		{
+			"permalink": "ebookzip-info",
+			"name": "ebookzip.info",
+			"summary": "Ebook Free Download",
+			"description": "our store provides more than 3000 ebooks for download free. It's free and always. You can download ebook free anytime.",
+			"url": "http://ebookzip.info",
+			"info": "",
+			"src": "",
+			"submitter": "gialang",
+			"submissionDate": "2015-07-15",
+			"images": [
+			  {"name": "index.png", "description":"Homepage"},
+			  {"name": "detail.png", "description":"Page detail"},
+			  {"name": "mobile-version.png", "description":"Mobile version"}
+			],
+			"tags": [
+			  "production",
+			  "tool",
+			  "making offline tests",
+			  "multilingual"
+			]
+		},
       {
         "permalink": "oisie-com",
         "name": "Oisie.com",

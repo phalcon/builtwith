@@ -2,7 +2,7 @@
 
 return new \Phalcon\Config(array(
     'application' => array(
-        'cdnUrl'         => 'http://builtwith-1618.kxcdn.com',
+        'cdnUrl'         => 'https://static.phalconphp.com/builtwith',
         'controllersDir' => ROOT_PATH . '/app/controllers/',
         'modelsDir'      => ROOT_PATH . '/app/models/',
         'viewsDir'       => ROOT_PATH . '/app/views/',

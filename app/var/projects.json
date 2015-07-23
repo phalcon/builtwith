@@ -799,7 +799,7 @@
                 {"name": "website02.png", "description":"All Articles"},
                 {"name": "website03.png", "description":"Article Info"},
                 {"name": "website04.png", "description":"Admin Panel - Login"},
-                {"name": "website05.png", "description":"Admin Panel - Logged"},
+                {"name": "website05.png", "description":"Admin Panel - Logged"}
             ],
             "tags": [
                 "Production",
@@ -811,7 +811,7 @@
                 "Mustache",
                 "PHP 5.5",
                 "Phalcon 2.0",
-                "Responsive",
+                "Responsive"
             ]
         }
     ]

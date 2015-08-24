@@ -783,6 +783,25 @@
                 "shopping", "price tracking", "responsive", "price comparison",
                 "postgres", "nginx", "doT.js", "PHP 5.5", "phalcon 2.0"
             ]
+        },
+        {
+            "permalink": "DealDoodle-UK",
+            "name": "DealDoodle UK",
+            "summary": "DealDoodle is a Deals sharing website!",
+            "description": "DealDoodles is a lively community for those of us who shop online and who prefer the experience when we manage to find a good deal. This is the perfect space to share deals, experiences, suggestions or tips. We promise to provide you with an environment to keep it simple and also to keep an eye out for good deals and add them to DealDoodles. ",
+            "url": "http://thedeals.co/",
+            "info": "The website is mobile friendly (responsive via Bootstrap).  In addition to using Phalcon's volt templating we are also using doT.js for final frontend layout.",
+            "submitter": "dasong",
+            "submissionDate": "2015-07-15",
+            "images": [
+                {"name": "thedealsco-large.png", "description": "Store menu"},
+                {"name": "thedealsco-large2.png", "description": "Categories menu"}
+            ],
+            "tags": [
+                "production",
+                "shopping", "price tracking", "responsive", "price comparison",
+                "postgres", "nginx", "doT.js", "PHP 5.5", "phalcon 2.0"
+            ]
         }
     ]
 }

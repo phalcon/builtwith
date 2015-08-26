@@ -830,5 +830,22 @@
                 "Responsive"
             ]
         }
+        {
+            "permalink": "the dealio",
+            "name": "The Dealio",
+            "summary": "A place for businesses to run flash deals, promotions, coupons, or whatever, and a place for people to find the deals around them.",
+            "description": "The Dealio allows businesses to run promotions and users to search for those promotions based on the geoloc of the place of business.",
+            "url": "https://www.the-dealio.com",
+            "info": "Built with AngularJS, Bootstrap, and LESS on th front end and Phalcon serving up the data, it's a pretty darn quick and responsive site for use by everyone.",
+            "submitter": "zhegwood",
+            "submissionDate": "2015-08-23",
+            "images": [
+                {"name": "thumb.png", "description": "The Dealio!"}
+            ],
+            "tags": [
+                "Flash Deals", "Promotions", "Phalcon PHP", "Angular JS", "Bootstrap",
+                "LESS", "Google Maps", "Geolocation"
+            ]
+        }
     ]
 }

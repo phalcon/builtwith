@@ -13,7 +13,7 @@
 	    "submissionDate": "2015-08-15",
 	    "images": [],
 	    "tags": [
-	        "production"
+	        "production",
 	        "micro"
 	    ]
 	},
@@ -829,7 +829,7 @@
                 "Phalcon 2.0",
                 "Responsive"
             ]
-        }
+        },
         {
             "permalink": "the dealio",
             "name": "The Dealio",

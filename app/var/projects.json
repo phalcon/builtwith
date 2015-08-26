@@ -1,6 +1,22 @@
 {
     "featured": [],
     "projects": [
+	{
+	    "permalink": "phver",
+	    "name": "PhVer",
+	    "summary": "Phalcon Version Release History",
+	    "description": "Coded by Tuxy",
+	    "url": "http://zvoid.net/phver/",
+	    "info": "",
+	    "src": "",
+	    "submitter": "tuxy",
+	    "submissionDate": "2015-08-15",
+	    "images": [],
+	    "tags": [
+	        "production"
+	        "micro"
+	    ]
+	},
         {
             "permalink": "phalconphp-website",
             "name": "Phalcon Website",
@@ -785,6 +801,54 @@
             ]
         },
         {
+    
+            "permalink": "CG-Londrina",
+            "name": "Comuinidade da Graça de Londrina",
+            "summary": "Comuinidade da Graça de Londrina",
+            "description": "A foreign project ( Brazillian ) for a non profit organization",
+            "url": "http://www.cglondrina.com.br",
+            "info": "",
+            "src": "",
+            "submitter": "Hudson Nicoletti",
+            "submissionDate": "2015-07-23",
+            "images": [
+                {"name": "website01.png", "description":"Main Page"},
+                {"name": "website02.png", "description":"All Articles"},
+                {"name": "website03.png", "description":"Article Info"},
+                {"name": "website04.png", "description":"Admin Panel - Login"},
+                {"name": "website05.png", "description":"Admin Panel - Logged"}
+            ],
+            "tags": [
+                "Production",
+                "Non Profit",
+                "Website",
+                "Multi Module",
+                "Portuguese",
+                "Composer",
+                "Mustache",
+                "PHP 5.5",
+                "Phalcon 2.0",
+                "Responsive"
+            ]
+        },
+        {
+            "permalink": "the dealio",
+            "name": "The Dealio",
+            "summary": "A place for businesses to run flash deals, promotions, coupons, or whatever, and a place for people to find the deals around them.",
+            "description": "The Dealio allows businesses to run promotions and users to search for those promotions based on the geoloc of the place of business.",
+            "url": "https://www.the-dealio.com",
+            "info": "Built with AngularJS, Bootstrap, and LESS on th front end and Phalcon serving up the data, it's a pretty darn quick and responsive site for use by everyone.",
+            "submitter": "zhegwood",
+            "submissionDate": "2015-08-23",
+            "images": [
+                {"name": "thumb.png", "description": "The Dealio!"}
+            ],
+            "tags": [
+                "Flash Deals", "Promotions", "Phalcon PHP", "Angular JS", "Bootstrap",
+                "LESS", "Google Maps", "Geolocation"
+            ]
+        },
+        {
             "permalink": "phanbook",
             "name": "A Q&A, Discussion PHP platform",
             "summary": "Phanbook is the next-generation Q&A and forum software.",
@@ -804,8 +868,7 @@
                 "Bootstrap",
                 "Elastichsearch",
                 "Docker",
-                "Vagrant"
-            ]
+            ]   "Vagrant"
         }
     ]
 }

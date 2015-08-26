@@ -783,6 +783,29 @@
                 "shopping", "price tracking", "responsive", "price comparison",
                 "postgres", "nginx", "doT.js", "PHP 5.5", "phalcon 2.0"
             ]
+        },
+        {
+            "permalink": "phanbook",
+            "name": "A Q&A, Discussion PHP platform",
+            "summary": "Phanbook is the next-generation Q&A and forum software.",
+            "description": "Phanbook is the next-generation Q&A and forum software that makes online discussion, question and answer site for professional and enthusiast people. Also the name Phanbook is mean - Phan(Phalcon PHP)book(the your note book).",
+            "url": "http://phanbook.com",
+            "info": "Q&A, Discussion, Forum",
+            "submitter": "duythien",
+            "submissionDate": "2015-08-27",
+            "images": [
+                {"name": "home.png", "description":"Main page"}
+            ],
+            "tags": [
+                "Mysql",
+                "Nginx",
+                "Phalcon",
+                "production",
+                "Bootstrap",
+                "Elastichsearch",
+                "Docker",
+                "Vagrant"
+            ]
         }
     ]
 }

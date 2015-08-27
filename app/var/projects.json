@@ -13,7 +13,7 @@
 	    "submissionDate": "2015-08-15",
 	    "images": [],
 	    "tags": [
-	        "production"
+	        "production",
 	        "micro"
 	    ]
 	},
@@ -804,31 +804,32 @@
     
             "permalink": "CG-Londrina",
             "name": "Comuinidade da Graça de Londrina",
-            "summary": "Comuinidade da Graça de Londrina",
-            "description": "A foreign project ( Brazillian ) for a non profit organization",
+            "summary": "A foreign project ( Brazillian ) for a non profit organization.",
+            "description": "A foreign project ( Brazillian ) for a non profit organization, with a CMS for all of the pages content.",
             "url": "http://www.cglondrina.com.br",
-            "info": "",
-            "src": "",
-            "submitter": "Hudson Nicoletti",
+            "info": "The website is mobile friendly (responsive via Bootstrap).",
+            "submitter": "HudsonNicoletti",
             "submissionDate": "2015-07-23",
             "images": [
-                {"name": "website01.png", "description":"Main Page"},
-                {"name": "website02.png", "description":"All Articles"},
-                {"name": "website03.png", "description":"Article Info"},
-                {"name": "website04.png", "description":"Admin Panel - Login"},
-                {"name": "website05.png", "description":"Admin Panel - Logged"}
+                {"name": "website01.jpg", "description":"Main Page"},
+                {"name": "website02.jpg", "description":"All Articles"},
+                {"name": "website03.jpg", "description":"Article Info"},
+                {"name": "website04.jpg", "description":"Admin Panel - Login"},
+                {"name": "website05.jpg", "description":"Admin Panel - Logged"}
             ],
             "tags": [
                 "Production",
-                "Non Profit",
-                "Website",
+                "CRUD",
+                "mysql",
                 "Multi Module",
                 "Portuguese",
                 "Composer",
                 "Mustache",
                 "PHP 5.5",
                 "Phalcon 2.0",
-                "Responsive"
+                "Responsive",                
+                "Non Profit",
+                "Website"
             ]
         },
         {
@@ -846,6 +847,33 @@
             "tags": [
                 "Flash Deals", "Promotions", "Phalcon PHP", "Angular JS", "Bootstrap",
                 "LESS", "Google Maps", "Geolocation"
+            ]
+        },
+        {
+            "permalink": "istebenimstilim",
+            "name": "İşte Benim Stilim Resmi Web Sitesi",
+            "summary": "The official website of IsteBenimStilim, written with Phalcon!",
+            "description": "IsteBenimStilim is a Fashion TV Show, broadcasted on Turkey. That project coded with love by Netmoda INC. in Istanbul with Phalcon! ",
+            "url": "http://istebenimstilim.com",
+            "info": "",
+            "src": "https://github.com/phalcon/website",
+            "submitter": "geass",
+            "submissionDate": "2015-08-27",
+            "images": [
+                {"name": "website01.png", "description":"Main Page"},
+                {"name": "website02.png", "description":"Shop"},
+                {"name": "website03.png", "description":"Creation"}
+            ],
+            "tags": [
+                "production",
+                "productivity",
+                "website",
+                "tv show",
+                "php",
+                "phalcon",
+                "elasticsearch",
+                "mongo",
+                "redis"
             ]
         },
         {

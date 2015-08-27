@@ -803,31 +803,32 @@
         {
             "permalink": "CG-Londrina",
             "name": "Comuinidade da Graça de Londrina",
-            "summary": "Comuinidade da Graça de Londrina",
-            "description": "A foreign project ( Brazillian ) for a non profit organization",
+            "summary": "A foreign project ( Brazillian ) for a non profit organization.",
+            "description": "A foreign project ( Brazillian ) for a non profit organization, with a CMS for all of the pages content.",
             "url": "http://www.cglondrina.com.br",
-            "info": "",
-            "src": "",
-            "submitter": "Hudson Nicoletti",
+            "info": "The website is mobile friendly (responsive via Bootstrap).",
+            "submitter": "HudsonNicoletti",
             "submissionDate": "2015-07-23",
             "images": [
-                {"name": "website01.png", "description":"Main Page"},
-                {"name": "website02.png", "description":"All Articles"},
-                {"name": "website03.png", "description":"Article Info"},
-                {"name": "website04.png", "description":"Admin Panel - Login"},
-                {"name": "website05.png", "description":"Admin Panel - Logged"}
+                {"name": "website01.jpg", "description":"Main Page"},
+                {"name": "website02.jpg", "description":"All Articles"},
+                {"name": "website03.jpg", "description":"Article Info"},
+                {"name": "website04.jpg", "description":"Admin Panel - Login"},
+                {"name": "website05.jpg", "description":"Admin Panel - Logged"}
             ],
             "tags": [
                 "Production",
-                "Non Profit",
-                "Website",
+                "CRUD",
+                "mysql",
                 "Multi Module",
                 "Portuguese",
                 "Composer",
                 "Mustache",
                 "PHP 5.5",
                 "Phalcon 2.0",
-                "Responsive"
+                "Responsive",                
+                "Non Profit",
+                "Website"
             ]
         },
         {

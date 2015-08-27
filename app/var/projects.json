@@ -861,7 +861,7 @@
             "images": [
                 {"name": "website01.png", "description":"Main Page"},
                 {"name": "website02.png", "description":"Shop"},
-                {"name": "website03.png", "description":"Creation"},
+                {"name": "website03.png", "description":"Creation"}
             ],
             "tags": [
                 "production",

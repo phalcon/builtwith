@@ -896,7 +896,26 @@
                 "Bootstrap",
                 "Elastichsearch",
                 "Docker",
-            ]   "Vagrant"
+                "Vagrant"
+            ]
+        },
+        {
+            "permalink": "newintoday",
+            "name": "NewInToday",
+            "summary": "Fashion affiliate website, built with Phalcon, custom Phalcon CMS",
+            "description": "NewInToday is a fashion website which displays the best products from the best brands...",
+            "url": "http://www.newintoday.com",
+            "info": "",
+            "submitter": "andrefigueira",
+            "submissionDate": "2015-11-22",
+            "tags": [
+                "fashion",
+                "cms",
+                "bootstrap",
+                "mysql",
+                "multimodule",
+                "production"
+            ]
         }
     ]
 }

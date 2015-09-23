@@ -915,6 +915,31 @@
                 "mysql",
                 "multimodule",
                 "production"
+            ]   
+        },
+        {
+            "permalink": "DealDoodle_UK",
+            "name": "DealDoodle UK",
+            "summary": "DealDoodle is a Deals Sharing website!",
+            "description": "DealDoodles is a lively community for those of us who shop online and who prefer the experience when we manage to find a good deal. This is the perfect space to share deals, experiences, suggestions or tips. We promise to provide you with an environment to keep it simple and also to keep an eye out for good deals and add them to DealDoodles.",
+            "url": "http://www.dealdoodle.co.uk/",
+            "info": "We have responsive design on the site, so it fits in mobile visits perfectly, everything is developed based on phalcon and native template engine - Volt.",
+            "submitter": "code100",
+            "submissionDate": "2015-08-27",
+            "images": [
+                {"name": "dealdoodle_uk_categories.png", "description": "Categories Page"},
+                {"name": "dealdoodle_uk_stores.png", "description": "Stores Page"},
+                {"name": "dealdoodle_uk_login.png", "description": "user login"},
+            ],
+            "tags": [
+                "production",
+                "shopping",
+                "deals and discounts", 
+                "sales and clearances", 
+                "responsive",
+                "apache",
+                "PHP 5.5", 
+                "phalcon 2.0"
             ]
         }
     ]

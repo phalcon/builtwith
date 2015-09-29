@@ -801,7 +801,7 @@
             ]
         },
         {
-    
+
             "permalink": "CG-Londrina",
             "name": "Comuinidade da Graça de Londrina",
             "summary": "A foreign project ( Brazillian ) for a non profit organization.",
@@ -827,7 +827,7 @@
                 "Mustache",
                 "PHP 5.5",
                 "Phalcon 2.0",
-                "Responsive",                
+                "Responsive",
                 "Non Profit",
                 "Website"
             ]
@@ -915,7 +915,7 @@
                 "mysql",
                 "multimodule",
                 "production"
-            ]   
+            ]
         },
         {
             "permalink": "DealDoodle_UK",
@@ -934,13 +934,40 @@
             "tags": [
                 "production",
                 "shopping",
-                "deals and discounts", 
-                "sales and clearances", 
+                "deals and discounts",
+                "sales and clearances",
                 "responsive",
                 "apache",
-                "PHP 5.5", 
+                "PHP 5.5",
                 "phalcon 2.0"
             ]
-        }
+        },
+        {
+            "permalink": "smores",
+            "name": "Smores.Camp",
+            "summary": "Elegant Camp Software at a price you won't belive",
+            "description": "The Smores project offers camp directors an option in the crowded landscape of expensive registration applications that charge them and camp families too much money to sign up for and interact with camp.",
+            "url": "http://smores.camp/",
+            "info": "",
+            "src": "https://github.com/gte451f/smores-mgr",
+            "submitter": "gte451f",
+            "submissionDate": "2015-09-29",
+            "images": [
+                {"name": "dashboard.png", "description":"Customer Dashboard"},
+                {"name": "login.png", "description":"Customer Login"},
+                {"name": "registration.png", "description":"Registration Mangement"}
+            ],
+            "tags": [
+                "emberjs",
+                "boostrap",
+                "phalcon 2.0",
+                "php",
+                "composer",
+                "api",
+                "open source",
+                "github",
+                "production"
+            ]
+        },
     ]
 }

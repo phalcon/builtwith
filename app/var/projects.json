@@ -1,22 +1,22 @@
 {
     "featured": [],
     "projects": [
-	{
-	    "permalink": "phver",
-	    "name": "PhVer",
-	    "summary": "Phalcon Version Release History",
-	    "description": "Coded by Tuxy",
-	    "url": "http://zvoid.net/phver/",
-	    "info": "",
-	    "src": "",
-	    "submitter": "tuxy",
-	    "submissionDate": "2015-08-15",
-	    "images": [],
-	    "tags": [
-	        "production",
-	        "micro"
-	    ]
-	},
+    {
+        "permalink": "phver",
+        "name": "PhVer",
+        "summary": "Phalcon Version Release History",
+        "description": "Coded by Tuxy",
+        "url": "http://zvoid.net/phver/",
+        "info": "",
+        "src": "",
+        "submitter": "tuxy",
+        "submissionDate": "2015-08-15",
+        "images": [],
+        "tags": [
+            "production",
+            "micro"
+        ]
+    },
         {
             "permalink": "phalconphp-website",
             "name": "Phalcon Website",
@@ -44,28 +44,28 @@
                 "multilingual"
             ]
         },
-	{
-		"permalink": "ebook-free-download",
-		"name": "ebookzip.info",
-		"summary": "Ebook Free Download",
-		"description": "our store provides more than 3000 ebooks for download free. It's free and always. You can download ebook free anytime.",
-		"url": "http://ebookzip.info",
-		"info": "",
-		"src": "",
-		"submitter": "gialang",
-		"submissionDate": "2015-07-15",
-		"images": [
-			{"name": "index.png", "description":"Homepage"},
-			{"name": "detail.png", "description":"Page detail"},
-			{"name": "mobile-version.png", "description":"Mobile version"}
-		],
-		"tags": [
-		  "production",
-		  "tool",
-		  "making offline tests",
-		  "multilingual"
-		]
-	},
+    {
+        "permalink": "ebook-free-download",
+        "name": "ebookzip.info",
+        "summary": "Ebook Free Download",
+        "description": "our store provides more than 3000 ebooks for download free. It's free and always. You can download ebook free anytime.",
+        "url": "http://ebookzip.info",
+        "info": "",
+        "src": "",
+        "submitter": "gialang",
+        "submissionDate": "2015-07-15",
+        "images": [
+            {"name": "index.png", "description":"Homepage"},
+            {"name": "detail.png", "description":"Page detail"},
+            {"name": "mobile-version.png", "description":"Mobile version"}
+        ],
+        "tags": [
+          "production",
+          "tool",
+          "making offline tests",
+          "multilingual"
+        ]
+    },
       {
         "permalink": "oisie-com",
         "name": "Oisie.com",
@@ -197,7 +197,7 @@
             "images": [
             ],
             "tags": [
-            	"production",
+                "production",
                 "blog","forum",
                 "mysql",
                 "single",
@@ -929,7 +929,7 @@
             "images": [
                 {"name": "dealdoodle_uk_categories.png", "description": "Categories Page"},
                 {"name": "dealdoodle_uk_stores.png", "description": "Stores Page"},
-                {"name": "dealdoodle_uk_login.png", "description": "user login"},
+                {"name": "dealdoodle_uk_login.png", "description": "user login"}
             ],
             "tags": [
                 "production",
@@ -968,6 +968,6 @@
                 "github",
                 "production"
             ]
-        },
+        }
     ]
 }

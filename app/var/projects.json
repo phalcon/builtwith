@@ -991,6 +991,33 @@
                 "livescore",
                 "soccer",
             ]
+        },
+        {
+            "permalink": "safepasswordgenerate.com",
+            "name": "Random and secure password generator", 
+            "summary": "Random and secure password generator!", 
+            "description": "This site uses Javascript to generate safe, secure, and impossible-to-break passwords. All the work is done by your brouser only, and if you just picked a password to use, please make sure to save it somewhere, because as soon as you close this site, refresh the browser or generate another password using our functions, the previews password/s can NOT be regenerated!",
+            "url": "http://www.safepasswordgenerate.com/",
+            "info": "", 
+            "src": "https://github.com/lenardos/safe_password_generate-Phalcon", 
+            "submitter": "lenardos",
+            "submissionDate": "2015-11-65",
+            "images": [
+                {"name": "thumb.png", "description":"Homepage"},
+            ],
+            "tags": [
+                "password",
+                "safe",
+                "strong",
+                "generate",
+                "hash",
+                "MD5",
+                "SHA1",
+                "SHA256",
+                "SHA512",
+                "RIPEMD",
+                "HMAC"
+            ]
         }
     ]
 }

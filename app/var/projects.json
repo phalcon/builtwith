@@ -993,7 +993,7 @@
             ]
         },
         {
-            "permalink": "safepasswordgenerate.com",
+            "permalink": "safe_password_generate",
             "name": "Random and secure password generator", 
             "summary": "Random and secure password generator!", 
             "description": "This site uses Javascript to generate safe, secure, and impossible-to-break passwords. All the work is done by your brouser only, and if you just picked a password to use, please make sure to save it somewhere, because as soon as you close this site, refresh the browser or generate another password using our functions, the previews password/s can NOT be regenerated!",

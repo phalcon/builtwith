@@ -1006,17 +1006,11 @@
                 {"name": "thumb.png", "description":"Homepage"},
             ],
             "tags": [
-                "password",
-                "safe",
-                "strong",
-                "generate",
-                "hash",
-                "MD5",
-                "SHA1",
-                "SHA256",
-                "SHA512",
-                "RIPEMD",
-                "HMAC"
+                "production",
+                "productivity",
+                "open source",
+                "single",
+                "github"
             ]
         }
     ]

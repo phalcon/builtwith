@@ -44,10 +44,34 @@
 			  {"name": "mobile-version.png", "description":"Mobile version"}
 			],
 			"tags": [
-			  "production",
-			  "tool",
-			  "making offline tests",
-			  "multilingual"
+			  "ebook free download",
+			  "ebook IT",
+			  "ebook pdf",
+			  "ebookzip"
+			]
+		},
+		{
+			"permalink": "polang",
+			"name": "polang.info",
+			"summary": "Polang.info - Online newspaper, homemade beauty tips",
+			"description": "Pơlang is the online newspaper. This website is all about homemade beauty tips.",
+			"url": "http://polang.info",
+			"info": "",
+			"src": "",
+			"submitter": "gialang",
+			"submissionDate": "2015-11-12",
+			"images": [
+			  {"name": "index.jpg", "description":"Homepage"},
+			  {"name": "detail.jpg", "description":"Page detail"},
+			  {"name": "mobile.png", "description":"Mobile version"}
+			],
+			"tags": [
+			  "polang",
+			  "beauty news",
+			  "news",
+			  "homemade beauty tips",
+			  "online newspaper",
+			  "Sống là phải đẹp"
 			]
 		},
       {

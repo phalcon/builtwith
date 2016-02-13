@@ -783,6 +783,21 @@
                 "shopping", "price tracking", "responsive", "price comparison",
                 "postgres", "nginx", "doT.js", "PHP 5.5", "phalcon 2.0"
             ]
+        },
+	{
+            "permalink": "querobarato",
+            "name": "QueroBarato",
+            "summary": "QueroBarato (http://querobarato.com.br) is a search engine to products.",
+            "description": "QueroBarato - Temos milhões de produtos para você filtrar e encontrar o produto que deseja comprar entre mais de 100 lojas parceiras. Descubra as melhores oportunidades de compra.",
+            "url": "http://querobarato.com.br",
+            "info": "QueroBarato.com.br is a site search engine to you find products from the best stores.",
+            "submitter": "renatomarinho",
+            "submissionDate": "2016-02-01",
+            "tags": [
+                "production",
+                "shopping", "search engine", "stores", "best products",
+                "elasticsearch", "mariadb", "brazil", "PHP 5.6", "phalcon 2.0"
+            ]
         }
     ]
 }

@@ -991,6 +991,29 @@
                 "livescore",
                 "soccer",
             ]
+        },
+        {
+            "permalink": "homediary",
+            "name": "HomeDiary",
+            "summary": "Plan spaces. Log inventory. Save ideas. Document improvements.",
+            "description": "HomeDiary was created by a group of veterans from the online real estate industry. Our mission is to help you better manage your most important asset.",
+            "url": "https://homediary.com",
+            "info": "",
+            "submitter": "akatasonov",
+            "submissionDate": "2016-02-19",
+            "images": [
+                {"name": "thumb.png", "description":"Homepage"},
+                ],
+            "tags": [
+                "production",
+                "productivity",
+                "CRUD",
+                "mysql",
+                "multi module",
+                "phalcon 2.x",
+                "php",
+                "api",
+            ]
         }
     ]
 }

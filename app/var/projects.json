@@ -991,6 +991,33 @@
                 "livescore",
                 "soccer",
             ]
+        },
+        {
+            "permalink": "usacycling",
+            "name": "USA Cycling Website",
+            "summary": "USA Cycling website and portal for athletes, coaches, and race directors.",
+            "description": "Phalcon is used to power several major components of the USA Cycling web portal, which serves over 100,000 athletes, coaches, and race directors worldwide.",
+            "url": "http://www.usacycling.org",
+            "info": "",
+            "submitter": "patr1k",
+            "submissionDate": "2016-06-07",
+            "images": [
+                {"name":"thumb.png",  "description":"Homepage"},
+                {"name":"myusac.png", "description":"MyUSAC Portal"}
+            ],
+            "tags": [
+                "production",
+                "mysql",
+                "multi module",
+                "redis",
+                "phalcon 2.0",
+                "php 5.6",
+                "cycling",
+                "usac",
+                "usoc",
+                "olympics",
+                "team usa"
+            ]
         }
     ]
 }

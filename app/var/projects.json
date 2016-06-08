@@ -980,7 +980,7 @@
             "submitter": "9score",
             "submissionDate": "2015-10-20",
             "images": [
-                {"name": "thumb.png", "description":"Homepage"},
+                {"name": "thumb.png", "description":"Homepage"}
                 ],
             "tags": [
                 "emberjs",
@@ -989,7 +989,7 @@
                 "php",
                 "mongo",
                 "livescore",
-                "soccer",
+                "soccer"
             ]
         },
         {

@@ -1030,7 +1030,13 @@
             "submitter": "chiWahWong",
             "submissionDate": "2016-10-05",
             "images": [
-                "thumb.png"
+                {"name":"thumb.png",  "description":"logo"},
+                {"name":"01.png",     "description":"Multi-languages user interface"},
+                {"name":"02.png",     "description":"List of tutor profiles"},
+                {"name":"03.png",     "description":"Making appointment"},
+                {"name":"04.png",     "description":"Tutor's user interface"},
+                {"name":"05.png",     "description":"List of appointments"},
+                {"name":"06.png",     "description":"Built-in chat"}
             ], 
             "tags": [
                 "production",

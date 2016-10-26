@@ -1044,6 +1044,27 @@
                 "mysql",
                 "single"
             ]
+        },
+        {
+            "permalink": "kabar-indonesia-pintar",
+            "name": "kabar Indonesia Pintar", 
+            "summary": "eduction news portals", 
+            "description": "news portal specializing on information and education news",
+            "url": "http://kabarindonesiapintar.com",
+            "info": "", 
+            "src": "", 
+            "submitter": "DwiAgus",
+            "submissionDate": "2016-10-26",
+            "images": [
+                {"name":"thumb.png",  "description":"Homepage"},
+                {"name":"thumb.jpg",     "description":"Homepage"}
+            ], 
+            "tags": [
+                "production",
+                "CRUD",
+                "mysql",
+                "multi module"
+            ]
         }
     ]
 }

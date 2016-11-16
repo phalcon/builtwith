@@ -1065,6 +1065,26 @@
                 "mysql",
                 "multi module"
             ]
+        },
+        {
+            "permalink": "tsltranslator",
+            "name": "TSL Translator",
+            "summary": "Specialised translation services.",
+            "description": "Specialised translation services provided to transport, tourism and other sectors. Your words in safe hands.",
+            "url": "http://tsltranslator.eu",
+            "info": "",
+            "src": "",
+            "submitter": "wojbach",
+            "submissionDate": "2016-11-16",
+            "images": [
+                {"name":"thumb.png",  "description":"Homepage"}
+            ],
+            "tags": [
+                "production",
+                "forms",
+                "translations",
+                "mailer-ext"
+            ]
         }
     ]
 }

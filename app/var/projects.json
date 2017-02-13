@@ -1472,6 +1472,44 @@
       ]
     },
     {
+      "permalink": "footballinclusive",
+      "name": "Footballinclusive",
+      "summary": "Footballinclusive, where football fans unite",
+      "description": "Historical soccer/football website. Find historical teams and players. Contribute to the database.",
+      "url": "https://footballinclusive.com/",
+      "info": "",
+      "src": "",
+      "submitter": "challet",
+      "submissionDate": "2017-02-13",
+      "images": [
+        {
+          "name": "thumb.png",
+          "description": "thumb"
+        },
+        {
+          "name": "champions-league-2015-2016.png",
+          "description": "all games from champions league 2015-2016"
+        },
+        {
+          "name": "germany-vs-argentina-world-cup-2014.png",
+          "description": "Germany vs Argentina games, World Cup final"
+        },
+        {
+          "name": "contribution-board.png",
+          "description": "all the competitions and their completion ratio"
+        }
+      ],
+      "tags": [
+        "production",
+        "mysql",
+        "mongo",
+        "elasticsearch",
+        "beanstalkd",
+        "semantic ui",
+        "multi languages"
+      ]
+    },
+    {
       "permalink": "safe_password_generate",
       "name": "Random and secure password generator",
       "summary": "Random and secure password generator!",

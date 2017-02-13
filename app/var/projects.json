@@ -1110,6 +1110,7 @@
                 "beanstalkd",
                 "semantic ui",
                 "multi languages"
+            ]
         },
         {
             "permalink": "safe_password_generate",
@@ -1122,7 +1123,7 @@
             "submitter": "lenardos",
             "submissionDate": "2015-11-65",
             "images": [
-                {"name": "thumb.png", "description":"Homepage"},
+                {"name": "thumb.png", "description":"Homepage"}
             ],
             "tags": [
                 "production",
@@ -1142,8 +1143,8 @@
             "submitter": "akatasonov",
             "submissionDate": "2016-02-19",
             "images": [
-                {"name": "thumb.png", "description":"Homepage"},
-                ],
+                {"name": "thumb.png", "description":"Homepage"}
+            ],
             "tags": [
                 "production",
                 "productivity",
@@ -1152,7 +1153,7 @@
                 "multi module",
                 "phalcon 2.x",
                 "php",
-                "api",
+                "api"
             ]
         }
     ]

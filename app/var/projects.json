@@ -1403,6 +1403,25 @@
       ]
     },
     {
+      "permalink": "mongosilakan",
+      "name": "Mongosilakan",
+      "summary": "Translator local language website, written with Phalcon API!",
+      "description": "This app separate UI and API, the API using Phalcon micro app, and for UI using Angular JS.",
+      "url": "http://mongosilakan.net",
+      "info": "",
+      "src": "",
+      "submitter": "soetedja",
+      "submissionDate": "2016-10-07",
+      "images": [
+        "thumb.png"
+      ],
+      "tags": [
+        "api",
+        "mysql",
+        "crud"
+      ]
+    },
+    {
       "permalink": "kabar-indonesia-pintar",
       "name": "kabar Indonesia Pintar",
       "summary": "eduction news portals",

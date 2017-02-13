@@ -44,28 +44,51 @@
                 "multilingual"
             ]
         },
-    {
-        "permalink": "ebook-free-download",
-        "name": "ebookzip.info",
-        "summary": "Ebook Free Download",
-        "description": "our store provides more than 3000 ebooks for download free. It's free and always. You can download ebook free anytime.",
-        "url": "http://ebookzip.info",
-        "info": "",
-        "src": "",
-        "submitter": "gialang",
-        "submissionDate": "2015-07-15",
-        "images": [
-            {"name": "index.png", "description":"Homepage"},
-            {"name": "detail.png", "description":"Page detail"},
-            {"name": "mobile-version.png", "description":"Mobile version"}
-        ],
-        "tags": [
-          "production",
-          "tool",
-          "making offline tests",
-          "multilingual"
-        ]
-    },
+		{
+			"permalink": "ebookzip-info",
+			"name": "ebookzip.info",
+			"summary": "Ebook Free Download",
+			"description": "our store provides more than 3000 ebooks for download free. It's free and always. You can download ebook free anytime.",
+			"url": "http://ebookzip.info",
+			"info": "",
+			"src": "",
+			"submitter": "gialang",
+			"submissionDate": "2015-07-15",
+			"images": [
+			  {"name": "index.png", "description":"Homepage"},
+			  {"name": "detail.png", "description":"Page detail"},
+			  {"name": "mobile-version.png", "description":"Mobile version"}
+			],
+			"tags": [
+			  "ebook free download",
+			  "ebook IT",
+			  "ebook pdf",
+			  "ebookzip"
+			]
+		},
+		{
+			"permalink": "polang",
+			"name": "polang.info",
+			"summary": "Polang.info - Online newspaper, homemade beauty tips",
+			"description": "Polang.info is the online newspaper. This website is all about homemade beauty tips.",
+			"url": "http://polang.info",
+			"info": "",
+			"src": "",
+			"submitter": "gialang",
+			"submissionDate": "2015-11-12",
+			"images": [
+			  {"name": "index.jpg", "description":"Homepage"},
+			  {"name": "detail.jpg", "description":"Page detail"},
+			  {"name": "mobile.png", "description":"Mobile version"}
+			],
+			"tags": [
+			  "polang",
+			  "beauty news",
+			  "news",
+			  "homemade beauty tips",
+			  "online newspaper"
+			]
+		},
       {
         "permalink": "oisie-com",
         "name": "Oisie.com",
@@ -197,7 +220,7 @@
             "images": [
             ],
             "tags": [
-                "production",
+            	"production",
                 "blog","forum",
                 "mysql",
                 "single",
@@ -778,6 +801,9 @@
             "submissionDate": "2015-04-19",
             "images": [],
             "tags": [
+                "vietnam visa agency",
+                "Apply for a Vietnam visa on arrival",
+                "vietnam agency",
                 "phalcon"
             ]
         },

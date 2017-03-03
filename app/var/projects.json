@@ -1558,6 +1558,49 @@
         "php",
         "api"
       ]
+    },
+    {
+      "permalink": "mailfinder",
+      "name": "mailfinder",
+      "summary": "Email validation platform",
+      "description": "mailfinder is a platform to verify your lists of emails to improve the sender score.",
+      "url": "https://mailfinder.io",
+      "info": "This platform is all built with phalcon micro api + angularjs. Our blog is https://blog.mailfinder.io ",
+      "submitter": "mailfinder",
+      "submissionDate": "2017-03-02",
+      "images": [
+        {
+          "name": "thumb.png",
+          "description": "Logo"
+        },
+        {
+          "name": "login.jpg",
+          "description": "Login"
+        },
+        {
+          "name": "dashboard.jpg",
+          "description": "Dashboard"
+        },
+        {
+          "name": "payment.jpg",
+          "description": "Payment"
+        },
+        {
+          "name": "verify.jpg",
+          "description": "Verify"
+        }
+      ],
+      "tags": [
+        "production",
+        "CRUD",
+        "mysql",
+        "angularjs",
+        "phalcon 3.x",
+        "php",
+        "api",
+        "AWS",
+        "marketing"
+      ]
     }
   ]
 }

@@ -1601,6 +1601,75 @@
         "AWS",
         "marketing"
       ]
+    },
+    {
+      "permalink": "shorturl",
+      "name": "URL Shortnr",
+      "summary": "Free URL shortener service",
+      "description": "URL Shortnr is a free URL shortener service.",
+      "url": "http://s.juhara.id",
+      "info": "",
+      "submitter": "Zamrony P. Juhara",
+      "submissionDate": "2017-04-05",
+      "images": [
+        {
+          "name": "thumb.jpg",
+          "description": "Main page"
+        }
+      ],
+      "tags": [
+        "production",
+        "service",
+        "mysql",
+        "phalcon 3.x",
+        "php",
+        "url",
+        "url shortener"
+      ]
+    },
+    {
+      "permalink": "qrmaker",
+      "name": "QR Makr",
+      "summary": "Free QR Code generator service",
+      "description": "QR Makr is a free QR Code generator service.",
+      "url": "http://qr.juhara.com",
+      "info": "",
+      "submitter": "Zamrony P. Juhara",
+      "submissionDate": "2017-04-05",
+      "images": [
+        {
+          "name": "thumb.jpg",
+          "description": "Main page"
+        }
+      ],
+      "tags": [
+        "production",
+        "service",
+        "QR Code",
+        "phalcon 3.x"
+      ]
+    },
+    {
+      "permalink": "imgholdr",
+      "name": "ImageHoldr",
+      "summary": "Free image placeholder service",
+      "description": "ImageHoldr is a free image placeholder service.",
+      "url": "http://img.juhara.com",
+      "info": "",
+      "submitter": "Zamrony P. Juhara",
+      "submissionDate": "2017-04-05",
+      "images": [
+        {
+          "name": "thumb.jpg",
+          "description": "Main page"
+        }
+      ],
+      "tags": [
+        "production",
+        "service",
+        "image placeholder",
+        "phalcon 3.x"
+      ]
     }
   ]
 }

@@ -1670,6 +1670,29 @@
         "image placeholder",
         "phalcon 3.x"
       ]
+    },
+    {
+      "permalink": "outsmart",
+      "name": "Outsmart",
+      "summary": "Competitve analytics made easy for small business",
+      "description": "Social media, SEO, and marketing analytics for you and your competitors. Outsmart is the easiest way to turn all your data into simple, beautiful reports.",
+      "url": "https://outsmart.io",
+      "info": "",
+      "submitter": "Ty Kroll",
+      "submissionDate": "2017-04-24",
+      "images": [
+        {
+          "name": "thumb.png",
+          "description": "Main page"
+        }
+      ],
+      "tags": [
+        "production",
+        "SaaS",
+        "responsive",
+        "analytics",
+        "competitive benchmarking"
+      ]
     }
   ]
 }

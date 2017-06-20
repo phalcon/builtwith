@@ -1,3 +1,9 @@
 .idea/
 .DS_Store
 app/var/cache/
+
+public/.DS_Store
+
+public/projects/.DS_Store
+
+public/.DS_Store

@@ -1727,6 +1727,27 @@
         "mysql",
         "phalcon 3.x"
       ]
+    },
+    {
+      "permalink": "practican-com",
+      "name": "PractiCan.com",
+      "summary": "A career platform for youngsters/students, educational institutions and employers/companies",
+      "description": "Find and apply for first internship/job, get the insights of hundreds of companies by using \"Virtual Internship\". Do not know, where to study your future profession? Check the studies TOP, which is created by TOP employer all over the world!",
+      "url": "https://www.practican.com",
+      "info": "",
+      "src": "",
+      "submitter": "janisbizkovskis",
+      "submissionDate": "2017-08-26",
+      "images": [],
+      "tags": [
+        "production",
+        "service",
+        "multi module",
+        "phalcon 3.x",
+        "phalcon 2.x",
+        "phalcon 1.x",
+        "platform"
+      ]
     }
   ]
 }

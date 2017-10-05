@@ -1679,12 +1679,12 @@
     },
     {
       "permalink": "piggybank",
-      "name": "PiggyBank Online", 
-      "summary": "A personal finance web app.", 
+      "name": "PiggyBank Online",
+      "summary": "A personal finance web app.",
       "description": "Budget, track and analyze your incomes, expenses and savings with PiggyBank. Bring your personal finances to the next level!",
       "url": "https://piggybank.online",
-      "info": "", 
-      "src": "", 
+      "info": "",
+      "src": "",
       "submitter": "sasa-b",
       "submissionDate": "2017-08-02",
       "images": [
@@ -1700,10 +1700,10 @@
           "name": "landing.png",
           "description": "Landing page"
         }
-      ], 
+      ],
       "tags": [
-        "production", 
-        "finances", 
+        "production",
+        "finances",
         "service",
         "productivity",
         "multi module",
@@ -1769,6 +1769,25 @@
          "phalcon 1.x",
          "platform"
        ]
-     }
+   },
+   {
+        "permalink": "whichbingo",
+        "name": "WhichBingo",
+        "summary": "WhichBingo home of the UKs largest online bingo reviews directory",
+        "description": "We have the largest collection of Bingo Sites brought to you by licensed UK operators, read positive & negative reviews from real players with starred ratings",
+        "url": "http://alpha.whichbingo.co.uk/",
+        "info": "",
+        "src": "",
+        "submitter": "jamesneale1996",
+        "submissionDate": "2017-10-05",
+        "images": [],
+        "tags": [
+            "production",
+            "service",
+            "multi module",
+            "phalcon 3.x",
+            "Affiliate Marketing",
+        ]
+    },
   ]
 }

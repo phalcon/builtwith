@@ -1788,6 +1788,72 @@
             "phalcon 3.x",
             "Affiliate Marketing"
         ]
+    },
+    {
+      "permalink": "socialveo",
+      "name": "Socialveo",
+      "summary": "Socialveo help you build a powerful and beautifully designed social network for your community",
+      "description": "Socialveo is a social network software built on top of PhalconPHP. Develop your own social networking platform on any device. <a href='https://socialveo.com/start'>Start your own social network now!</a>",
+      "url": "https://socialveo.com",
+      "info": "https://socialveo.com/explore",
+      "src": "https://github.com/socialveo",
+      "submitter": "macagoraga",
+      "submissionDate": "2017-10-11",
+      "images": [
+        {
+          "name": "webapp-1.png",
+          "description": "Responsive Website accessible in any device"
+        },
+        {
+          "name": "webapp-4.png",
+          "description": "Responsive Website accessible in any device"
+        },
+        {
+          "name": "rich_features_1.png",
+          "description": "Responsive Website accessible in any device"
+        },
+        {
+          "name": "webapp-5.png",
+          "description": "Responsive Website accessible in any device"
+        },
+        {
+          "name": "webapp-6.png",
+          "description": "Responsive Website accessible in any device"
+        },
+        {
+          "name": "ios-app-1.png",
+          "description": "iOS and Android App"
+        },
+        {
+          "name": "ios-app-2.png",
+          "description": "iOS and Android App"
+        },
+        {
+          "name": "ios-app-3.png",
+          "description": "iOS and Android App"
+        },
+        {
+          "name": "ios-app-4.png",
+          "description": "iOS and Android App"
+        },
+        {
+          "name": "ios-app-5.png",
+          "description": "iOS and Android App"
+        }
+      ],
+      "tags": [
+        "production",
+        "productivity",
+        "social network",
+        "mobile app",
+        "multi module",
+        "multilingual",
+        "mysql",
+        "rest api",
+        "ios app",
+        "android app",
+        "responsive design"
+      ]
     }
   ]
 }

@@ -72,9 +72,11 @@
 <div class="row">
     <div class="col-sm-12 lightbox-image">
         <?php foreach ($project['images'] as $image): ?>
-        <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" data-toggle="lightbox" data-gallery="multiimages" data-title="<?=$image["description"]?>" class="col-sm-4">
-            <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" class="img-responsive">
-        </a>
+        <div class="col-sm-4">
+            <a href="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" data-toggle="lightbox" data-gallery="multiimages" data-title="<?=$image["description"]?>" class="thumbnail">
+                <img src="<?=$cdn?>/projects/<?=$project['permalink']?>/<?=$image["name"]?>" class="img-responsive">
+            </a>
+        </div>
         <?php endforeach; ?>
     </div>
 </div>

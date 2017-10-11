@@ -64,3 +64,8 @@ h3:hover { color: #2a6496; }
     opacity: 0;
   }
 }
+
+/** Fix logo after upgrade bootstrap */
+.navbar-brand > img {
+    display: inline-block;
+}

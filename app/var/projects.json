@@ -1882,6 +1882,33 @@
         "multi module",
         "website"
       ]
+    },
+    {
+      "permalink": "descontocupom",
+      "name": "DescontoCupom",
+      "summary": "DescontoCupom is a catalog of discount coupons and special offers for virtual shopping in Brazil.",
+      "description": "DescontoCupom offers special prices and discount for your virtual shop time.",
+      "url": "https://descontocupom.com.br",
+      "info": "https://descontocupom.com.br/quem-somos",
+      "src": "",
+      "submitter": "victorhramos",
+      "submissionDate": "2017-10-29",
+      "images": [],
+      "tags": [
+        "production",
+        "shopping",
+        "coupons",
+        "offers",
+        "multi module",
+        "acl",
+        "redis",
+        "assets manager",
+        "social login",
+        "facebook",
+        "affiliate marketing",
+        "phalcon 3x",
+        "responsive design"
+      ]
     }
   ]
 }

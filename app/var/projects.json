@@ -1856,6 +1856,34 @@
       ]
     },
     {
+      "permalink": "marchiauto",
+      "name": "Marchi Auto",
+      "summary": "Marchi Auto is auto dealer portal dedicated to Marchi Auto network, official distributor of Fiat and Alfa Romeo cars in central Italy",
+      "description": "The Marchi Auto website is totally developed with Phalcon Framework, the application is a multi module software projected as stand-alone cms able to handle and manage entities stored in dinamically generated flat tables and populated by back-end routines based on entities definitions and attributes. The front-end is totally projected with volt template engine.",
+      "url": "https://www.marchiauto.it",
+      "info": "",
+      "src": "",
+      "submitter": "gadz82",
+      "submissionDate": "2017-10-18",
+      "images": [
+        {
+          "name": "marchi.png",
+          "description": "Home Page of the Website - Completly Responsive and made with Bootstrap"
+        },
+        {
+          "name": "marchi1.png",
+          "description": "Backend Access Page"
+        }
+      ],
+      "tags": [
+        "production",
+        "CRUD",
+        "mysql",
+        "multi module",
+        "website"
+      ]
+    },
+    {
       "permalink": "descontocupom",
       "name": "DescontoCupom",
       "summary": "DescontoCupom is a catalog of discount coupons and special offers for virtual shopping in Brazil.",

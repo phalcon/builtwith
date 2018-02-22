@@ -1909,6 +1909,34 @@
         "phalcon 3x",
         "responsive design"
       ]
+    },
+    {
+      "permalink": "learny-online",
+      "name": "Learny Online",
+      "summary": "Learny Online is an online educational platform with exclusive, original and quality content.",
+      "description": "A learny is a course on demand that combines videos and written content of high quality, accompanied by a test that will allow you to develop skills and acquire tools without the need to spend time and spend money to attend face-to-face classes. You only have to be connected to the Internet from your mobile, tablet or computer and start learning in a pleasant and simple way, at the moment you decide.",
+      "url": "https://learny.online",
+      "info": "https://learny.online/paginas-informativas",
+      "src": "",
+      "submitter": "emiliodeg",
+      "submissionDate": "2018-02-21",
+      "images": [
+        "https://learny.online/assets/images/logo/learny-online.png"
+      ],
+      "tags": [
+        "education",
+        "production",
+        "multi module",
+        "acl",
+        "redis",
+        "assets manager",
+        "social login",
+        "phalcon 3x",
+        "responsive design",
+        "AWS",
+        "Bootstrap", 
+        "startup"
+      ]
     }
   ]
 }

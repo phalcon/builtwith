@@ -1921,7 +1921,22 @@
       "submitter": "emiliodeg",
       "submissionDate": "2018-02-21",
       "images": [
-        "https://learny.online/assets/images/logo/learny-online.png"
+        {
+          "name": "home.jpg",
+          "description": "Home page"
+        },
+        {
+          "name": "cursos.jpg",
+          "description": "List of courses online"
+        },
+        {
+          "name": "perfiles.jpg",
+          "description": "User's profile"
+        },
+        {
+          "name": "paginas-informativas.jpg",
+          "description": "Information pages"
+        },
       ],
       "tags": [
         "education",

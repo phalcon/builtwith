@@ -1,1 +1,43 @@
-<html><body><h1>Mod-Rewrite is not enabled</h1><p>Please enable rewrite module on your web server to continue</body></html>
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<div class="col-12 col-md-4 p-3 bg-light border ">
+  <div class="card ">
+    <img class="card-img-top"
+         style="background-image: url(/assets/projects/{{ post.stub }}/thumb.png);">
+    <div class="card-body">
+      <h5 class="card-header">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h5>
+
+      <p class="card-text">
+        {{ post.excerpt }}
+      </p>
+
+      <div class="card-footer bg-transparent">
+        <span title="{{ post.date | date: '%Y-%m-%d' }}">
+          <i class="fas fa-calendar-day"></i>
+        </span>
+        {% for social in post.meta.site.social %}
+          {% if "" != social[1] %}
+        <a href="{{ social[1] }}"
+           title="{{ social[0] }}">
+          <i class="fab fa-{{ social[0] }}"></i>
+        </a>
+          {% endif %}
+        {% endfor %}
+        {% if "" != post.meta.site.link %}
+        <a href="{{ post.meta.site.link }}"
+           title="{{ post.title }}">
+          <i class="fas fa-link"></i>
+        </a>
+        {% endif %}
+       </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

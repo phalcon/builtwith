@@ -1,0 +1,48 @@
+title: Built With Phalcon
+app:
+  name: Built With Phalcon
+  author: 'Phalcon Team'
+  description: ''
+  keywords: ''
+  generator: 'Github Pages'
+  avatar: https://avatars3.githubusercontent.com/u/1221505?v=4
+
+social:
+  email: team@phalconphp.com
+  facebook:
+  github: phalcon
+  rss: phalcon
+  twitter: phalconphp
+
+meta:
+  disqus:
+    name: ''
+    url: ''
+  analytics: 'UA-90300500-9'
+
+excerpt_separator: <!--more-->
+
+paginate: 5
+paginate_path: '/page-:num'
+
+permalink: /project/:title/
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+
+

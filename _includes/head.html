@@ -11,23 +11,19 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@getbootstrap">
-    <meta name="twitter:creator" content="@getbootstrap">
-    <meta name="twitter:title" content="Bootstrap">
-    <meta name="twitter:description" content="The most popular HTML, CSS, and JS library in the world.">
-    <meta name="twitter:image" content="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-social.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.social.twitter }}">
+    <meta name="twitter:creator" content="@{{ site.social.twitter }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="https://assets.phalconphp.com/phalcon/logo.png">
 
     <!-- Facebook -->
-    <meta property="og:url" content="https://getbootstrap.com/">
-    <meta property="og:title" content="Bootstrap">
-    <meta property="og:description" content="The most popular HTML, CSS, and JS library in the world.">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="http://getbootstrap.com/docs/4.1/assets/brand/bootstrap-social.png">
-    <meta property="og:image:secure_url" content="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-social.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://assets.phalconphp.com/phalcon/logo.png">
 
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-square70x70logo"

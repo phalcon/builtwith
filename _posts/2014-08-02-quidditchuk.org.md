@@ -2,7 +2,7 @@
 layout: post
 title: "QuidditchUK"
 stub: "quidditchuk.org"
-categories: data
+tags: [ "production", "CRUD", "CMS", "Management", "php5", "multi-module" ]
 meta:
   author:
     name: ""

@@ -2,7 +2,7 @@
 layout: post
 title: "Danzer Logs"
 stub: "danzerlogs.com"
-categories: data
+tags: [ "production", "productivity", "mysql", "single" ]
 meta:
   author:
     name: ""

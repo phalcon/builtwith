@@ -1,0 +1,29 @@
+---
+layout: default
+title: Tags
+permalink: /tags
+---
+<div class="col-12 bg-light border ">
+	<div class="card ">
+		<div class="card-body">
+			<h5 class="card-header">
+				Tags
+			</h5>
+			<div class="card-text">
+				{% assign tags = site.tags | sort %}
+				{% for tag in tags %}
+				<a name="{{ tag | first | slugify }}"></a>
+				<button type="button" class="btn btn-info btn-sm">{{ tag[0] }}</button>
+				<p>
+					<ul>
+						{% assign posts = tag[1] %}
+						{% for post in posts %}
+						<li><a href="{{ post.url }}">{{ post.title }} - [{{ post.date | date: "%Y-%m-%d" }}]</a></li>
+						{% endfor %}
+					</ul>
+				</p>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

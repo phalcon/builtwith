@@ -2,7 +2,7 @@
 layout: post
 title: "Free CMS Templates"
 stub: "free-templates.lt"
-categories: data
+tags: [ "production", "templates", "free" ]
 meta:
   author:
     name: "Lukas Liesis"

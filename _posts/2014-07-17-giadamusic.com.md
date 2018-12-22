@@ -2,7 +2,7 @@
 layout: post
 title: "Giada"
 stub: "giadamusic.com"
-categories: data
+tags: [ "audio", "open source", "loop machine", "sequencer", "drum machine", "music", "linux", "windows", "os x" ]
 meta:
   author:
     name: ""

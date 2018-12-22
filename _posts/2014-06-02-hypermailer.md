@@ -2,7 +2,7 @@
 layout: post
 title: "Phalcon Powered Email Campaign Platform"
 stub: "hypermailer"
-categories: data
+tags: [ "production", "productivity", "mysql", "github", "open source", "single module", "micro" ]
 meta:
   author:
     name: ""

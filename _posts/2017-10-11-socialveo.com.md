@@ -19,25 +19,25 @@ meta:
       twitter: ""
       discord: ""
 images:
-  - name: "webapp-1.png",
+  - name: "webapp-1.png"
     text: "Responsive Website accessible in any device"
-  - name: "webapp-4.png",
+  - name: "webapp-4.png"
     text: "Responsive Website accessible in any device"
-  - name: "rich_features_1.png",
+  - name: "rich_features_1.png"
     text: "Responsive Website accessible in any device"
-  - name: "webapp-5.png",
+  - name: "webapp-5.png"
     text: "Responsive Website accessible in any device"
-  - name: "webapp-6.png",
+  - name: "webapp-6.png"
     text: "Responsive Website accessible in any device"
-  - name: "ios-app-1.png",
+  - name: "ios-app-1.png"
     text: "iOS and Android App"
-  - name: "ios-app-2.png",
+  - name: "ios-app-2.png"
     text: "iOS and Android App"
-  - name: "ios-app-3.png",
+  - name: "ios-app-3.png"
     text: "iOS and Android App"
-  - name: "ios-app-4.png",
+  - name: "ios-app-4.png"
     text: "iOS and Android App"
-  - name: "ios-app-5.png",
+  - name: "ios-app-5.png"
     text: "iOS and Android App"
 ---
 Socialveo help you build a powerful and beautifully designed social network for your community

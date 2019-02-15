@@ -1,10 +1,9 @@
-title: Built With Phalcon
+title: Built With
 app:
-  name: Built With Phalcon
+  name: Built With
   author: 'Phalcon Team'
   description: ''
   keywords: ''
-  generator: 'Github Pages'
   avatar: https://avatars3.githubusercontent.com/u/1221505?v=4
 
 social:

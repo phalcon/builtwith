@@ -1,43 +1,89 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts %}
-<div class="col-12 col-md-4 p-3 bg-light border ">
-  <div class="card ">
-    <img class="card-img-top"
-         style="background-image: url(/assets/projects/{{ post.stub }}/thumb.png);">
-    <div class="card-body">
-      <h5 class="card-header">
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h5>
-
-      <p class="card-text">
-        {{ post.excerpt }}
-      </p>
-
-      <div class="card-footer bg-transparent">
-        <span title="{{ post.date | date: '%Y-%m-%d' }}">
-          <i class="fas fa-calendar-day"></i>
-        </span>
-        {% for social in post.meta.site.social %}
-          {% if "" != social[1] %}
-        <a href="{{ social[1] }}"
-           title="{{ social[0] }}">
-          <i class="fab fa-{{ social[0] }}"></i>
-        </a>
-          {% endif %}
-        {% endfor %}
-        {% if "" != post.meta.site.link %}
-        <a href="{{ post.meta.site.link }}"
-           title="{{ post.title }}">
-          <i class="fas fa-link"></i>
-        </a>
-        {% endif %}
-       </div>
-    </div>
-  </div>
-</div>
+{% for post in paginator.posts %}
+{% if 1 == forloop.index %}
+{% if 1 == paginator.page %}
+                <div class="phalcon-blog__last-article">
+                    <div class="phalcon-blog__item">
+                        <div class="phalcon-blog__item-content">
+                            <div class="phalcon-blog__item-title">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                            </div>
+                            <div class="phalcon-blog__item-info">
+                                <div class="phalcon-blog__item-date">
+                                    {{ post.date | date: "%b %d, %Y" }}
+                                </div>
+                                <div class="phalcon-blog__item-author">
+                                    Phalcon Team
+                                </div>
+                            </div>
+                            <div class="phalcon-blog__item-article">
+                                {{ post.excerpt }}
+                            </div>
+                            <a href="{{ post.url }}"
+                               class="phalcon-blog__item-read-more">Read More</a>
+                        </div>
+                        <a href="{{ post.url }}" class="phalcon-blog__item-img">
+                            {% assign image = '/assets/projects/' | append: post.stub | append: '/' | append: post.meta.image %}
+                            <img src="{{ image }}" alt="{{ post.title }}">
+                        </a>
+                    </div>
+                </div>
+                <div class="phalcon-blog__main-title">
+                    LATEST POSTS
+                </div>
+{% endif %}
+                <div class="phalcon-blog__items">
+{% else %}
+                    <div class="phalcon-blog__item">
+                        <div class="phalcon-blog__item-content">
+                            <div class="phalcon-blog__item-title">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                            </div>
+                            <div class="phalcon-blog__item-info">
+                                <div class="phalcon-blog__item-date">
+                                    {{ post.date | date: "%b %d, %Y" }}
+                                </div>
+                                <div class="phalcon-blog__item-author">
+                                    Phalcon Team
+                                </div>
+                            </div>
+                            <div class="phalcon-blog__item-article">
+                                {{ post.excerpt }}
+                            </div>
+                            <a href="{{ post.url }}"
+                               class="phalcon-blog__item-read-more">Read More</a>
+                        </div>
+                        <a href="{{ post.url }}" class="phalcon-blog__item-img">
+                            {% assign image = '/assets/projects/' | append: post.stub | append: '/' | append: post.meta.image %}
+                            <img src="{{ image }}" alt="{{ post.title }}">
+                        </a>
+                    </div>
+{% endif %}
 {% endfor %}
+                    <div class="phalcon-blog__item">
+                        <div class="phalcon-blog__item-content">
+                            <div class="phalcon-blog__item-article">
+                                <span class="float-left">
+                                {% if paginator.previous_page %}
+                                <a href="{{ paginator.previous_page_path }}">
+                                    Previous
+                                </a>
+                                {% else %}
+                                &nbsp;
+                                {% endif %}
+                                </span>
+                                <span class="float-right">
+                                {% if paginator.next_page %}
+                                <a href="{{ paginator.next_page_path }}">
+                                    Next
+                                </a>
+                                {% else %}
+                                &nbsp;
+                                {% endif %}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>

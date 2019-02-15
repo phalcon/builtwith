@@ -1,32 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-{% include head.html %}
-
+<head>
+    {% include meta.html %}
+    {% include analytics.html %}
+</head>
 <body>
-<a id="skippy" class="sr-only sr-only-focusable" href="#content">
-  <div class="container">
-    <span class="skiplink-text">Skip to main content</span>
-  </div>
-</a>
-
 {% include header.html %}
 
-<div class="masthead-followup row m-0 border border-white">
-  {{ content }}
+<div class="phalcon-blog">
+    <div class="container">
+        <div class="phalcon-blog__main">
+            {{ content }}
+        </div>
+        <div class="phalcon-blog__right">
+            {% include sponsors.html %}
+            {% include widget.html %}
+        </div>
+    </div>
 </div>
-
 {% include footer.html %}
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"
-        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/esm/popper.min.js"
-        integrity="sha256-T0gPN+ySsI9ixTd/1ciLl2gjdLJLfECKvkQjJn98lOs="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ="
-        crossorigin="anonymous"></script>
-<script src="/assets/js/docs.min.js"></script>
 </body>
 </html>
+

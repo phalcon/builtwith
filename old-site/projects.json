@@ -43,60 +43,6 @@
         "Phalcon Vagrant"
       ]
     },
-
-
-    {
-      "permalink": "rightcasino",
-      "name": "RightCasino",
-      "summary": "Online Casino Comparison Portal",
-      "description": "RightCasino.com is an online casino comparison portal that helps users find their right casino according to their preferences. It also features game strategies and gambling industry news.",
-      "url": "http://www.rightcasino.com/",
-      "info": "",
-      "submitter": "armonb",
-      "submissionDate": "2014-11-24",
-      "images": [
-        {
-          "name": "thumb.png",
-          "description": "RightCasino Logo"
-        }
-      ],
-      "tags": [
-        "production",
-        "CMS",
-        "CRUD",
-        "mysql",
-        "multi module",
-        "education",
-        "web application"
-      ]
-    },
-    {
-      "permalink": "phalcon-tip",
-      "name": "Phalcon Community Share Tip and Trick",
-      "summary": "Phalcon Tips was created to help Phalcon community find and share interesting ways of using Phalcon framework.",
-      "description": "The idea is simple: When you work with Phalcon long enough you find some cool ways of using it, and to other people they might seem as Tips so we thought to create a centralized place for all Phalcon users to share those findings.",
-      "url": "http://phalcontip.com",
-      "info": "",
-      "src": "https://github.com/zphalcon/phalcon-tip",
-      "submitter": "duythien",
-      "submissionDate": "2014-12-13",
-      "images": [
-        {
-          "name": "thumb.png",
-          "description": "Main Page"
-        }
-      ],
-      "tags": [
-        "production",
-        "productivity",
-        "forum",
-        "mysql",
-        "github",
-        "open source",
-        "single module",
-        "tests included"
-      ]
-    },
     {
       "permalink": "phalcon-jobs",
       "name": "Phalcon Jobs",
@@ -119,36 +65,6 @@
         "production",
         "CRUD",
         "Bootstrap"
-      ]
-    },
-    {
-      "permalink": "24sata",
-      "name": "24sata.rs",
-      "summary": "24sata.rs - online newspaper",
-      "description": "24sata.rs is among top 10 most visited websites in Serbia with almost 6 million visits per month and reach of almost 23% according to http://www.audience.rs/. Both frontend API and underlying CMS are written from scratch using PhalconPHP version 1.3.2.",
-      "url": "http://www.24sata.rs",
-      "submitter": "digitronac",
-      "submissionDate": "2014-12-31",
-      "images": [
-        {
-          "name": "24sata-2.png",
-          "description": "frontend 1"
-        },
-        {
-          "name": "24sata-3.png",
-          "description": "frontend 2"
-        }
-      ],
-      "tags": [
-        "production",
-        "media",
-        "entertainment",
-        "high-load",
-        "high-volume",
-        "mysql",
-        "redis",
-        "memcache",
-        "multi module"
       ]
     },
     {

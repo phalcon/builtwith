@@ -1,99 +1,39 @@
 ---
 layout: default
 ---
-<div class="col-12 bg-light border ">
-  <div class="card ">
-    <div class="card-body">
-      <h5 class="card-header">
-        {{ page.title }}
-      </h5>
-      <div class="card-header">
-        <div class="row">
-          <div class="col-6">
-            <img class="card-img-top"
-                 src="/assets/projects/{{ page.stub }}/thumb.png"
-                 alt="{{ page.title }}"
-                 style="width: 250px; height: 250px;">
-          </div>
-          <div class="col-6">
-            <table class="table table-bordered">
-              <tbody>
-              <tr>
-                <td>Link</td>
-                <td>
-                  {% if "" != page.meta.site.link %}
-                  <a href="{{ page.meta.site.link }}"
-                     title="{{ page.title }}">
-                    {{ page.meta.site.link }}
-                  </a>
-                  {% endif %}
-                </td>
-              </tr>
-              <tr>
-                <td>Author</td>
-                <td>
-                  {% for author in page.meta.author %}
-                  {% if "" != author[1] %}
-                  <a href="{{ author[1] }}">{{ author[1] }}</a>
-                  {% endif %}
-                  {% endfor %}
-                </td>
-              </tr>
-              <tr>
-                <td>Social</td>
-                <td>
-                  {% for social in page.meta.site.social %}
-                  {% if "" != social[1] %}
-                  <a href="{{ social[1] }}"
-                     title="{{ social[0] }}">
-                    <i class="fab fa-{{ social[0] }}"></i>
-                  </a>
-                  {% endif %}
-                  {% endfor %}
-                </td>
-              </tr>
-              <tr>
-                <td>Tags</td>
-                <td>
-                  {% for siteTag in page.meta.site.tags %}
-                  <button type="button"
-                          class="btn btn-info btn-sm">
-                    {{ siteTag }}
-                  </button>
-                  {% endfor %}
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
+                <div class="phalcon-blog-detail">
+                    <h2 itemprop="name headline" class="headline">
+                        {{ page.title | escape }}
+                    </h2>
+                    <div class="phalcon-blog-detail__info">
+                        {% if page.meta.link %}
+                        <a href="{{ page.meta.link }}">{{ page.meta.link }}</a>&nbsp;
+                        {% endif %}
+                        {% if page.meta.social.github %}
+                        <a href="{{ page.meta.social.github }}">{{ page.meta.social.github }}</a>&nbsp;
+                        {% endif %}
+                        {% if page.meta.social.facebook %}
+                        <a href="{{ page.meta.social.facebook }}">{{ page.meta.social.facebook }}</a>&nbsp;
+                        {% endif %}
+                        {% if page.meta.social.twitter %}
+                        <a href="{{ page.meta.social.twitter }}">{{ page.meta.social.twitter }}</a>&nbsp;
+                        {% endif %}
+                        {% if page.meta.social.discord %}
+                        <a href="{{ page.meta.social.discord }}">{{ page.meta.social.discord }}</a>&nbsp;
+                        {% endif %}
+                    </div>
+                    <div class="phalcon-blog__tags-items">
+                        {% for tag in page.tags %}
+                        <a href="/tags#{{ tag | slugify }}" class="phalcon-blog__tags-item">
+                            <span>{{ tag }}</span>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {{ page.content }}
 
-      <div class="card-text">
-        {{ page.content }}
-
-        {% for image in page.images %}
-        <div class="card ">
-          <div class="card-body">
-            <h5 class="card-header">
-              {{ image.text }}
-            </h5>
-            <p class="card-text">
-              <img src="/assets/projects/{{ page.stub }}/{{ image.name }}"
-                   class="rounded mx-auto d-block"
-                   style="width: 600px"
-                   alt="{{ image.text }}">
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-
-      <div class="card-footer bg-transparent">
-        <i class="fas fa-calendar-day"></i> {{ page.date | date: '%Y-%m-%d' }}
-      </div>
-    </div>
-  </div>
-</div>
-
-
+                    {% assign path = '/assets/projects/' | append: page.slug | append: '/' %}
+                    {% for image in page.images %}
+                    <img src="{{ path | append: image.name }}" title="{{ image.text }}" alt="{{ image.text }}"/>
+                    <hr/>
+                    {% endfor %}
+                </div>

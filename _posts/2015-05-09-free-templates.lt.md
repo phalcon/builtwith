@@ -2,8 +2,12 @@
 layout: post
 title: "Free CMS Templates"
 stub: "free-templates.lt"
-tags: [ "production", "templates", "free" ]
+tags:
+  - production
+  - templates
+  - free
 meta:
+  image: 'thumb.png'
   author:
     name: "Lukas Liesis"
     avatar: ""
@@ -11,7 +15,10 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "templates", "free" ]
+    tags:
+      - production
+      - templates
+      - free
     link: "http://free-templates.lt/"
     social:
       github: ""

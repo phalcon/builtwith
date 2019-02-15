@@ -2,8 +2,22 @@
 layout: post
 title: "DescontoCupom"
 stub: "descontocupom.com.br"
-tags: [ "production", "shopping", "coupons", "offers", "multi module", "acl", "redis", "assets manager", "social login", "facebook", "affiliate marketing", "phalcon 3x", "responsive design" ]
+tags:
+  - production
+  - shopping
+  - coupons
+  - offers
+  - multi module
+  - acl
+  - redis
+  - assets manager
+  - social login
+  - facebook
+  - affiliate marketing
+  - phalcon3
+  - responsive design
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +25,20 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "shopping", "coupons", "offers", "multi module", "acl", "redis", "assets manager", "social login", "facebook", "affiliate marketing", "phalcon 3x", "responsive design" ]
+    tags: 
+      - production
+      - shopping
+      - coupons
+      - offers
+      - multi module
+      - acl
+      - redis
+      - assets manager
+      - social login
+      - facebook
+      - affiliate marketing
+      - phalcon3
+      - responsive design
     link: "https://descontocupom.com.br"
     social:
       github: ""

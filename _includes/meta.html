@@ -1,0 +1,129 @@
+    <!--[if IE 6]><html id="section-reco_main" class="nojs ie6 ieb7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+    <!--[if IE 7]><html id="section-reco_main" class="nojs iea6 ie7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+    <!--[if IE 8]><html id="section-reco_main" class="nojs iea6 iea7 ie8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+    <!--[if IE 9]><html id="section-reco_main" class="nojs iea6 iea7 iea8 ie9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="HandheldFriendly" content="true"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport min-width=320px" content="min-width=320, initial-scale=1.0" />
+    <meta name="author" content="{{ site.app.author }}">
+    <meta name="generator" content="{{ site.app.generator }}">
+    <meta name="application-name" content="{{ site.app.name }}">
+    <meta name="keywords" content="{{ site.app.keywords }}">
+    <meta name="description" content="{{ site.app.description }}">
+
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="object">
+    <meta property="og:title" content="{{ site.app.name }}">
+    {% if page.excerpt %}
+    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta property="og:description" content="{{ site.app.description }}">
+    {% endif %}
+    <meta property="og:site_name" content="Phalcon Blog">
+    <meta property="og:image" content="https://assets.phalconphp.com/phalcon/images/phalcon-logo.png">
+
+    <meta name="twitter:image:alt" content="{{ site.app.name }}">
+    <meta name="twitter:title" content="{{ site.app.name }}">
+    {% if page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta name="twitter:description" content="{{ site.app.description }}">
+    {% endif %}
+    <meta name="twitter:image" content="https://assets.phalconphp.com/phalcon/images/phalcon-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.social.twitter }}">
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="publisher" href="{{ site.url }}">
+    <link rel="author" href="/humans.txt">
+
+    <title>{{ site.app.name }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.app.name }} – {{ site.app.description }}</title>
+
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-square70x70logo"
+          content="https://assets.phalconphp.com/phalcon/favicons/mstile-70x70.png">
+    <meta name="msapplication-TileImage"
+          content="https://assets.phalconphp.com/phalcon/favicons/mstile-144x144.png">
+    <meta name="msapplication-square150x150logo"
+          content="https://assets.phalconphp.com/phalcon/favicons/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo"
+          content="https://assets.phalconphp.com/phalcon/favicons/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo"
+          content="https://assets.phalconphp.com/phalcon/favicons/mstile-310x310.png">
+
+    <link rel="apple-touch-icon"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon.png">
+
+    <link rel="apple-touch-icon-precomposed"
+          sizes="57x57"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="60x60"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="72x72"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="76x76"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="114x114"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="120x120"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="144x144"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed"
+          sizes="152x152"
+          href="https://assets.phalconphp.com/phalcon/favicons/apple-touch-icon-152x152.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="https://assets.phalconphp.com/phalcon/favicons/favicon-16x16.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://assets.phalconphp.com/phalcon/favicons/favicon-32x32.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="https://assets.phalconphp.com/phalcon/favicons/favicon-96x96.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="128x128"
+          href="https://assets.phalconphp.com/phalcon/favicons/favicon-128x128.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="196x196"
+          href="https://assets.phalconphp.com/phalcon/favicons/favicon-196x196.png">
+    <link rel="shortcut icon"
+          type="image/png"
+          href="https://assets.phalconphp.com/phalcon/favicon.ico"/>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/css/main.css">
+    <script type="text/javascript"
+            src="/assets/js/main.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexibility/2.0.1/flexibility.js"
+            integrity="sha256-ETXu4iIohKzvSucuk6Bv0DCdqiqaTTGeMsjZ72szPzM="
+            crossorigin="anonymous"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexie/1.0.3/flexie.min.js"
+            integrity="sha256-cHhZibZLigFoz7MewE+8Rbv2lajCgQXd46dcUVBXYJI="
+            crossorigin="anonymous"></script>
+    <![endif]-->

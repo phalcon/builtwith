@@ -2,8 +2,18 @@
 layout: post
 title: "Giada"
 stub: "giadamusic.com"
-tags: [ "audio", "open source", "loop machine", "sequencer", "drum machine", "music", "linux", "windows", "os x" ]
+tags:
+  - audio
+  - open source
+  - loop machine
+  - sequencer
+  - drum machine
+  - music
+  - linux
+  - windows
+  - os x
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +21,16 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "audio", "open source", "loop machine", "sequencer", "drum machine", "music", "linux", "windows", "os x" ]
+    tags:
+      - audio
+      - open source
+      - loop machine
+      - sequencer
+      - drum machine
+      - music
+      - linux
+      - windows
+      - os x
     link: "https://giadamusic.com"
     social:
       github: ""

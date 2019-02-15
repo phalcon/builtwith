@@ -2,8 +2,16 @@
 layout: post
 title: "Phalcon Powered Email Campaign Platform"
 stub: "hypermailer"
-tags: [ "production", "productivity", "mysql", "github", "open source", "single module", "micro" ]
+tags:
+  - production
+  - productivity
+  - mysql
+  - github
+  - open source
+  - single module
+  - micro
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +19,14 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "productivity", "mysql", "github", "open source", "single module", "micro" ]
+    tags:
+      - production
+      - productivity
+      - mysql
+      - github
+      - open source
+      - single module
+      - micro
     link:
     social:
       github: "https://github.com/ebrian/hypermailer"

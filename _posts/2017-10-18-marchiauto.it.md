@@ -2,8 +2,14 @@
 layout: post
 title: "Marchi Auto"
 stub: "marchiauto.it"
-tags: [ "production", "CRUD", "mysql", "multi module", "website" ]
+tags:
+  - production
+  - CRUD
+  - mysql
+  - multi module
+  - website
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +17,12 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "CRUD", "mysql", "multi module", "website" ]
+    tags:
+      - production
+      - CRUD
+      - mysql
+      - multi module
+      - website
     link: "https://www.marchiauto.it"
     social:
       github: ""

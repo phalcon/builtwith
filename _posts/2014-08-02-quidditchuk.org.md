@@ -2,8 +2,15 @@
 layout: post
 title: "QuidditchUK"
 stub: "quidditchuk.org"
-tags: [ "production", "CRUD", "CMS", "Management", "php5", "multi-module" ]
+tags:
+  - production
+  - CRUD
+  - CMS
+  - Management
+  - php5
+  - multi-module
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +18,13 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "CRUD", "CMS", "Management", "php5", "multi-module" ]
+    tags:
+      - production
+      - CRUD
+      - CMS
+      - Management
+      - php5
+      - multi-module
     link: "https://quidditchuk.org"
     social:
       github: ""

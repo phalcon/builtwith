@@ -2,8 +2,20 @@
 layout: post
 title: "Socialveo"
 stub: "socialveo.com"
-tags: [ "production", "productivity", "social network", "mobile app", "multi module", "multilingual", "mysql", "rest api", "ios app", "android app", "responsive design" ]
+tags:
+  - production
+  - productivity
+  - social network
+  - mobile app
+  - multi module
+  - multilingual
+  - mysql
+  - rest api
+  - ios app
+  - android app
+  - responsive design
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +23,18 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "productivity", "social network", "mobile app", "multi module", "multilingual", "mysql", "rest api", "ios app", "android app", "responsive design" ]
+    tags: 
+      - production
+      - productivity
+      - social network
+      - mobile app
+      - multi module
+      - multilingual
+      - mysql
+      - rest api
+      - ios app
+      - android app
+      - responsive design
     link: "https://learny.online"
     social:
       github: "https://github.com/socialveo"

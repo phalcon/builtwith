@@ -2,8 +2,13 @@
 layout: post
 title: "Danzer Logs"
 stub: "danzerlogs.com"
-tags: [ "production", "productivity", "mysql", "single" ]
+tags:
+  - production
+  - productivity
+  - mysql
+  - single
 meta:
+  image: 'thumb.png'
   author:
     name: ""
     avatar: ""
@@ -11,7 +16,11 @@ meta:
     bitbucket: ""
     gitlab: ""
   site:
-    tags: [ "production", "productivity", "mysql", "single" ]
+    tags:
+      - production
+      - productivity
+      - mysql
+      - single
     link: "https://danzerlogs.com"
     social:
       github: ""

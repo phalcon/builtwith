@@ -5,6 +5,62 @@ Gallery of applications, demos and projects built with Phalcon
 https://builtwith.phalconphp.com
 
 ## Disclaimer
+
+---
+layout: post
+title: "Phalcon Community Discussion Forum"
+stub: forum.phalconphp.com
+tags:
+  - production
+  - productivity
+  - forum
+  - mysql
+  - github
+  - open source
+  - single module
+  - tests included
+meta:
+  image: 'thumb.png'
+  author:
+    name: "Phalcon Team"
+    avatar: ""
+    github: "https://github.com/phalcon"
+    bitbucket: ""
+    gitlab: ""
+  site:
+    tags: 
+      - production
+      - productivity
+      - forum
+      - mysql
+      - github
+      - open source
+      - single module
+      - tests included
+    link: "https://forum.phalconphp.com"
+    social:
+      github: "https://phalcon.link/github"
+      facebook: "https://phalcon.link/f"
+      twitter: "https://phalcon.link/t"
+      discord: "https://phalcon.link/discord"
+images:
+  - name: "forum01.png"
+    text: "Main Page"
+  - name: "forum02.png"
+    text: "Topic view with formatting"
+  - name: "forum03.png"
+    text: "Reply with formatting"
+  - name: "forum04.png"
+    text: "Reply screen"
+---
+The Phalcon Community Discussion Forum where Phalconians can ask questions, find answers, offer advice etc.
+<!--more-->
+The Phalcon Community Discussion Forum is powered by PhalconPHP. The application offers discussions, my discussions, categories, +1/-1 functionality, karma measurements, and login with Github.
+
+
+
+
+
 This site has been inspired by https://builtwith.angularjs.org/. The github code has been forked and adapted to Phalcon. Credits to the contributors of that project for their hard work.
 
 ## Adding your project

@@ -2,9 +2,12 @@ title: Built With
 app:
   name: Built With
   author: 'Phalcon Team'
-  description: ''
-  keywords: ''
+  description: "We are an open source web framework for PHP delivered as a C extension offering high performance and lower resource consumption"
+  keywords: "php, phalcon, phalcon php, php framework, faster php framework, buultwith"
   avatar: https://avatars3.githubusercontent.com/u/1221505?v=4
+  url: https://builtwith.phalconphp.com
+  baseurl: "/"
+  analytics: 'UA-133802124-8'
 
 social:
   email: team@phalconphp.com
@@ -13,30 +16,55 @@ social:
   rss: phalcon
   twitter: phalconphp
 
-meta:
-  disqus:
-    name: ''
-    url: ''
-  analytics: 'UA-133802124-8'
+tags_override:
+  - phalcon4
+  - release
+  - zephir
+  - lts
+  - hangout
+  - github
+  - phalcon
+  - community
+  - update
+  - roadmap
+  - framework
+  - benchmarks
 
 excerpt_separator: <!--more-->
 
 paginate: 5
 paginate_path: '/page-:num'
-
 permalink: /project/:title
+version: v1.2.0
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+incremental: false
+
+# Markdown Processing
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    disable: true
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+include:
+  - _redirects
+
+# Exclude these files from your production _site
 exclude:
-  - vendor
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
-
-
-
+  - vendor

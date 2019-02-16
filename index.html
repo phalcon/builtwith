@@ -65,24 +65,26 @@ layout: default
                     <div class="phalcon-blog__item">
                         <div class="phalcon-blog__item-content">
                             <div class="phalcon-blog__item-article">
-                                <span class="float-left">
-                                {% if paginator.previous_page %}
-                                <a href="{{ paginator.previous_page_path }}">
-                                    Previous
-                                </a>
-                                {% else %}
-                                &nbsp;
-                                {% endif %}
-                                </span>
-                                <span class="float-right">
-                                {% if paginator.next_page %}
-                                <a href="{{ paginator.next_page_path }}">
-                                    Next
-                                </a>
-                                {% else %}
-                                &nbsp;
-                                {% endif %}
-                                </span>
+                              <div class="pagination">
+                                <div class="prev">
+                                  {% if paginator.previous_page %}
+                                  <a href="{{ paginator.previous_page_path }}">
+                                      Previous
+                                  </a>
+                                  {% else %}
+                                  &nbsp;
+                                  {% endif %}
+                                </div>
+                                <div class="next">
+                                  {% if paginator.next_page %}
+                                  <a href="{{ paginator.next_page_path }}">
+                                      Next
+                                  </a>
+                                  {% else %}
+                                  &nbsp;
+                                  {% endif %}
+                                </div>
+                              </div>
                             </div>
                         </div>
                     </div>

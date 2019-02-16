@@ -1190,9 +1190,15 @@ a:focus {
   -webkit-order: -1;
       -ms-flex-order: -1;
           order: -1;
-  margin-bottom: 10px; }
+  margin-left: 0;
+  margin-bottom: 10px;
+  text-align: center;}
   .phalcon-blog__last-article .phalcon-blog__item-img:after {
     display: none; }
+
+.phalcon-blog__last-article .phalcon-blog__item-img img {
+  max-width: 300px;
+}
 
 .phalcon-blog__right-item {
   margin-bottom: 35px; }

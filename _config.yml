@@ -71,5 +71,5 @@ exclude:
 
 algolia:
   application_id: 'QZSIJXM8NK'
-  index_name: 'phalcon-built-with'
+  index_name: 'phalcon-blog'
   search_only_api_key: 'ed266d1fbb836f531f335570585c3c07'

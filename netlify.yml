@@ -1,1 +1,0 @@
-command = "jekyll build && jekyll algolia"

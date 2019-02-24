@@ -57,6 +57,11 @@ kramdown:
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+algolia:
+  application_id: '3NJ6VL3MBW'
+  index_name: 'phalcon-builtwith'
+  search_only_api_key: 'a5196284f238decc7c99eda8ff991ea1'
+
 include:
   - _redirects
 
@@ -68,8 +73,3 @@ exclude:
   - README.md
   - CNAME
   - vendor
-
-algolia:
-  application_id: '3NJ6VL3MBW'
-  index_name: 'phalcon-builtwith'
-  search_only_api_key: 'a5196284f238decc7c99eda8ff991ea1'

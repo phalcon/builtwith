@@ -72,4 +72,4 @@ exclude:
 algolia:
   application_id: '3NJ6VL3MBW'
   index_name: 'phalcon-builtwith'
-  search_only_api_key: '4a07aeda44296e54fa6c067479eefb2d'
+  search_only_api_key: 'a5196284f238decc7c99eda8ff991ea1'

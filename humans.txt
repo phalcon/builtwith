@@ -1,0 +1,29 @@
+/* TEAM */
+
+Chef: Nikolaos (Nikos) Dimopoulos
+Contact: nikos [at] phalconphp.com
+GitHub: @niden
+From: Charles Town, WV, USA
+
+Developer: Serghei (klay) Iakovlev
+Contact: serghei [at] phalconphp.com
+GitHub: @sergeyklay
+From: Kyiv, Ukraine
+
+/* THANKS */
+
+Thanks to all our contributors and users!
+
+Now that you're here, why not start contributing as well? :)
+
+https://github.com/phalcon/cphalcon
+
+/* SITE */
+
+Last update: 2019/01/05
+Framework: Phalcon
+Language: Jekyll
+Doctype: HTML5
+Standards: HTML5, CSS3
+Components: Twitter Bootstrap, jQuery, Google Fonts, highlight.js, Jekyll, Netlify
+

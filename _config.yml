@@ -54,17 +54,17 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-sass:
-  style: :compressed # You might prefer to minify using :compressed
-
 algolia:
   application_id: '3NJ6VL3MBW'
   index_name: 'phalcon-builtwith'
   search_only_api_key: 'a5196284f238decc7c99eda8ff991ea1'
 
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
 include:
   - _redirects
-
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile

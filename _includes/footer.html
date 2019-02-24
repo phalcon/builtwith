@@ -30,3 +30,14 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3.32.0/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+
+<script>
+    const algoliaConfig = {
+        index_name: '{{ site.algolia.index_name }}',
+        application_id : '{{ site.algolia.application_id }}',
+        search_only_api_key : '{{ site.algolia.search_only_api_key }}'
+    }
+</script>
+<script src="/assets/js/search.js"></script>

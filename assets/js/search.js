@@ -14,3 +14,17 @@ autocomplete('#searchinput', { hint: false }, [
 ]).on('autocomplete:selected', (event, suggestion, dataset) => {
   window.location = suggestion.url
 });
+
+autocomplete('#searchinputmobile', { hint: false }, [
+  {
+    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+    displayKey: 'name',
+    templates: {
+      suggestion(suggestion) {
+        return suggestion._highlightResult.title.value;
+      },
+    },
+  },
+]).on('autocomplete:selected', (event, suggestion, dataset) => {
+  window.location = suggestion.url
+});

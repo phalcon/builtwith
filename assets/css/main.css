@@ -659,7 +659,7 @@ a:focus {
   top: -2px;
   margin-left: 5px; }
 .header-nav--mobile {
-  width: 224px;
+  min-width: 230px;
   height: 100%;
   padding: 20px;
   position: fixed;
@@ -683,6 +683,7 @@ a:focus {
 .header-nav--mobile .header__search {
   display: block;
   width: 184px;
+  margin-right: 0;
   margin-bottom: 15px; }
 .header-nav--mobile > ul > li {
   margin-bottom: 15px; }
@@ -1698,7 +1699,7 @@ body {
 .aa-dropdown-menu {
   background-color: #fff;
   border: 1px solid rgba(228, 228, 228, 0.6);
-  width: 300px;
+  width: 100%;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -1723,6 +1724,27 @@ body {
 
 .hidden {
   overflow: hidden; }
+
+@media (min-width: 768px) {
+  .aa-dropdown-menu {
+    width: 180px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .aa-dropdown-menu {
+    width: 280px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1439px) {
+  .aa-dropdown-menu {
+    width: 300px;
+  }
+}
+
 
 @supports (-webkit-overflow-scrolling: touch) {
   body {

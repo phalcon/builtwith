@@ -1141,7 +1141,7 @@ a:focus {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 20px; }
@@ -1158,6 +1158,12 @@ a:focus {
   transition: all .125s; }
 .phalcon-blog__item-article a:hover {
   border-bottom-color: transparent; }
+
+@media (min-width: 767px) {
+  .phalcon-blog__item-article {
+    -webkit-line-clamp: 4;
+  }
+}
 
 .phalcon-blog__item-read-more {
   font-size: 14px;

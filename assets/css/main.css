@@ -1141,7 +1141,7 @@ a:focus {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 20px; }

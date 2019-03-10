@@ -1063,6 +1063,7 @@ a:focus {
 .phalcon-blog__right {
   width: 350px;
   top: 10px;
+  margin-right: -15px;
   margin-left: 20px; }
 
 .phalcon-blog__item {
@@ -1368,6 +1369,7 @@ a:focus {
 @media (max-width: 1439px) {
   .phalcon-blog__right {
     width: 280px;
+    margin-right: -10px;
     margin-left: 20px; }
   .phalcon-blog__sponsors-item {
     margin-right: 10px;

@@ -659,7 +659,7 @@ a:focus {
   top: -2px;
   margin-left: 5px; }
 .header-nav--mobile {
-  min-width: 230px;
+  width: 230px;
   height: 100%;
   padding: 20px;
   position: fixed;
@@ -1073,8 +1073,7 @@ a:focus {
   margin-bottom: 35px; }
 
 .phalcon-blog__item-content {
-  width: 100%;
-}
+  width: 100%;}
 .phalcon-blog__item-img {
   display: block;
   width: 180px;
@@ -1141,7 +1140,7 @@ a:focus {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 20px; }
@@ -1158,12 +1157,6 @@ a:focus {
   transition: all .125s; }
 .phalcon-blog__item-article a:hover {
   border-bottom-color: transparent; }
-
-@media (min-width: 767px) {
-  .phalcon-blog__item-article {
-    -webkit-line-clamp: 4;
-  }
-}
 
 .phalcon-blog__item-read-more {
   font-size: 14px;
@@ -1213,7 +1206,8 @@ a:focus {
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-right: -15px; }
 
 .phalcon-blog__title {
   margin-bottom: 15px;
@@ -1369,6 +1363,8 @@ a:focus {
   .phalcon-blog__right {
     width: 280px;
     margin-left: 20px; }
+  .phalcon-blog__sponsors-items {
+    margin-right: -10px; }
   .phalcon-blog__sponsors-item {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -1416,6 +1412,10 @@ a:focus {
     -ms-flex-order: -1;
     order: -1; } }
 
+@media (max-width: 767px) {
+  .phalcon-blog__item-article {
+    -webkit-line-clamp: 6; } }
+
 .phalcon-blog-detail__info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1459,10 +1459,7 @@ a:focus {
   top: 7px; }
 .phalcon-blog-detail__author:last-child:after {
   display: none; }
-.phalcon-blog-detail .phalcon-blog-detail__author a {
-  font-size: 12px;
-  line-height: 12px;
-}
+
 .phalcon-blog-detail {
   margin-bottom: 35px; }
 .phalcon-blog-detail table {
@@ -1575,8 +1572,8 @@ a:focus {
   color: #CB2F2F; }
 .phalcon-blog-detail ul {
   margin-bottom: 25px;
-  padding-left: 30px;
   margin-top: 10px;
+  padding-left: 30px;
   color: #273646;
   display: block;
   max-width: 100%;
@@ -1610,6 +1607,9 @@ a:focus {
   line-height: 23px;
   font-size: 16px;
   max-width: 100%; }
+.phalcon-blog-detail .phalcon-blog-detail__author a {
+  font-size: 12px;
+  line-height: 12px; }
 .phalcon-blog-detail .headline {
   margin-bottom: 10px; }
 .phalcon-blog-detail .hljs {
@@ -1657,6 +1657,76 @@ a:focus {
 .phalcon-blog-detail .hljs-selector-class {
   color: #6FCF97; }
 
+/** Blog Search **/
+.aa-input-container {
+  display: inline-block;
+  position: relative; }
+
+.aa-input-search {
+  width: 300px;
+  padding: 12px 28px 12px 12px;
+  border: 1px solid #e4e4e4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button,
+.aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
+  display: none; }
+
+.aa-input-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  fill: #e4e4e4;
+  pointer-events: none; }
+
+.aa-dropdown-menu {
+  background-color: #fff;
+  border: 1px solid rgba(228, 228, 228, 0.6);
+  width: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.aa-suggestion {
+  padding: 6px 12px;
+  cursor: pointer; }
+
+.aa-suggestions-category {
+  border-bottom: 1px solid rgba(228, 228, 228, 0.6);
+  border-top: 1px solid rgba(228, 228, 228, 0.6);
+  padding: 6px 12px; }
+
+.aa-dropdown-menu > div {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  color: #000; }
+
+.aa-empty {
+  padding: 6px 12px; }
+
+@media (max-width: 767px) {
+  .aa-dropdown-menu {
+    width: 100%; } }
+
+@media (max-width: 1023px) {
+  .aa-dropdown-menu {
+    width: 180px;
+    margin-top: 10px; } }
+
+@media (max-width: 1439px) {
+  .aa-dropdown-menu {
+    width: 280px;
+    margin-top: 10px; } }
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -1672,86 +1742,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/** Blog Search **/
-
-.aa-input-container {
-  display: inline-block;
-  position: relative;
-}
-.aa-input-search {
-  width: 300px;
-  padding: 12px 28px 12px 12px;
-  border: 1px solid #e4e4e4;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-.aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button,
-.aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
-  display: none;
-}
-.aa-input-icon {
-  height: 16px;
-  width: 16px;
-  position: absolute;
-  top: 50%;
-  right: 16px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  fill: #e4e4e4;
-  pointer-events: none;
-}
-.aa-dropdown-menu {
-  background-color: #fff;
-  border: 1px solid rgba(228, 228, 228, 0.6);
-  width: 100%;
-  margin-top: 10px;
-  box-sizing: border-box;
-}
-.aa-suggestion {
-  padding: 6px 12px;
-  cursor: pointer;
-}
-.aa-suggestions-category {
-  border-bottom: 1px solid rgba(228, 228, 228, 0.6);
-  border-top: 1px solid rgba(228, 228, 228, 0.6);
-  padding: 6px 12px;
-}
-.aa-dropdown-menu > div {
-  display: inline-block;
-  width: 100%;
-  vertical-align: top;
-  color: #000;
-}
-.aa-empty {
-  padding: 6px 12px;
-}
-
-.hidden {
-  overflow: hidden; }
-
-@media (min-width: 768px) {
-  .aa-dropdown-menu {
-    width: 180px;
-    margin-top: 10px;
-  }
-}
-
-@media (min-width: 1023px) {
-  .aa-dropdown-menu {
-    width: 280px;
-    margin-top: 10px;
-  }
-}
-
-@media (min-width: 1439px) {
-  .aa-dropdown-menu {
-    width: 300px;
-  }
-}
-
-
 @supports (-webkit-overflow-scrolling: touch) {
   body {
     cursor: pointer; } }
@@ -1765,14 +1755,4 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.phalcon-blog__sponsors {
-  margin-right: -10px;
-}
-
-@media (min-width: 1439px) {
-  .phalcon-blog__sponsors {
-    margin-right: -15px;
-  }
 }

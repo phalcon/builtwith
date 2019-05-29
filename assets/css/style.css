@@ -1836,7 +1836,7 @@ input:focus {
   line-height: 21px; }
 .phalcon-blog-detail .alert {
   padding: 16px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px;
   border-radius: 4px;

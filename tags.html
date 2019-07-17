@@ -13,7 +13,7 @@ permalink: /tags
                 {% assign tags = site.tags | sort %}
                 {% for tag in tags %}
                 <a name="{{ tag | first | slugify }}"></a>
-                <button type="button" class="btn btn-info btn-sm">{{ tag[0] }}</button>
+                <div class="tag-button">{{ tag[0] }}</div>
                 <p>
                     <ul>
                         {% assign posts = tag[1] %}

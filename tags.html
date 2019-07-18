@@ -9,7 +9,7 @@ permalink: /tags
             <h5 class="card-header">
                 Tags
             </h5>
-            <div class="card-text">
+            <div class="tags-wrapper">
                 {% assign tags = site.tags | sort %}
                 {% for tag in tags %}
                 <a name="{{ tag | first | slugify }}"></a>

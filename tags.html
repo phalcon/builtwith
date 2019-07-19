@@ -3,27 +3,23 @@ layout: default
 title: Tags
 permalink: /tags
 ---
-<div class="col-12 bg-light border ">
-    <div class="card ">
-        <div class="card-body">
-            <h5 class="card-header">
-                Tags
-            </h5>
-            <div class="tags-wrapper">
-                {% assign tags = site.tags | sort %}
-                {% for tag in tags %}
-                <a name="{{ tag | first | slugify }}"></a>
-                <div class="tag-button">{{ tag[0] }}</div>
-                <p>
-                    <ul>
-                        {% assign posts = tag[1] %}
-                        {% for post in posts %}
-                        <li><a href="{{ post.url }}">{{ post.title }} - [{{ post.date | date: "%Y-%m-%d" }}]</a></li>
-                        {% endfor %}
-                    </ul>
-                </p>
+<div class="phalcon-blog-detail">
+    <h1 itemprop="name headline" class="headline">
+        Tags
+    </h1>
+    <div class="tags-wrapper">
+        {% assign tags = site.tags | sort %}
+        {% for tag in tags %}
+        <a name="{{ tag | first | slugify }}"></a>
+        <div class="tag-button">{{ tag[0] }}</div>
+        <p>
+            <ul>
+                {% assign posts = tag[1] %}
+                {% for post in posts %}
+                <li><a href="{{ post.url }}">{{ post.title }} - [{{ post.date | date: "%Y-%m-%d" }}]</a></li>
                 {% endfor %}
-            </div>
-        </div>
+            </ul>
+        </p>
+        {% endfor %}
     </div>
 </div>

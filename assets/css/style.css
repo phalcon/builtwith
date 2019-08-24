@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700&display=swap');
 /* ********************** */
 .hljs {
   display: block;
@@ -42,141 +43,6 @@
 
 .hljs-strong {
   font-weight: bold; }
-
-/* base */
-/*  основные цвета  */
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-SemiboldItalic.eot");
-  src: url("../fonts/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-SemiboldItalic.woff2") format("woff2"), url("../fonts/Lato-SemiboldItalic.woff") format("woff"), url("../fonts/Lato-SemiboldItalic.ttf") format("truetype"), url("../fonts/Lato-SemiboldItalic.svg#Lato-SemiboldItalic") format("svg");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-BoldItalic.eot");
-  src: url("../fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato-BoldItalic.woff") format("woff"), url("../fonts/Lato-BoldItalic.ttf") format("truetype"), url("../fonts/Lato-BoldItalic.svg#Lato-BoldItalic") format("svg");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Semibold.eot");
-  src: url("../fonts/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.ttf") format("truetype"), url("../fonts/Lato-Semibold.svg#Lato-Semibold") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Black.eot");
-  src: url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.ttf") format("truetype"), url("../fonts/Lato-Black.svg#Lato-Black") format("svg");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Medium.eot");
-  src: url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype"), url("../fonts/Lato-Medium.svg#Lato-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-MediumItalic.eot");
-  src: url("../fonts/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-MediumItalic.woff2") format("woff2"), url("../fonts/Lato-MediumItalic.woff") format("woff"), url("../fonts/Lato-MediumItalic.ttf") format("truetype"), url("../fonts/Lato-MediumItalic.svg#Lato-MediumItalic") format("svg");
-  font-weight: 500;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Bold.eot");
-  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"), url("../fonts/Lato-Bold.svg#Lato-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato Hairline';
-  src: url("../fonts/Lato-Hairline.eot");
-  src: url("../fonts/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Hairline.woff2") format("woff2"), url("../fonts/Lato-Hairline.woff") format("woff"), url("../fonts/Lato-Hairline.ttf") format("truetype"), url("../fonts/Lato-Hairline.svg#Lato-Hairline") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-BlackItalic.eot");
-  src: url("../fonts/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BlackItalic.woff2") format("woff2"), url("../fonts/Lato-BlackItalic.woff") format("woff"), url("../fonts/Lato-BlackItalic.ttf") format("truetype"), url("../fonts/Lato-BlackItalic.svg#Lato-BlackItalic") format("svg");
-  font-weight: 900;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Light.eot");
-  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg#Lato-Light") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Heavy.eot");
-  src: url("../fonts/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Heavy.woff2") format("woff2"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg#Lato-Heavy") format("svg");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Thin.eot");
-  src: url("../fonts/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Thin.woff2") format("woff2"), url("../fonts/Lato-Thin.woff") format("woff"), url("../fonts/Lato-Thin.ttf") format("truetype"), url("../fonts/Lato-Thin.svg#Lato-Thin") format("svg");
-  font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-HeavyItalic.eot");
-  src: url("../fonts/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-HeavyItalic.woff2") format("woff2"), url("../fonts/Lato-HeavyItalic.woff") format("woff"), url("../fonts/Lato-HeavyItalic.ttf") format("truetype"), url("../fonts/Lato-HeavyItalic.svg#Lato-HeavyItalic") format("svg");
-  font-weight: 900;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Italic.eot");
-  src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.ttf") format("truetype"), url("../fonts/Lato-Italic.svg#Lato-Italic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-LightItalic.eot");
-  src: url("../fonts/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato-LightItalic.woff") format("woff"), url("../fonts/Lato-LightItalic.ttf") format("truetype"), url("../fonts/Lato-LightItalic.svg#Lato-LightItalic") format("svg");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-ThinItalic.eot");
-  src: url("../fonts/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-ThinItalic.woff2") format("woff2"), url("../fonts/Lato-ThinItalic.woff") format("woff"), url("../fonts/Lato-ThinItalic.ttf") format("truetype"), url("../fonts/Lato-ThinItalic.svg#Lato-ThinItalic") format("svg");
-  font-weight: 100;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato Hairline';
-  src: url("../fonts/Lato-HairlineItalic.eot");
-  src: url("../fonts/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-HairlineItalic.woff2") format("woff2"), url("../fonts/Lato-HairlineItalic.woff") format("woff"), url("../fonts/Lato-HairlineItalic.ttf") format("truetype"), url("../fonts/Lato-HairlineItalic.svg#Lato-HairlineItalic") format("svg");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/Lato-Regular.eot");
-  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg#Lato-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Monaco';
-  src: url("../fonts/Monaco.eot");
-  src: url("../fonts/Monaco.eot?#iefix") format("embedded-opentype"), url("../fonts/Monaco.woff2") format("woff2"), url("../fonts/Monaco.woff") format("woff"), url("../fonts/Monaco.ttf") format("truetype"), url("../fonts/Monaco.svg#Monaco") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
 /*  сбрасывает браузерное отображение элементов т.к. разные браузеры по разному отображают одно и тоже  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -575,7 +441,7 @@ a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .input {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -643,7 +509,7 @@ input:focus {
   width: 100%; }
 
 .breadcrumbs {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 28px;
@@ -692,7 +558,7 @@ input:focus {
   object-fit: cover; }
 
 .upload__button {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-style: normal;
   height: 40px;
@@ -736,7 +602,7 @@ input:focus {
   background-color: #273646;
   padding: 20px 0;
   color: #fff;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 15px;
@@ -905,7 +771,7 @@ input:focus {
   transition: .135s;
   color: #8FC19A; }
 .header-dropdown__title {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #273646;
@@ -957,7 +823,7 @@ input:focus {
 .header-dropdown--cat {
   min-width: 285px; }
 .header-dropdown__count {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 9px;
@@ -1180,7 +1046,7 @@ input:focus {
   background: rgba(229, 229, 229, 0.4);
   padding-top: 20px;
   padding-bottom: 27px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px; }
@@ -1246,7 +1112,7 @@ input:focus {
 
 .phalcon-blog {
   padding: 50px 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal; }
 
@@ -1311,7 +1177,7 @@ input:focus {
   background: rgba(229, 229, 229, 0.5); }
 
 .phalcon-blog__item-title {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-style: normal;
   display: block;
@@ -1381,7 +1247,7 @@ input:focus {
 
 .phalcon-blog__main-title {
   text-transform: uppercase;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-style: normal;
   margin-bottom: 30px; }
@@ -1681,7 +1547,7 @@ input:focus {
   table-layout: fixed;
   overflow: auto; }
 .phalcon-blog-detail table thead {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 23px;
@@ -1711,14 +1577,14 @@ input:focus {
   color: #273646;
   line-height: normal;
   margin: 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-style: normal; }
 .phalcon-blog-detail h3 {
   font-size: 25px;
   margin: 12px 0;
   line-height: 36px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-style: normal; }
 .phalcon-blog-detail h4 {
@@ -1741,7 +1607,7 @@ input:focus {
   line-height: 23px;
   font-size: 16px;
   color: #273646;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style: normal; }
 .phalcon-blog-detail a {
@@ -1841,7 +1707,7 @@ input:focus {
   border: 1px solid transparent;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal; }
 .phalcon-blog-detail .alert-danger {
@@ -1947,7 +1813,7 @@ input:focus {
 
 .buildwith {
   padding: 50px 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal; }
 
@@ -2167,7 +2033,7 @@ input:focus {
 
 .add-project {
   padding: 50px 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px; }
@@ -2261,7 +2127,7 @@ input:focus {
   align-items: center; }
 
 .tag__text {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 11px;
@@ -2324,7 +2190,7 @@ input:focus {
 .phalcon-blog-detail_documetation h3,
 .phalcon-blog-detail_documetation h4 {
   color: #273646;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
   position: relative;
   margin: 0;
@@ -2344,7 +2210,7 @@ input:focus {
   font-size: 18px;
   margin-bottom: 10px; }
 .phalcon-blog-detail_documetation h4 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   margin-bottom: 8px; }
 .phalcon-blog-detail_documetation div.highlighter-rouge {

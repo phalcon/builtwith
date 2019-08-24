@@ -5,7 +5,7 @@ app:
   description: "We are an open source web framework for PHP delivered as a C extension offering high performance and lower resource consumption"
   keywords: "php, phalcon, phalcon php, php framework, faster php framework, buultwith"
   avatar: https://avatars3.githubusercontent.com/u/1221505?v=4
-  url: https://builtwith.phalconphp.com
+  url: https://builtwith.phalcon.io
   baseurl: "/"
   analytics: 'UA-133802124-8'
 

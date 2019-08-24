@@ -789,7 +789,7 @@ input:focus {
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
-  background-image: url("https://assets.phalconphp.com/phalcon/images/svg/phalcon-logo-white-105x40.svg"); }
+  background-image: url("https://assets.phalcon.io/phalcon/images/svg/phalcon-logo-white-105x40.svg"); }
 
 .header__sitename {
   height: 18px;
@@ -831,7 +831,7 @@ input:focus {
 .header-nav > li.expand:hover .header-dropdown-wrapper {
   display: block; }
 .header-nav > li.expand > a::after {
-  content: url("https://assets.phalconphp.com/phalcon/images/svg/arrow.svg");
+  content: url("https://assets.phalcon.io/phalcon/images/svg/arrow.svg");
   position: relative;
   top: -2px;
   margin-left: 5px; }
@@ -1065,7 +1065,7 @@ input:focus {
 .header__lang.expand:hover .header-dropdown-wrapper {
   display: block; }
 .header__lang.expand:after {
-  content: url("https://assets.phalconphp.com/phalcon/images/svg/arrow.svg");
+  content: url("https://assets.phalcon.io/phalcon/images/svg/arrow.svg");
   color: #fff;
   position: relative;
   top: -2px;
@@ -1130,7 +1130,7 @@ input:focus {
   .header__logo a {
     width: 34px;
     height: 39px;
-    background-image: url("https://assets.phalconphp.com/phalcon/images/svg/phalcon-logo-35x39.svg"); }
+    background-image: url("https://assets.phalcon.io/phalcon/images/svg/phalcon-logo-35x39.svg"); }
   .header__search {
     width: 110px; }
   .header-nav {

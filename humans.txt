@@ -1,12 +1,12 @@
 /* TEAM */
 
 Chef: Nikolaos (Nikos) Dimopoulos
-Contact: nikos [at] phalconphp.com
+Contact: nikos [at] phalcon.io
 GitHub: @niden
 From: Charles Town, WV, USA
 
 Developer: Serghei (klay) Iakovlev
-Contact: serghei [at] phalconphp.com
+Contact: serghei [at] phalcon.io
 GitHub: @sergeyklay
 From: Kyiv, Ukraine
 

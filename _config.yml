@@ -10,7 +10,7 @@ app:
   analytics: 'UA-133802124-8'
 
 social:
-  email: team@phalconphp.com
+  email: team@phalcon.io
   facebook:
   github: phalcon
   rss: phalcon

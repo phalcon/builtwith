@@ -9,6 +9,7 @@ app:
   baseurl: "/"
   analytics: 'UA-133802124-8'
 
+url: https://builtwith.phalcon.io
 social:
   email: team@phalcon.io
   facebook:
@@ -73,3 +74,4 @@ exclude:
   - README.md
   - CNAME
   - vendor
+  - serve

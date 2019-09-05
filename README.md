@@ -67,3 +67,20 @@ images:                                             // If you don't have any ima
 6. Add the summary/description for your site. You will notice that there is a `<!--more-->` tag in the file you just copied. That placeholder splits the content and whatever is above it will show in the front page, while the rest will show in the page of your project. Please do not allow more than a handful of lines to be displayed at the front page to allow for an easy flow of reading and displaying projects.
 
 7. Issue a pull request
+
+## Sponsors
+
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/phalcon#sponsor)]
+
+<a href="https://opencollective.com/phalcon/#contributors">
+<img src="https://opencollective.com/phalcon/tiers/sponsors.svg?avatarHeight=48&width=800">
+</a>
+
+## Backers
+
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/phalcon#backer)]
+
+<a href="https://opencollective.com/phalcon/#contributors">
+<img src="https://opencollective.com/phalcon/tiers/backers.svg?avatarHeight=48&width=800&height=200">
+</a>
+

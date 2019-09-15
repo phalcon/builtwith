@@ -6,3 +6,4 @@ run.config:
     - gem install jekyll-paginate
     - gem install jekyll-sitemap
     - gem install jekyll-feed
+    - gem install jekyll-minifier

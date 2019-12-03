@@ -13,7 +13,12 @@
             {{ content }}
         </div>
         <div class="phalcon-blog__right">
-            {% include sponsors.html %}
+            <div class="phalcon-blog__right-item phalcon-blog__sponsors">
+                <div class="phalcon-blog__title">
+                    Supporters
+                </div>
+                {% include sponsors.html %}
+            </div>
             {% include widget.html %}
         </div>
     </div>

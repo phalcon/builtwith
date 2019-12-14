@@ -72,6 +72,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
   - vendor
   - serve
+  - updateData.php

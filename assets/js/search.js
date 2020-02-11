@@ -1,3 +1,9 @@
+var algoliaConfig = {
+  index_name: '{{ site.algolia.index_name }}',
+  application_id: '{{ site.algolia.application_id }}',
+  search_only_api_key: '{{ site.algolia.search_only_api_key }}'
+};
+
 var client = algoliasearch(algoliaConfig.application_id, algoliaConfig.search_only_api_key);
 var index = client.initIndex(algoliaConfig.index_name);
 

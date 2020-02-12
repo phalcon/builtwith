@@ -1,7 +1,7 @@
 var algoliaConfig = {
-  index_name: '{{ site.algolia.index_name }}',
-  application_id: '{{ site.algolia.application_id }}',
-  search_only_api_key: '{{ site.algolia.search_only_api_key }}'
+  index_name: 'phalcon-builtwith',
+  application_id: '3NJ6VL3MBW',
+  search_only_api_key: 'a5196284f238decc7c99eda8ff991ea1'
 };
 
 var client = algoliasearch(algoliaConfig.application_id, algoliaConfig.search_only_api_key);

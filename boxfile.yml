@@ -1,8 +1,0 @@
-run.config:
-  engine: ruby
-
-  extra_steps:
-    - gem install jekyll bundler
-    - gem install jekyll-paginate
-    - gem install jekyll-sitemap
-    - gem install jekyll-feed

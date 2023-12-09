@@ -8,6 +8,8 @@ app:
   url: https://builtwith.phalcon.io
   baseurl: "/"
   analytics: 'G-RLMRZS0CB5'
+  cloudflare:
+    analytics: '399fd4bf13da4da1b3302fef27cbd805'
 
 url: https://builtwith.phalcon.io
 social:

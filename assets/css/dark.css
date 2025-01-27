@@ -98,7 +98,10 @@
 [color-scheme="dark"] ul li,
 [color-scheme="dark"] ol li,
 [color-scheme="dark"] .phalcon-blog__title,
-[color-scheme="dark"] .phalcon-blog__projects-text {
+[color-scheme="dark"] .phalcon-blog__projects-text,
+[color-scheme="dark"] .phalcon-blog__main-title,
+[color-scheme="dark"] .header-dropdown li a,
+[color-scheme="dark"] .tag-button {
     color: #e2e4e9d1;
 }
 
@@ -116,7 +119,9 @@
 
 [color-scheme="dark"] .footer__license,
 [color-scheme="dark"] .footer__supported span,
-[color-scheme="dark"] .footer-nav li a {
+[color-scheme="dark"] .footer-nav li a,
+[color-scheme="dark"] .previous,
+[color-scheme="dark"] .page_number {
     color: #ffffff;
 }
 
@@ -139,10 +144,6 @@
     border-color: #1e2129;
 }
 
-[color-scheme="dark"] .header-dropdown li a {
-    color: #e2e4e9d1;
-}
-
 [color-scheme="dark"] .header-nav>li a,
 [color-scheme="dark"] .footer-nav li a {
     opacity: 0.7;
@@ -159,4 +160,14 @@
 
 [color-scheme="dark"] .light-dark-auto-button:hover {
     color: #00bda4 !important;
+}
+
+[color-scheme="dark"] .phalcon-blog__item-date,
+[color-scheme="dark"] .phalcon-blog__item-author {
+    color: #bfbfbfd1;
+}
+
+[color-scheme="dark"] .phalcon-blog__tags-item span:first-child {
+    color: #e2e4e98f;
+    border-color: #e2e4e98f;
 }

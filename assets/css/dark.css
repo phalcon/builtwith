@@ -121,7 +121,8 @@
 [color-scheme="dark"] .footer__supported span,
 [color-scheme="dark"] .footer-nav li a,
 [color-scheme="dark"] .previous,
-[color-scheme="dark"] .page_number {
+[color-scheme="dark"] .page_number,
+[color-scheme="dark"] .next {
     color: #ffffff;
 }
 
@@ -169,5 +170,4 @@
 
 [color-scheme="dark"] .phalcon-blog__tags-item span:first-child {
     color: #e2e4e98f;
-    border-color: #e2e4e98f;
 }

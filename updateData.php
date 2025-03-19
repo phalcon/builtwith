@@ -1,6 +1,6 @@
 <?php
 
-$base      = dirname(__FILE__);
+$base      = dirname(__FILE__) . '/';
 echo "Updating Sponsors" . PHP_EOL;
 
 $data = file_get_contents(

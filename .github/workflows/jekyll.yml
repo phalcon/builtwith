@@ -41,7 +41,6 @@ jobs:
 
       - name: "Update FanArt"
         run: |
-          pwd
           php updateData.php
       
       - name: Setup Ruby

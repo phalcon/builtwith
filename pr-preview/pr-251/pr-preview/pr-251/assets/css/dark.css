@@ -1,0 +1,173 @@
+:root {
+    --background-color: #121212;
+    --primary-color: #eee;
+}
+
+[color-scheme="dark"] {
+    --background-color: #121212;
+    --primary-color: #eee;
+}
+
+[color-scheme="light"] {
+    --background-color: white;
+    --primary-color: #1c1c1e;
+}
+
+[data-color-scheme-option="light"] .light-dark-auto-button:nth-child(1) {
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+[data-color-scheme-option="dark"] .light-dark-auto-button:nth-child(2) {
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+[data-color-scheme-option="auto"] .light-dark-auto-button:nth-child(3) {
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.light-dark-auto-switcher {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    width: fit-content;
+    height: 40px;
+    margin-left: auto;
+    padding: 1px 2px;
+    margin-right: 10px;
+    border: 1px solid #8e8e93;
+    border-radius: 90px;
+    background-color: transparent;
+    border-color: #8e8e93;
+    user-select: none;
+}
+
+@media screen and (max-width: 767px) {
+    .light-dark-auto-switcher {
+        display: none;
+    }
+
+    .header-nav--mobile .light-dark-auto-switcher {
+        display: flex;
+        margin-left: 0;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+}
+
+.light-dark-auto-button {
+    display: flex;
+    width: 48px;
+    height: 24px;
+    padding: 0 8px;
+    justify-content: center;
+    align-items: center;
+    border: 3px #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 3px solid transparent;
+}
+
+[color-scheme="dark"] .phalcon-blog {
+    background-color: #1e2129;
+}
+
+[color-scheme="dark"] h1,
+[color-scheme="dark"] h2,
+[color-scheme="dark"] h3,
+[color-scheme="dark"] h4,
+[color-scheme="dark"] h5,
+[color-scheme="dark"] h6,
+[color-scheme="dark"] p ,
+[color-scheme="dark"] ul li,
+[color-scheme="dark"] ol li,
+[color-scheme="dark"] .phalcon-blog__title,
+[color-scheme="dark"] .phalcon-blog__projects-text,
+[color-scheme="dark"] .phalcon-blog__main-title,
+[color-scheme="dark"] .header-dropdown li a,
+[color-scheme="dark"] .tag-button {
+    color: #e2e4e9d1;
+}
+
+[color-scheme="dark"] .phalcon-blog a {
+    color: #00bda4;
+}
+
+[color-scheme="dark"] .phalcon-blog__sponsors-item {
+    background-color: #ffffffb3;
+}
+
+[color-scheme="dark"] .footer {
+    background-color: #17191e;
+}
+
+[color-scheme="dark"] .footer__license,
+[color-scheme="dark"] .footer__supported span,
+[color-scheme="dark"] .footer-nav li a,
+[color-scheme="dark"] .previous,
+[color-scheme="dark"] .page_number,
+[color-scheme="dark"] .next {
+    color: #ffffff;
+}
+
+[color-scheme="dark"] .footer__supported-logo svg,
+[color-scheme="dark"] .footer__supported-logo svg path {
+    stroke: #ffffff;
+}
+
+[color-scheme="dark"] .phalcon-blog__sponsors-item:hover,
+[color-scheme="dark"] .header-dropdown li a:hover {
+    border-color: #00bda4;
+}
+
+[color-scheme="dark"] .phalcon-blog__sponsors-item span {
+    color: #000000;
+}
+
+[color-scheme="dark"] .header-dropdown--eco {
+    background-color: #1e2129;
+    border-color: #1e2129;
+}
+
+[color-scheme="dark"] .header-nav>li a,
+[color-scheme="dark"] .footer-nav li a {
+    opacity: 0.7;
+}
+
+[color-scheme="dark"] .header a:hover,
+[color-scheme="dark"] .header-nav>li.active>a,
+[color-scheme="dark"] .header-nav>li:hover>a,
+[color-scheme="dark"] .header-dropdown li a:hover,
+[color-scheme="dark"] .footer-nav li a:hover {
+    opacity: 1;
+    color: #ffffff;
+}
+
+[color-scheme="dark"] .light-dark-auto-button:hover {
+    color: #00bda4 !important;
+}
+
+[color-scheme="dark"] .phalcon-blog__item-date,
+[color-scheme="dark"] .phalcon-blog__item-author {
+    color: #bfbfbfd1;
+}
+
+[color-scheme="dark"] .phalcon-blog__tags-item span:first-child {
+    color: #e2e4e98f;
+}

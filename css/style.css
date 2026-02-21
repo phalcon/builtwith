@@ -1,0 +1,13 @@
+.phalcon-blog__item-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.phalcon-blog__last-article .phalcon-blog__item-img{
+    height: auto;
+}
+
+.phalcon-blog__items .phalcon-blog__item-img img {
+    height: 100%;
+    object-position: left;
+}

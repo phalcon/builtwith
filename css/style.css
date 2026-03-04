@@ -1,5 +1,6 @@
 .phalcon-blog__item-img img {
     height: auto;
+    width: auto;
 }
 
 .phalcon-blog__last-article .phalcon-blog__item-img{

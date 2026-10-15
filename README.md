@@ -1,5 +1,7 @@
 # Built with Phalcon
 
+**Archived**. The new list can be found at [https://phalcon.io/built-with](https://phalcon.io/built-with)
+
 Gallery of applications, demos and projects built with Phalcon
 
 https://builtwith.phalcon.io
